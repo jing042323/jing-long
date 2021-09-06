@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About Me
+date: "`r Sys.Date()`"
 description: 
 img: aboutme.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
