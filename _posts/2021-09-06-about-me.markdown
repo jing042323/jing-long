@@ -17,7 +17,7 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 - **BA Economics**, **Université Toulouse 1 Capitole(Toulouse School of Economics)**, 2013  
 
 
-![My eduction]({{site.baseurl}}/assets/img/education.png){:height="400px" width="1000px"}  
+![My eduction]({{site.baseurl}}/assets/img/education.png){:height="300px" width="800px"}  
 
 I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analystics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
 
