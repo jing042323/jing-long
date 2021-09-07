@@ -10,7 +10,7 @@ tags: [CV, AboutMe]
 
 Hi, I am Jing Long, a data analyst with a background in Economics and Business Analytics. I enjoy the process of getting valuable insights out of data, from the first ideas around what you want to achieve, through data preparation, analysis and visualisation, all the way to the business implications. Thinking like an economist and acting like a data scientist is what I want to do.
 
-### <span style="border-bottom:2px solid orange;"> My Education Background </span>
+## <span style="border-bottom:2px solid orange;"> My Education Background </span>
 
 - **MSc Business Analytics**, **Imperial College London**, 2021  
 - **MSc Economics**, **The Hong Kong University of Science and Technology**, 2014  
@@ -21,7 +21,7 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 
 I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analystics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
 
-### <span style="border-bottom:2px solid orange;"> My Career Experience </span>
+## <span style="border-bottom:2px solid orange;"> My Career Experience </span>
 
 - **Research Assistant**, **School of Applied Economics**, **Renmin University of China**, 2021  
 Research area: Renewables ownership and market structure in electricity market.  
@@ -38,9 +38,9 @@ Participate in project due diligence, transaction structure design and contract 
 - **Accounting Teller**, **Operation Dempartment**, **Bank of Communications**, 2015 \- 2017  
 Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account.
 
-After three years of working experience in financial market, I find myself more interested in dealing with numbers and doing research. In 2019, I start my journey into data. Now I am still excited about challenges as a data analyst.
+![My career]({{site.baseurl}}/assets/img/career.png){:height="300px" width="700px"} 
 
-### <span style="border-bottom:2px solid orange;"> My interests in spare time  </span>
+## <span style="border-bottom:2px solid orange;"> My interests in spare time  </span>
 
 I love travelling, movies and swimming. And I am a big fan of Friends.  
 Btw, I am good at making travel plans. I’d love to share if you need any trip tips.
