@@ -38,7 +38,7 @@ Participate in project due diligence, transaction structure design and contract 
 - **Accounting Teller**, **Operation Dempartment**, **Bank of Communications**, 2015 \- 2017  
 Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account.
 
-![My career]({{site.baseurl}}/assets/img/career.png){:height="300px" width="700px"} 
+![My career]({{site.baseurl}}/assets/img/career.png){:height="250px" width="500px"} 
 
 ## <span style="border-bottom:2px solid orange;"> My interests in spare time  </span>
 
