@@ -12,8 +12,6 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 
 ### My Education Background  
 
-Studying in three different countries is a life-changing experience for me. It gives me the opportunity to enjoy top-quality education and discover myself while gaining an understanding of a different culture. 
-
 - **MSc Business Analytics**, **Imperial College London**, 2021  
 <span style="border-bottom:2px dashed orange;">Core courses:</span> Data Structure and Algorithms, Fundamentals of Database Technologies, Statistics and Econometrics, Advanced Machine Learning, Network Analytics, Optimisation and Decision models, Digital Marketing Analytics, Analytics in Business, Financial Analytics, Energy Analytics, Visualisation, etc.  
 <span style="border-bottom:2px dashed orange;">Tools:</span> Python, R, PostgreSQL, Tableau, AMPL, Excel.
