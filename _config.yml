@@ -22,7 +22,7 @@ social-email: jing042323@163.com # add your Email address
 discus-identifier: jing long # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-192087562-2 # Google Analytics
 
 # Build Settings
 markdown: kramdown
