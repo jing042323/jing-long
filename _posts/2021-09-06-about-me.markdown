@@ -30,7 +30,7 @@ Research area: Renewables ownership and market structure in electricity market.
 Main responsibility: data preparation and analysis by Python, ppt.  
 
 - **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
-Project involved: Design of the electrcity market monitering system
+Project involved: Design of the electrcity market monitering system  
 Main responsibility: design system metrics, data preparation and analysis by Python and Excel, report writing and presentation.  
 Achievements: two annual reports, a core journal paper and two methods have been applied for national patents.
 
