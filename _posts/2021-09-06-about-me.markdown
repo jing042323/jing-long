@@ -13,15 +13,10 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 ### My Education Background  
 
 - **MSc Business Analytics**, **Imperial College London**, 2021  
-<span style="border-bottom:2px dashed orange;">Core courses:</span> Data Structure and Algorithms, Fundamentals of Database Technologies, Statistics and Econometrics, Advanced Machine Learning, Network Analytics, Optimisation and Decision models, Digital Marketing Analytics, Analytics in Business, Financial Analytics, Energy Analytics, Visualisation, etc.  
-<span style="border-bottom:2px dashed orange;">Tools:</span> Python, R, PostgreSQL, Tableau, AMPL, Excel.
-
 - **MSc Economics**, **The Hong Kong University of Science and Technology**, 2014  
 - **BA Economics**, **Université Toulouse 1 Capitole(Toulouse School of Economics)**, 2013  
-<span style="border-bottom:2px dashed orange;">Core courses:</span> Macroeconomics, Microeconomics, Econometrics, Mathematics, Statistics, Game theory, Corporate Finance, Information Economics, etc.  
-<span style="border-bottom:2px dashed orange;">Tools:</span> SAS, Eviews.
 
-![My eduction]({{site.baseurl}}/assets/img/education.png =150x50)
+![My eduction]({{site.baseurl}}/assets/img/education.png)
 
 I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analystics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
 
