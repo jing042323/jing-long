@@ -21,6 +21,8 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 <span style="border-bottom:2px dashed orange;">Core courses:</span> Macroeconomics, Microeconomics, Econometrics, Mathematics, Statistics, Game theory, Corporate Finance, Information Economics, etc.  
 <span style="border-bottom:2px dashed orange;">Tools:</span> SAS, Eviews.
 
+![I and My friends]({{site.baseurl}}/assets/img/education.png)
+
 I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analystics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
 
 ### My Career Experience
@@ -30,7 +32,7 @@ Research area: Renewables ownership and market structure in electricity market.
 Main responsibility: data preparation and analysis by Python, ppt.  
 
 - **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
-Project involved: Design of the electrcity market monitering system  
+Project involved: Design of the electrcity market monitering system.  
 Main responsibility: design system metrics, data preparation and analysis by Python and Excel, report writing and presentation.  
 Achievements: two annual reports, a core journal paper and two methods have been applied for national patents.
 
