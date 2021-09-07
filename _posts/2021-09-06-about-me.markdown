@@ -36,9 +36,11 @@ Achievements: two annual reports, a core journal paper and two methods have been
 Participate in project due diligence, transaction structure design and contract negotiation. Track management and risk of invested projects.
 
 - **Accounting Teller**, **Operation Dempartment**, **Bank of Communications**, 2015 \- 2017  
-Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account.
+Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account.  
 
-![My career]({{site.baseurl}}/assets/img/career.png){:height="250px" width="500px"} 
+![My career]({{site.baseurl}}/assets/img/career.png)
+After three years of working experience in financial market, I find myself more interested in dealing with numbers and doing research. In 2019, I start my journey into data. Now I am still excited about challenges as a data analyst.
+
 
 ## <span style="border-bottom:2px solid orange;"> My interests in spare time  </span>
 
