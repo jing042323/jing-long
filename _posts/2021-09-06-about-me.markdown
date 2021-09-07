@@ -19,19 +19,27 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 - **MSc Economics**, **The Hong Kong University of Science and Technology**, 2014  
 - **BA Economics**, **Université Toulouse 1 Capitole(Toulouse School of Economics)**, 2013  
 <span style="border-bottom:2px dashed orange;">Core courses:</span> Macroeconomics, Microeconomics, Econometrics, Mathematics, Statistics, Game theory, Corporate Finance, Information Economics, etc.  
-<span style="border-bottom:2px dashed orange;">Tools:</span> SAS, Eviews
+<span style="border-bottom:2px dashed orange;">Tools:</span> SAS, Eviews.
 
 I have a passion for both Economics and Data Science. The courses I love the most during my study are statistics, machine learning and network analystics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.  
 
 ### My Career Experience
 
-- **Research Assistant**, **Renmin University of China**, 2021 
+- **Research Assistant**, **School of Applied Economics**, **Renmin University of China**, 2021  
+Research area: Renewables ownership and market structure in electricity market.  
+Main responsibility: data preparation and analysis by Python, ppt.  
 
 - **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
+Project involved: Design of the electrcity market monitering system
+Main responsibility: design system metrics, data preparation and analysis by Python and Excel, report writing and presentation.  
+Achievements: two annual reports, a core journal paper and two methods have been applied for national patents.
 
-- **Assistant Project Manager**, **Southwest Securities Company**, 2018  
+- **Assistant Project Manager**, **Corporate Business Dempartment**, **Southwest Securities Company**, 2018  
+Participate in project due diligence, transaction structure design and contract negotiation. Track management and risk of invested projects.
 
-- **Accounting Teller**, **Bank of Communications**, 2015 \- 2017  
+- **Accounting Teller**, **Operation Dempartment**, **Bank of Communications**, 2015 \- 2017  
+Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account. Report daily cash budget.  
+
 
 
 
