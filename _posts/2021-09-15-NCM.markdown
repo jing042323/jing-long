@@ -12,12 +12,15 @@ In order to help NetEase Cloud Music (NCM) enhance user experience and ultimatel
 
 This report is structured around 6 main sections:  
 **1. Introduction and Business Goals**  
+
 **2. User Characteristics and Preferences**  
 - A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences
 - Models to predict user activity from early actions  
+
 **3. Recommender System**  
 - A review of recommender system best practice
 - Recommender systems for NCM and their relative merits  
+
 **4. Business Implications**  
 - Recommendations to NCM 
 
