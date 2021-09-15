@@ -8,4 +8,16 @@ fig-caption: # Add figcaption (optional)
 tags: [NetEase, Case Study, Business, Recommender System]
 ---
 
-In order to help NetEase Cloud Music (NCM) improve its user engagement, i.e., maintaining the existing active users and turning inactive users into active users, we aim to differentiate inactive users from active users and build a customized recommendation system. 
+In order to help NetEase Cloud Music (NCM) enhance user experience and ultimately improve its user engagement, we aim to differentiate inactive users from active users and build a customized recommender system. In this report we provide a summary of our findings from analysis of the NCM business case and the accompanying data set. The code used to perform the analysis and develop recommender systems can be found in the github.
+
+This report is structured around 6 main sections:
+- Introduction and business goals
+- A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences
+- Models to predict user activity from early actions
+- A review of recommender system best practice
+- Recommender systems for NCM and their relative merits
+- Recommendations to NCM 
+
+
+
+
