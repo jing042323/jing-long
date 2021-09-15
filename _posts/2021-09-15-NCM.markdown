@@ -24,7 +24,7 @@ This report is structured around 4 main sections:
 **4. Business Implications**  
 - Recommendations to NCM 
 
-# Introduction and Business Goals
+# 1. Introduction and Business Goals
 
 NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
 - Discovery (recommended albums and playlists)
