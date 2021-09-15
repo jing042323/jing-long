@@ -24,6 +24,19 @@ This report is structured around 4 main sections:
 **4. Business Implications**  
 - Recommendations to NCM 
 
+# Introduction and Business Goals
+
+NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
+- Discovery (recommended albums and playlists)
+- Podcast (a single feed of podcast)
+- My Own Music (locally stored and liked own music and playlist)
+- Followed (posts from the followed accounts)
+- Cloud Village (feeds of short music content cards recommended to a user)
+
+The focus of this business report and the data challenge is on the Cloud Village platform, where users can post short videos or sets of images with a specific music. Cloud village tab can be divided into two subtabs (on the top):
+- Music Square \- shows two vertical streams of music video cards recommended to a user by the NCM recommender system. Categories includes Music Collection, Hot Music, Musician, Live Music, Original Music, Music video, Dance,...
+- Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chatting, singing, and even studying. Users can join the existing rooms or create their own rooms.
+
 
 
 
