@@ -1,0 +1,11 @@
+---
+layout: post
+title: NetEase Cloud Music Case Study
+date: 2021-09-15
+description: analysis of the NetEase Cloud Music (NCM) business case and the accompanying data set
+img: ncm.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [NetEase, Case Study, Business, Recommender System]
+---
+
+In order to help NetEase Cloud Music (NCM) improve its user engagement, i.e., maintaining the existing active users and turning inactive users into active users, we aim to differentiate inactive users from active users and build a customized recommendation system. 
