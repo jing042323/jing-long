@@ -26,6 +26,7 @@ This report is structured around 4 main sections:
 
 # 1. Introduction and Business Goals
 
+### About NCM
 NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
 - Discovery (recommended albums and playlists)
 - Podcast (a single feed of podcast)
@@ -37,6 +38,7 @@ The focus of this business report and the data challenge is on the Cloud Village
 - Music Square \- shows two vertical streams of music video cards recommended to a user by the NCM recommender system. Categories includes Music Collection, Hot Music, Musician, Live Music, Original Music, Music video, Dance,...
 - Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chat, sing, games and even study. Users can join the existing rooms or create their own rooms.
 
+### The data
 We are provided with four categories of data (impressions, cards, creators and users) from NCM Cloud Village fully described in Zhang et al.(2020). In particular, the data includes information for over 57 million Impressions associated with over 2 million users from November 1st to November 30th 2019. The impressions in the data refers to the display of a card to a user. Users in the data do not contain the entire population of users, but it is a randomly sampled subset of users from those who have accessed the tab at least once in the sample period. According to Zhang et al.(2020),the data is spread across 6 tables that can be joined and combined to offer a full representation of the events: 
 - Impression_data.csv - Impression level data (57.7 mil. rows) with 13 data fields including user actions
 - Mlog_deomgraphics.csv - Card level data (253k rows) with static information on the cards
@@ -45,7 +47,8 @@ We are provided with four categories of data (impressions, cards, creators and u
 - Creator_stats.csv - Creator-day-level data (2.6 mil. rows) with daily summary statistics for creators
 - User_demographics.csv - User data (2 mil. rows) with static information on the users 
 
-Considering the data availability, We focus on the analysis of the **Music Square** subtab in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the available datasets provided on cards impression and users demographic, a user classification model and a new recommender system could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
+### Our goals
+Considering the data availability, We focus on the analysis of the **Music Square** subtab in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the datasets provided on cards impression and users demographic, user classification models and recommender systems could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
 
 
 
