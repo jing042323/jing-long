@@ -35,7 +35,7 @@ NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing
 
 The focus of this business report and the data challenge is on the Cloud Village platform, where users can post short videos or sets of images with a specific music. Cloud village tab can be divided into two subtabs (on the top):
 - Music Square \- shows two vertical streams of music video cards recommended to a user by the NCM recommender system. Categories includes Music Collection, Hot Music, Musician, Live Music, Original Music, Music video, Dance,...
-- Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chatting, singing, and even studying. Users can join the existing rooms or create their own rooms.
+- Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chat, sing, games and even study. Users can join the existing rooms or create their own rooms.
 
 
 
