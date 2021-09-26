@@ -55,6 +55,8 @@ We are provided with four categories of data (impressions, cards, creators and u
 
 Considering the data availability, we focus on the analysis of the **Music Square** in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the datasets provided on cards impression and users demographic, user classification models and recommender systems could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
 
+***
+
 ## 2. User Characteristics and Preferences
 
 The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement.  
