@@ -152,11 +152,11 @@ We observe that, on average, the CTR of longtime users(more than 6 months since 
 In addition to the analysis of user tenure, we look at users' activity patterns in comparison with the less engaged users based on impression dataset. We also review the behavior of the new users (tenure <= 6 months), as NCM may be particularly interested in being able to catch any early signs of high engagement.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_content1.png" height="220" width="700" />
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_content2.png" height="220" width="700" />
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_content4.png" height="220" width="700" />
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_content3.png" height="220" width="700" />
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_content5.png" height="220" width="700" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content1.png" height="190" width="600" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content2.png" height="190" width="600" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content4.png" height="190" width="600" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content3.png" height="190" width="600" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content5.png" height="190" width="600" />
 </p>
 
 The active users are exposed to a significantly higher volume of recommendations, and their number of clicks, average feed length, seconds of viewtime and number of accounts followed are also much larger than those of the inactive users. That indicates that users of active class tend to scroll far down their feed and follow creators to forwardly get more contents, but the inactive users seem to return to the application less often without actively engaging with the content.  
