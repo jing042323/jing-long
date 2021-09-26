@@ -75,7 +75,39 @@ We can clearly see that a higher activity intensity level doesn't guarantee an a
 
 ![user distribution]({{site.baseurl}}/assets/img/NCM/2_2_active_inactive.png){:height="220px" width="700px"}
 
-The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% threshold, as defined above. And closer observation of the click through rates shows a near exponential decay with only about 18% of users having a click probability of over 20%.
+The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% threshold, as defined above. And closer observation of the click through rates shows a near exponential decay with only about 18% of users having a click probability of over 20%.  
+
+Having developed an understanding of active and inactive users, we then try to better understand the impact of some user features on their level of engagement.
+
+### 2.3 User Demographics
+
+We have some user demographic information, including province, age and gender. In addition, user tenure(measured by the registered months) and the number of people a user has followed till December 1st are also provided. We then delve into the analysis of how active users differ from the inactive ones in terms of these user features.
+
+- #### Location
+
+We combine our NCM data with the provincial GDP of China in 2019(from [Statista](https://www.statista.com/statistics/278557/gdp-of-china-by-region/)) to find out more about the geographic influence.
+
+![location]({{site.baseurl}}/assets/img/NCM/2_3_location.png){:height="350px" width="800px"}
+
+The average active rate among provinces is about 18% and nearly half of the provinces are with an active rate above the average level. Provinces like Beijing, Shanghai, Guangdong are with lower active rate and provinces with higher active rate includes Xinjiang, Tibet, Qinghai, etc. The above box plot shows that provinces with lower active rate have generally higher level of GDP. The average GDP in provinces with lower and higher active rate are 4245.6525 and 2549.045 respectively.  
+
+Above all, we find that users from more developped regions are less likely to be active in general. The intuitive interpretation to this is that, users from more developped regions(provinces with higher GDP level) are more often live a hectic life so that they have less time for leisure. Moreover, these users face more diversified ways for entertainment, therefore it is harder to attract them and keep them addicted to the application. On the contrary, users from less developped regions may have more time and lower quality requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
