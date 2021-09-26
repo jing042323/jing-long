@@ -24,6 +24,8 @@ This report is structured around 4 main sections:
 **4. Business Implications**  
 - Recommendations to NCM 
 
+***
+
 ## 1. Introduction and Business Goals
 
 ### <span style="border-bottom:2px solid pink;"> About NCM </span>
