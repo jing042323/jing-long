@@ -60,8 +60,8 @@ There are plenty of null values in the user demographics dataset, as it is norma
 
 As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
 
-![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="250px" width="900px"}
-![impression day]({{site.baseurl}}/assets/img/NCM/2_1_impr_day.png){:height="250px" width="900px"}
+![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="150px" width="700px"}
+![impression day]({{site.baseurl}}/assets/img/NCM/2_1_impr_day.png){:height="150px" width="700px"}
 
 ### 2.2 User Activity Intensity
 
@@ -71,7 +71,7 @@ In the dataset, NCM provides us with a column 'level' which shows the activity i
 
 The above figure shows the distribution of the activity intensity level among the user base. The majority of users are with level 6 and 7 and more than 64% of users are with level over 6. We then take a closer look at the user behavior in each level.
 
-![top 10 user]({{site.baseurl}}/assets/img/NCM/2_2_top10user.png){:height="300px" width="900px"}
+![top 10 user]({{site.baseurl}}/assets/img/NCM/2_2_top10user.png){:height="200px" width="700px"}
 
 We can clearly see that a higher activity intensity level doesn't guarantee an actual active behavior, as the average number of clicks is decreasing from level 5 to 10 and reaching the lowest value at level 10. And when we look at the Top 10 most active users, their activity intensity level ranges from 1 to 9. Therefore, we don't think the activity intensity level in the dataset is a good indicator for classifying active and inactive users, instead, we assign an new activity level marker to each user based on their clicks in November 2019. **We use the percentage of cards a user clicked on from the total number of impressions they were exposed to during the month, also known as the click-through rate (CTR), as a proxy of the click probability on recommended cards. And we define that users with less than average click probability (around 2.338%) are classified as 'inactive'.**
 
@@ -114,7 +114,7 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 - #### Tenure
 Having developed an understanding the demographic features of active and inactive users, we then seek to better understand the impact of tenure, defined as the length of their contract, on their level of engagement.
 
-![tenure]({{site.baseurl}}/assets/img/NCM/2_4_tenure.png){:height="500px" width="600px"}
+![tenure]({{site.baseurl}}/assets/img/NCM/2_4_tenure.png){:height="600px" width="500px"}
 
 We observe that, on average, the CTR of longtime users(more than 6 months since users' first registration) is about 21% lower than that of the new users(less than 6 months since users' first registration). And a more detailed analysis shows that the average CTR for active users first peak at small registered months(smaller than 10 months), then decreases with the increase of registered months, and finally revert to a high level at large registered months(more than 60 months). Oppositely, for inactive users, the average CTR faces a upward trend along with the increase of registered months. There are many potential motivations driving these changes in behavior. One possible reason can be that people experiment with the platform and then lose their interest due to the poor user experience. If NCM could improve the ability of its algorithms to generate and display fresh content or exploration enabaling users to discover alternative materials, users were more likely to become long-term users as those highly engaged users with over 60 months of tenure and contribute more active behaviors. Moreover, we can find that new users are either very active users or very inactive users, which brings NCM a big challenge of how to attract and retain new users quickly.
 
