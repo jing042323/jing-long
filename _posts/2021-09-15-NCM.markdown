@@ -62,7 +62,7 @@ As we can see from the first graph below, which shows the number of impressions 
 
 
 ![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="180px" width="700px"}
-<img style="float: right;" src="{{site.baseurl}}/assets/img/NCM/2_1_impr_month.png">
+<img style="float: center;" src="{{site.baseurl}}/assets/img/NCM/2_1_impr_month.png" height="180" width="700">
 ![impression day]({{site.baseurl}}/assets/img/NCM/2_1_impr_day.png){:height="180px" width="700px"}
 
 
