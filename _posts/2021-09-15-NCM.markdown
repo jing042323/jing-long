@@ -65,7 +65,7 @@ As we can see from the first graph below, which shows the number of impressions 
 
 In the dataset, NCM provides us with a column 'level' which shows the activity intensity of the user ranging from 0 to 10. The activity intensity level is a combination of a user’s app time and frequency of interactions with app; the smaller this number is, the less active the user is. (Zhang et al.(2020)). We will first take a look at the 'level' column.
 
-![level distribution]({{site.baseurl}}/assets/img/NCM/2_2_level.png){:height="250px" width="300px"}
+![level distribution]({{site.baseurl}}/assets/img/NCM/2_2_level.png){:height="250px" width="400px"}
 
 The above figure shows the distribution of the activity intensity level among the user base. The majority of users are with level 6 and 7 and more than 64% of users are with level over 6. We then take a closer look at the user behavior in each level.
 
