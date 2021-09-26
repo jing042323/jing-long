@@ -203,7 +203,7 @@ To set up the model, the individual impression level data from the ‘impression
 
 
 
-
+***
 ## References
 
 - Muchnik, L., Pei, S., Parra, L. et al. (2013) Origins of power-law degree distribution in the heterogeneity of human activity in social networks. Sci Rep 3, 1783. Available from: https://doi.org/10.1038/srep01783
