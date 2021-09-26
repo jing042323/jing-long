@@ -138,7 +138,19 @@ Having developed an understanding the demographic features of active and inactiv
 
 We observe that, on average, the CTR of longtime users(more than 6 months since users' first registration) is about 21% lower than that of the new users(less than 6 months since users' first registration). And a more detailed analysis shows that the average CTR for active users first peak at small registered months(smaller than 10 months), then decreases with the increase of registered months, and finally revert to a high level at large registered months(more than 60 months). Oppositely, for inactive users, the average CTR faces a upward trend along with the increase of registered months. There are many potential motivations driving these changes in behavior. One possible reason can be that people experiment with the platform and then lose their interest due to the poor user experience. If NCM could improve the ability of its algorithms to generate and display fresh content or exploration enabaling users to discover alternative materials, users were more likely to become long-term users as those highly engaged users with over 60 months of tenure and contribute more active behaviors. Moreover, we can find that new users are either very active users or very inactive users, which brings NCM a big challenge of how to attract and retain new users quickly.
 
+- #### Content
+In addition to the analysis of user tenure, we look at users' activity patterns in comparison with the less engaged users based on impression dataset. We also review the behavior of the new users (tenure <= 6 months), as NCM may be particularly interested in being able to catch any early signs of high engagement.
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content1.png" height="230" width="700" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content2.png" height="230" width="700" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content3.png" height="230" width="700" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_content4.png" height="230" width="700" />
+</p>
+
+The active users are exposed to a significantly higher volume of recommendations, and their number of clicks, seconds of viewtime and average feed length are also much larger than those of the inactive users. That indicates that users of active class tend to scroll far down their feed and spend more time on the application, but the inactive users seem to return to the application less often without actively engaging with the content.  
+
+If we look at the number of clicks and the length of feed of all users and new users at the same time, we can see that the average number of clicks for new users is smaller than that of all users, while the average length of feed of new users is greater than that of all users. The intuitive interpretation to this is that new users with less personal information available is less likely to get accurate recomendations on top of their feed and thus scroll down in search of interesting content or leave the tab without clicking, while others who get the right recommendations on top of their feed click on the videos more often.
 
 
 
