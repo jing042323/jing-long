@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [NetEase, Case Study, Business, Recommender System]
 ---
 
-In order to help NetEase Cloud Music (NCM) enhance user experience and ultimately improve its user engagement, we aim to differentiate inactive users from active users and build a customized recommender system. In this report we provide a summary of our findings from analysis of the NCM business case and the accompanying data set. The code used to perform the analysis and develop recommender systems can be found in the github.
+In order to help NetEase Cloud Music (NCM) enhance user experience and ultimately improve its user engagement, we aim to differentiate inactive users from active users and build a customized recommender system. In this report we provide a summary of our findings from analysis of the NCM business case and the accompanying data set. The code used to perform the analysis and develop recommender systems can be found in [my github](https://github.com/jing042323/Case-Study/tree/main/NCM).
 
 This report is structured around 4 main sections:  
 **1. Introduction and Business Goals**  
@@ -58,6 +58,8 @@ Considering the data availability, we focus on the analysis of the **Music Squar
 The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement.  
 
 There are plenty of null values in the user demographics dataset, as it is normal that users don't want to give out their personal information during registering. Even though their demographic information is not complete, their behavior data are still worth investigating. Therefore, we include users with null value in the activity intensity analysis, while they are excluded from user demographics analysis.
+
+The code for this part of analysis is available here: [Appendix I](https://github.com/jing042323/Case-Study/tree/main/NCM).
 
 ### <span style="border-bottom:2px solid pink;"> 2.1 Usage Scenarios </span>
 
