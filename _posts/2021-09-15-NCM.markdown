@@ -71,7 +71,7 @@ In the dataset, NCM provides us with a column 'level' which shows the activity i
 
 The above figure shows the distribution of the activity intensity level among the user base. The majority of users are with level 6 and 7 and more than 64% of users are with level over 6. We then take a closer look at the user behavior in each level.
 
-![top 10 user]({{site.baseurl}}/assets/img/NCM/2_2_top10user.png){:height="220px" width="700px"}
+![top 10 user]({{site.baseurl}}/assets/img/NCM/2_2_top10user.png){:height="210px" width="650px"}
 
 We can clearly see that a higher activity intensity level doesn't guarantee an actual active behavior, as the average number of clicks is decreasing from level 5 to 10 and reaching the lowest value at level 10. And when we look at the Top 10 most active users, their activity intensity level ranges from 1 to 9. Therefore, we don't think the activity intensity level in the dataset is a good indicator for classifying active and inactive users, instead, we assign an new activity level marker to each user based on their clicks in November 2019. **We use the percentage of cards a user clicked on from the total number of impressions they were exposed to during the month, also known as the click-through rate (CTR), as a proxy of the click probability on recommended cards. And we define that users with less than average click probability (around 2.338%) are classified as 'inactive'.**
 
@@ -89,7 +89,7 @@ We have some user demographic information, including province, age and gender. I
 
 We combine our NCM data with the provincial GDP of China in 2019(from [Statista](https://www.statista.com/statistics/278557/gdp-of-china-by-region/)) to find out more about the geographic influence.
 
-![location]({{site.baseurl}}/assets/img/NCM/2_3_location.png){:height="250px" width="750px"}
+![location]({{site.baseurl}}/assets/img/NCM/2_3_location.png){:height="250px" width="800px"}
 
 The average active rate among provinces is about 18% and nearly half of the provinces are with an active rate above the average level. Provinces like Beijing, Shanghai, Guangdong are with lower active rate and provinces with higher active rate includes Xinjiang, Tibet, Qinghai, etc. The above box plot shows that provinces with lower active rate have generally higher level of GDP. The average GDP in provinces with lower and higher active rate are 4245.6525 and 2549.045 respectively.  
 
