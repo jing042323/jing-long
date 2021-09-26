@@ -89,7 +89,7 @@ We have some user demographic information, including province, age and gender. I
 
 We combine our NCM data with the provincial GDP of China in 2019(from [Statista](https://www.statista.com/statistics/278557/gdp-of-china-by-region/)) to find out more about the geographic influence.
 
-![location]({{site.baseurl}}/assets/img/NCM/2_3_location.png){:height="250px" width="800px"}
+![location]({{site.baseurl}}/assets/img/NCM/2_3_location.png){:height="250px" width="750px"}
 
 The average active rate among provinces is about 18% and nearly half of the provinces are with an active rate above the average level. Provinces like Beijing, Shanghai, Guangdong are with lower active rate and provinces with higher active rate includes Xinjiang, Tibet, Qinghai, etc. The above box plot shows that provinces with lower active rate have generally higher level of GDP. The average GDP in provinces with lower and higher active rate are 4245.6525 and 2549.045 respectively.  
 
