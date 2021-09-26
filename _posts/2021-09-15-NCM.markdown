@@ -132,7 +132,7 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 <img src="{{site.baseurl}}/assets/img/NCM/2_3_age.png" height="190" width="700" />
 </p>
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/NCM/2_3_gender_age.png" height="270" width="700" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_3_gender_age.png" height="290" width="700" />
 </p>
 
 ### <span style="border-bottom:2px solid pink;"> 2.4 User Behavior and Preferences </span>
