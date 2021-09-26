@@ -26,7 +26,8 @@ This report is structured around 4 main sections:
 
 ## 1. Introduction and Business Goals
 
-### About NCM
+### <span style="border-bottom:2px solid pink;"> About NCM </span>
+
 NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
 - Discovery (recommended albums and playlists)
 - Podcast (a single feed of podcast)
@@ -38,7 +39,8 @@ The focus of this business report and the data challenge is on the Cloud Village
 - Music Square \- shows two vertical streams of music video cards recommended to a user by the NCM recommender system. Categories includes Music Collection, Hot Music, Musician, Live Music, Original Music, Music video, Dance,...
 - Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chat, sing, games and even study. Users can join the existing rooms or create their own rooms.
 
-### The data
+### <span style="border-bottom:2px solid pink;"> The Data </span>
+
 We are provided with four categories of data (impressions, cards, creators and users) from NCM Cloud Village fully described in Zhang et al.(2020). In particular, the data includes information for over 57 million Impressions associated with over 2 million users from November 1st to November 30th 2019. The impressions in the data refers to the display of a card to a user. Users in the data do not contain the entire population of users, but it is a randomly sampled subset of users from those who have accessed the tab at least once in the sample period. According to Zhang et al.(2020),the data is spread across 6 tables that can be joined and combined to offer a full representation of the events: 
 - Impression_data.csv - Impression level data (57.7 mil. rows) with 13 data fields including user actions
 - Mlog_deomgraphics.csv - Card level data (253k rows) with static information on the cards
@@ -47,7 +49,8 @@ We are provided with four categories of data (impressions, cards, creators and u
 - Creator_stats.csv - Creator-day-level data (2.6 mil. rows) with daily summary statistics for creators
 - User_demographics.csv - User data (2 mil. rows) with static information on the users 
 
-### Our goals
+### <span style="border-bottom:2px solid pink;"> Our Goals </span>
+
 Considering the data availability, we focus on the analysis of the **Music Square** in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the datasets provided on cards impression and users demographic, user classification models and recommender systems could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
 
 ## 2. User Characteristics and Preferences
@@ -56,7 +59,7 @@ The purpose of this analysis is to better understand the behavior of NCM users, 
 
 There are plenty of null values in the user demographics dataset, as it is normal that users don't want to give out their personal information during registering. Even though their demographic information is not complete, their behavior data are still worth investigating. Therefore, we include users with null value in the activity intensity analysis, while they are excluded from user demographics analysis.
 
-### 2.1 Usage Scenarios
+### <span style="border-bottom:2px solid pink;"> 2.1 Usage Scenarios </span>
 
 As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
 
@@ -67,9 +70,7 @@ As we can see from the first graph below, which shows the number of impressions 
 <img src="{{site.baseurl}}/assets/img/NCM/2_1_impr_day.png" height="180" width="700" />
 </p>
 
-
-
-### 2.2 User Activity Intensity
+### <span style="border-bottom:2px solid pink;"> 2.2 User Activity Intensity </span>
 
 In the dataset, NCM provides us with a column 'level' which shows the activity intensity of the user ranging from 0 to 10. The activity intensity level is a combination of a user’s app time and frequency of interactions with app; the smaller this number is, the less active the user is. (Zhang et al.(2020)). We will first take a look at the 'level' column.
 
@@ -93,7 +94,7 @@ The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% 
 
 Having developed an understanding of active and inactive users, we then try to better understand the impact of some user features on their level of engagement.
 
-### 2.3 User Demographics
+### <span style="border-bottom:2px solid pink;"> 2.3 User Demographics </span>
 
 We have some user demographic information, including province, age and gender. In addition, user tenure(measured by the registered months) and the number of people a user has followed till December 1st are also provided. We then delve into the analysis of how active users differ from the inactive ones in terms of these user features.
 
@@ -127,7 +128,7 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 <img src="{{site.baseurl}}/assets/img/NCM/2_3_gender_age.png" height="250" width="700" />
 </p>
 
-### 2.4 User Behavior and Preferences
+### <span style="border-bottom:2px solid pink;"> 2.4 User Behavior and Preferences </span>
 
 - #### Tenure
 Having developed an understanding the demographic features of active and inactive users, we then seek to better understand the impact of tenure, defined as the length of their contract, on their level of engagement.
