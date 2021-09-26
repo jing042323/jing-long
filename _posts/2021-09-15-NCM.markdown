@@ -60,10 +60,9 @@ There are plenty of null values in the user demographics dataset, as it is norma
 
 As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
 
-<p align="center">
-![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="180px" width="700px"}
-</p>
 
+![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="180px" width="700px"}
+<img style="float: right;" src="/assets/img/NCM/2_1_impr_month.png">
 ![impression day]({{site.baseurl}}/assets/img/NCM/2_1_impr_day.png){:height="180px" width="700px"}
 
 
