@@ -52,7 +52,9 @@ Considering the data availability, we focus on the analysis of the **Music Squar
 
 ## 2. User Characteristics and Preferences
 
-The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement. 
+The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement.  
+
+There are plenty of null values in the user demographics dataset, as it is normal that users don't want to give out their personal information during registering. Even though their demographic information is not complete, their behavior data are still worth investigating. Therefore, we include users with null value in the activity intensity analysis, while they are excluded from user demographics analysis.
 
 ### 2.1 Usage Scenarios
 
@@ -93,19 +95,19 @@ The average active rate among provinces is about 18% and nearly half of the prov
 
 Above all, we find that users from more developped regions are less likely to be active in general. The intuitive interpretation to this is that, users from more developped regions(provinces with higher GDP level) are more often live a hectic life so that they have less time for leisure. Moreover, these users face more diversified ways for entertainment, therefore it is harder to attract them and keep them addicted to the application. On the contrary, users from less developped regions may have more time and lower quality requirements.
 
+- #### Gender and Age
 
+As we can find in the following pie charts, male users represents a larger proportion in active users than female users and the percentage of female users in inactive users is higher than that in active users. Hence, we can loosely infer that the application may be more appealing to the male users than to the female users.
 
+![gender]({{site.baseurl}}/assets/img/NCM/2_3_gender.png){:height="300px" width="900px"}
 
+The youngest user is 11 years old, the mean and median are 21 and 22 years old respectively, and the oldest active user is 57 years old. 85% of the users were aged 25 and below. For active users, the youngest user is 12 years old, the mean and median are both 21 years old respectively, and the oldest active user is 55 years old. Therefore, the user population, especially the active user population, for the application is relatively young.
 
+![age]({{site.baseurl}}/assets/img/NCM/2_3_age.png){:height="300px" width="900px"}
 
+Among the youngest active and inactive users (12-16 years), girls are a majority, though that changes with the age of 17 onwards, where users are predominantly male. Among female users, younger users are more likely to become active, since average age of active female users is smaller than that of inactive female users. No big age difference between active and inactive male cohorts.
 
-
-
-
-
-
-
-
+![gender and age]({{site.baseurl}}/assets/img/NCM/2_3_gender_age.png){:height="400px" width="900px"}
 
 
 
