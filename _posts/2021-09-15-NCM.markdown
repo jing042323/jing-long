@@ -164,7 +164,7 @@ We are also interested in the preference of users among cards of various content
 
 The plots above highlight the popularity patterns. The boxplots show the share of clicks, that cards of a particular content ID received during the month across all users, calculating by the percentage of clicks to total impressions a user is exposed to. The share of clicks for the majority of content types is below 5%, whereas around 4 visible bars enjoyed a share of clicks that reached over 10%. The content that appeals to new users is different from that of all users. For example, contentId '5002,5015,5094' is more popular among new users, while no clicks from new users for contentId '1001,2002,2010' and '1003,3000,1026' which enjoy popularity among all users.
 
-<span style="border-bottom:2px solid violet;"> In conclusion, the main findings we get from the data exploration are:  </span>
+<span style="border-bottom:2px solid pink;"> In conclusion, the main findings we get from the data exploration are:  </span>
 - Users from less developped regions are more likely to be active in general.  
 - The application may be more appealing to the male users.  
 - The user population, especially the active user population, for the application is young.  
