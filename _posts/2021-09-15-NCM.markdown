@@ -156,8 +156,8 @@ If we look at the number of clicks and the length of feed of all users and new u
 We are also interested in the preference of users among cards of various content. By aggregating the impressions and clicks recorded in November 2019 by user and content ID we can gauge the level of diversity of recommendations and preferences on the platform.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_clickshare1.png" height="220" width="900" />
-<img src="{{site.baseurl}}/assets/img/NCM/2_4_clickshare2.png" height="220" width="900" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_clickshare1.png" height="230" width="900" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_clickshare2.png" height="230" width="900" />
 </p>
 
 The plots above highlight the popularity patterns. The boxplots show the share of clicks, that cards of a particular content ID received during the month across all users, calculating by the percentage of clicks to total impressions a user is exposed to. The share of clicks for the majority of content types is below 5%, whereas around 4 visible bars enjoyed a share of clicks that reached over 10%. The content that appeals to new users is different from that of all users. For example, contentId '5002,5015,5094' is more popular among new users, while no clicks from new users for contentId '1001,2002,2010' and '1003,3000,1026' which enjoy popularity among all users.
