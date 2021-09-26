@@ -1480,7 +1480,3 @@ a.newer-posts:hover {
   }
 }
 
-img[src*='#center'] { 
-    display: block;
-    margin: auto;
-}
