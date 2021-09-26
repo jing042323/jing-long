@@ -71,10 +71,11 @@ The above figure shows the distribution of the activity intensity level among th
 
 ![top 10 user]({{site.baseurl}}/assets/img/NCM/2_2_top10user.png){:height="300px" width="900px"}
 
-We can clearly see that a higher activity intensity level doesn't guarantee an actual active behavior, as the average number of clicks is decreasing from level 5 to 10 and reaching the lowest value at level 10. And when we look at the Top 10 most active users, their activity intensity level ranges from 1 to 9. Therefore, we don't think the activity intensity level in the dataset is a good indicator for classifying active and inactive users, instead, we assign an new activity level marker to each user based on their clicks in November 2019. We use the percentage of cards a user clicked on from the total number of impressions they were exposed to during the month, also known as the **click-through rate (CTR)**, as a proxy of the click probability on recommended cards.
+We can clearly see that a higher activity intensity level doesn't guarantee an actual active behavior, as the average number of clicks is decreasing from level 5 to 10 and reaching the lowest value at level 10. And when we look at the Top 10 most active users, their activity intensity level ranges from 1 to 9. Therefore, we don't think the activity intensity level in the dataset is a good indicator for classifying active and inactive users, instead, we assign an new activity level marker to each user based on their clicks in November 2019. **We use the percentage of cards a user clicked on from the total number of impressions they were exposed to during the month, also known as the click-through rate (CTR), as a proxy of the click probability on recommended cards. And we define that users with less than average click probability (around 2.338%) are classified as 'inactive'.**
 
+![user distribution]({{site.baseurl}}/assets/img/NCM/2_2_active_inactive.png){:height="250px" width="700px"}
 
-
+The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% threshold, as defined above. And closer observation of the click through rates shows a near exponential decay with only about 18% of users having a click probability of over 20%.
 
 
 
