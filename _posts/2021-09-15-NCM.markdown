@@ -13,9 +13,9 @@ In order to help NetEase Cloud Music (NCM) enhance user experience and ultimatel
 This report is structured around 4 main sections:  
 **1. Introduction and Business Goals**  
 
-**2. User Characteristics and Preferences**  
-- A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences
-- Models to predict user activity from early actions  
+**2. User Characteristics and Engagement**  
+- A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.
+- Models to predict user activity  
 
 **3. Recommender System**  
 - A review of recommender system best practice
@@ -24,7 +24,7 @@ This report is structured around 4 main sections:
 **4. Business Implications**  
 - Recommendations to NCM 
 
-# 1. Introduction and Business Goals
+## 1. Introduction and Business Goals
 
 ### About NCM
 NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
@@ -50,9 +50,15 @@ We are provided with four categories of data (impressions, cards, creators and u
 ### Our goals
 Considering the data availability, we focus on the analysis of the **Music Square** in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the datasets provided on cards impression and users demographic, user classification models and recommender systems could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
 
+## 2. User Characteristics and Preferences
 
+The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement. 
 
+### 2.1 Usage Scenarios
 
+As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
+
+![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="150px" width="1000px"}
 
 
 
