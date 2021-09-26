@@ -109,6 +109,25 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 
 ![gender and age]({{site.baseurl}}/assets/img/NCM/2_3_gender_age.png){:height="400px" width="900px"}
 
+### 2.4 User Behavior and Preferences
+
+- #### Tenure
+Having developed an understanding the demographic features of active and inactive users, we then seek to better understand the impact of tenure, defined as the length of their contract, on their level of engagement.
+
+![tenure]({{site.baseurl}}/assets/img/NCM/2_4_tenure.png){:height="500px" width="600px"}
+
+We observe that, on average, the CTR of longtime users(more than 6 months since users' first registration) is about 21% lower than that of the new users(less than 6 months since users' first registration). And a more detailed analysis shows that the average CTR for active users first peak at small registered months(smaller than 10 months), then decreases with the increase of registered months, and finally revert to a high level at large registered months(more than 60 months). Oppositely, for inactive users, the average CTR faces a upward trend along with the increase of registered months. There are many potential motivations driving these changes in behavior. One possible reason can be that people experiment with the platform and then lose their interest due to the poor user experience. If NCM could improve the ability of its algorithms to generate and display fresh content or exploration enabaling users to discover alternative materials, users were more likely to become long-term users as those highly engaged users with over 60 months of tenure and contribute more active behaviors. Moreover, we can find that new users are either very active users or very inactive users, which brings NCM a big challenge of how to attract and retain new users quickly.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
