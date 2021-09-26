@@ -60,27 +60,34 @@ There are plenty of null values in the user demographics dataset, as it is norma
 
 As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
 
-
-![impression month]({{site.baseurl}}/assets/img/NCM/2_1_impr_month.png){:height="180px" width="700px"}
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/NCM/2_1_impr_month.png" height="180" width="700" />
 </p>
-![impression day]({{site.baseurl}}/assets/img/NCM/2_1_impr_day.png){:height="180px" width="700px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_1_impr_day.png" height="180" width="700" />
+</p>
+
 
 
 ### 2.2 User Activity Intensity
 
 In the dataset, NCM provides us with a column 'level' which shows the activity intensity of the user ranging from 0 to 10. The activity intensity level is a combination of a user’s app time and frequency of interactions with app; the smaller this number is, the less active the user is. (Zhang et al.(2020)). We will first take a look at the 'level' column.
 
-![level distribution]({{site.baseurl}}/assets/img/NCM/2_2_level.png){:height="200px" width="350px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_2_level.png" height="200" width="350" />
+</p>
 
 The above figure shows the distribution of the activity intensity level among the user base. The majority of users are with level 6 and 7 and more than 64% of users are with level over 6. We then take a closer look at the user behavior in each level.
 
-![top 10 user]({{site.baseurl}}/assets/img/NCM/2_2_top10user.png){:height="210px" width="650px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_2_top10user.png" height="210" width="650" />
+</p>
 
 We can clearly see that a higher activity intensity level doesn't guarantee an actual active behavior, as the average number of clicks is decreasing from level 5 to 10 and reaching the lowest value at level 10. And when we look at the Top 10 most active users, their activity intensity level ranges from 1 to 9. Therefore, we don't think the activity intensity level in the dataset is a good indicator for classifying active and inactive users, instead, we assign an new activity level marker to each user based on their clicks in November 2019. **We use the percentage of cards a user clicked on from the total number of impressions they were exposed to during the month, also known as the click-through rate (CTR), as a proxy of the click probability on recommended cards. And we define that users with less than average click probability (around 2.338%) are classified as 'inactive'.**
 
-![user distribution]({{site.baseurl}}/assets/img/NCM/2_2_active_inactive.png){:height="220px" width="700px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_2_active_inactive.png" height="220" width="700" />
+</p>
 
 The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% threshold, as defined above. And closer observation of the click through rates shows a near exponential decay with only about 18% of users having a click probability of over 20%.  
 
@@ -94,7 +101,9 @@ We have some user demographic information, including province, age and gender. I
 
 We combine our NCM data with the provincial GDP of China in 2019(from [Statista](https://www.statista.com/statistics/278557/gdp-of-china-by-region/)) to find out more about the geographic influence.
 
-![location]({{site.baseurl}}/assets/img/NCM/2_3_location.png){:height="250px" width="800px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_3_location.png" height="250" width="800" />
+</p>
 
 The average active rate among provinces is about 18% and nearly half of the provinces are with an active rate above the average level. Provinces like Beijing, Shanghai, Guangdong are with lower active rate and provinces with higher active rate includes Xinjiang, Tibet, Qinghai, etc. The above box plot shows that provinces with lower active rate have generally higher level of GDP. The average GDP in provinces with lower and higher active rate are 4245.6525 and 2549.045 respectively.  
 
@@ -108,18 +117,24 @@ The youngest user is 11 years old, the mean and median are 21 and 22 years old r
 
 Among the youngest active and inactive users (12-16 years), girls are a majority, though that changes with the age of 17 onwards, where users are predominantly male. Among female users, younger users are more likely to become active, since average age of active female users is smaller than that of inactive female users. No big age difference between active and inactive male cohorts.
 
-![gender]({{site.baseurl}}/assets/img/NCM/2_3_gender.png){:height="230px" width="700px"}
-
-![age]({{site.baseurl}}/assets/img/NCM/2_3_age.png){:height="210px" width="700px"}
-
-![gender and age]({{site.baseurl}}/assets/img/NCM/2_3_gender_age.png){:height="250px" width="700px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_3_gender.png" height="230" width="700" />
+</p>
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_3_age.png" height="210" width="700" />
+</p>
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_3_gender_age.png" height="250" width="700" />
+</p>
 
 ### 2.4 User Behavior and Preferences
 
 - #### Tenure
 Having developed an understanding the demographic features of active and inactive users, we then seek to better understand the impact of tenure, defined as the length of their contract, on their level of engagement.
 
-![tenure]({{site.baseurl}}/assets/img/NCM/2_4_tenure.png){:height="600px" width="500px"}
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_4_tenure.png" height="650" width="500" />
+</p>
 
 We observe that, on average, the CTR of longtime users(more than 6 months since users' first registration) is about 21% lower than that of the new users(less than 6 months since users' first registration). And a more detailed analysis shows that the average CTR for active users first peak at small registered months(smaller than 10 months), then decreases with the increase of registered months, and finally revert to a high level at large registered months(more than 60 months). Oppositely, for inactive users, the average CTR faces a upward trend along with the increase of registered months. There are many potential motivations driving these changes in behavior. One possible reason can be that people experiment with the platform and then lose their interest due to the poor user experience. If NCM could improve the ability of its algorithms to generate and display fresh content or exploration enabaling users to discover alternative materials, users were more likely to become long-term users as those highly engaged users with over 60 months of tenure and contribute more active behaviors. Moreover, we can find that new users are either very active users or very inactive users, which brings NCM a big challenge of how to attract and retain new users quickly.
 
