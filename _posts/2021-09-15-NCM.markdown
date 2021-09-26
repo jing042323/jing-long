@@ -131,6 +131,7 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 ### <span style="border-bottom:2px solid pink;"> 2.4 User Behavior and Preferences </span>
 
 - #### Tenure
+
 Having developed an understanding the demographic features of active and inactive users, we then seek to better understand the impact of tenure, defined as the length of their contract, on their level of engagement.
 
 <p align="center">
@@ -140,6 +141,7 @@ Having developed an understanding the demographic features of active and inactiv
 We observe that, on average, the CTR of longtime users(more than 6 months since users' first registration) is about 21% lower than that of the new users(less than 6 months since users' first registration). And a more detailed analysis shows that the average CTR for active users first peak at small registered months(smaller than 10 months), then decreases with the increase of registered months, and finally revert to a high level at large registered months(more than 60 months). Oppositely, for inactive users, the average CTR faces a upward trend along with the increase of registered months. There are many potential motivations driving these changes in behavior. One possible reason can be that people experiment with the platform and then lose their interest due to the poor user experience. If NCM could improve the ability of its algorithms to generate and display fresh content or exploration enabaling users to discover alternative materials, users were more likely to become long-term users as those highly engaged users with over 60 months of tenure and contribute more active behaviors. Moreover, we can find that new users are either very active users or very inactive users, which brings NCM a big challenge of how to attract and retain new users quickly.
 
 - #### Impression and Content
+
 In addition to the analysis of user tenure, we look at users' activity patterns in comparison with the less engaged users based on impression dataset. We also review the behavior of the new users (tenure <= 6 months), as NCM may be particularly interested in being able to catch any early signs of high engagement.
 
 <p align="center">
@@ -162,7 +164,14 @@ We are also interested in the preference of users among cards of various content
 
 The plots above highlight the popularity patterns. The boxplots show the share of clicks, that cards of a particular content ID received during the month across all users, calculating by the percentage of clicks to total impressions a user is exposed to. The share of clicks for the majority of content types is below 5%, whereas around 4 visible bars enjoyed a share of clicks that reached over 10%. The content that appeals to new users is different from that of all users. For example, contentId '5002,5015,5094' is more popular among new users, while no clicks from new users for contentId '1001,2002,2010' and '1003,3000,1026' which enjoy popularity among all users.
 
+<span style="border-bottom:2px solid violet;"> In conclusion, the main findings we get from the data exploration are:  </span>
+- Users from less developped regions are more likely to be active in general.  
+- The application may be more appealing to the male users.  
+- The user population, especially the active user population, for the application is young.  
+- New users with less than 6 months of tenure and longtime users with over 60 months of tenure are more likely to be active.  
+- Volume of recommendations and average feed length are larger for active users.  
 
+Based on these findings, we next try some machine learning models to predict users' activity intensity level with user demographic information and early behavoirs.
 
 
 
