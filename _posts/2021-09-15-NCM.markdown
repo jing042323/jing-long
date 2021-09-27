@@ -57,7 +57,7 @@ Considering the data availability, we focus on the analysis of the **Music Squar
 
 ***
 
-## 2. User Characteristics and Preferences
+## 2. User Characteristics and Engagement
 
 The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement.  
 
