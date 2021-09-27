@@ -192,14 +192,14 @@ Despite these obstacles, there is great inherent commercial value predicting the
 To set up the model, the individual impression level data from the ‘impression_data’ file (with 30 days of records) was grouped by ‘userId’ and the values transformed as below to get our desired input and target variables:
 - The first 10 days of data (‘dt’ <= 10) for each user is summed up to get 12 input variables, i.e., the summed activity of each user in the first 10 days including clicks, comments, into personal homepage, shares, view comment, likes, view time and the demographic information of each user including province, age, gender, egistered months and total number of accounts followed.  
 -The remaining days of data for each user was transformed into the target variable under the same conditions discussed earlier, now applied to the 20 day timeline, to achieve a binary output variable with 1 indicating future active users and 0 indicating future inactive users. In mathematical terms, the below transformation was applied:
-$$ y = 
+<img src="https://render.githubusercontent.com/render/math?math=$$ y = 
 \left \{ 
 \begin{array}{c}
 1, if \sum_{t=11}^30 isClick > 0 \\ 
 0, otherwise \\ 
 \end{array}
 \right.
-$$
+$$">
 
 Hence, the goal of our predictive model was a binary classification of users into future active or future inactive based on the initial 10 days of summed data, with our class of interest being future active users and our goal being achieving the highest possible accuracy in this prediction. Common machine learning models for binary classification are Support Vector Machines (SVM) and Naïve Bayes (NB), and hence they were our first choices to test out. We also looked at Decision Trees (DT) as they are purportedly apt for general classification problems, and Neural Networks (NN) as they can result in high levels of accuracy at the cost of interpretability.
 
