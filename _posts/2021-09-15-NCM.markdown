@@ -29,9 +29,9 @@ This report is structured around 4 main sections:
 
 <hr style="border:1.5px solid gray">
 
-## <span style="border-bottom:2px solid Coral;color:Coral">1. Introduction and Business Goals</span>.
+## <span style="border-bottom:2px solid Coral;color:Coral">1. Introduction and Business Goals</span>
 
-### <span style="border-bottom:2px solid Coral;"> About NCM </span>
+### <span style="color:Coral"> About NCM </span>
 
 NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
 - Discovery (recommended albums and playlists)
@@ -44,7 +44,7 @@ The focus of this business report and the data challenge is on the Cloud Village
 - Music Square \- shows two vertical streams of music video cards recommended to a user by the NCM recommender system. Categories includes Music Collection, Hot Music, Musician, Live Music, Original Music, Music video, Dance,...
 - Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chat, sing, games and even study. Users can join the existing rooms or create their own rooms.
 
-### <span style="border-bottom:2px solid Coral;"> The Data </span>
+### <span style="color:Coral"> The Data </span>
 
 We are provided with four categories of data (impressions, cards, creators and users) from NCM Cloud Village fully described in Zhang et al.(2020). In particular, the data includes information for over 57 million Impressions associated with over 2 million users from November 1st to November 30th 2019. The impressions in the data refers to the display of a card to a user. Users in the data do not contain the entire population of users, but it is a randomly sampled subset of users from those who have accessed the tab at least once in the sample period. According to Zhang et al.(2020),the data is spread across 6 tables that can be joined and combined to offer a full representation of the events: 
 - Impression_data.csv - Impression level data (57.7 mil. rows) with 13 data fields including user actions
@@ -54,13 +54,13 @@ We are provided with four categories of data (impressions, cards, creators and u
 - Creator_stats.csv - Creator-day-level data (2.6 mil. rows) with daily summary statistics for creators
 - User_demographics.csv - User data (2 mil. rows) with static information on the users 
 
-### <span style="border-bottom:2px solid Coral;"> Our Goals </span>
+### <span style="color:Coral"> Our Goals </span>
 
 Considering the data availability, we focus on the analysis of the **Music Square** in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the datasets provided on cards impression and users demographic, user classification models and recommender systems could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
 
 ***
 
-## 2. User Characteristics and Engagement
+## <span style="border-bottom:2px solid Coral;color:Coral">2. User Characteristics and Engagement</span>
 
 The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement.  
 
@@ -69,7 +69,7 @@ There are plenty of null values in the user demographics dataset, as it is norma
 The code for section 2.1 to 2.4 is available here: [Appendix I](https://github.com/jing042323/Case-Study/blob/main/NCM/Appendix_I_User_Analysis-2.html).
 The code for section 2.5 is available here: [Appendix II](https://github.com/jing042323/Case-Study/tree/main/NCM).
 
-### <span style="border-bottom:2px solid Coral;"> 2.1 Usage Scenarios </span>
+### <span style="color:Coral"> 2.1 Usage Scenarios </span>
 
 As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
 
@@ -80,7 +80,7 @@ As we can see from the first graph below, which shows the number of impressions 
 <img src="{{site.baseurl}}/assets/img/NCM/2_1_impr_day.png" height="180" width="700" />
 </p>
 
-### <span style="border-bottom:2px solid Coral;"> 2.2 User Activity Intensity </span>
+### <span style="color:Coral"> 2.2 User Activity Intensity </span>
 
 In the dataset, NCM provides us with a column 'level' which shows the activity intensity of the user ranging from 0 to 10. The activity intensity level is a combination of a user’s app time and frequency of interactions with app; the smaller this number is, the less active the user is. (Zhang et al.(2020)). We will first take a look at the 'level' column.
 
@@ -104,7 +104,7 @@ The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% 
 
 Having developed an understanding of active and inactive users, we then try to better understand the impact of some user features on their level of engagement.
 
-### <span style="border-bottom:2px solid Coral;"> 2.3 User Demographics </span>
+### <span style="color:Coral"> 2.3 User Demographics </span>
 
 We have some user demographic information, including province, age and gender. In addition, user tenure(measured by the registered months) and the number of people a user has followed till December 1st are also provided. We then delve into the analysis of how active users differ from the inactive ones in terms of these user features.
 
@@ -138,7 +138,7 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 <img src="{{site.baseurl}}/assets/img/NCM/2_3_gender_age.png" height="290" width="700" />
 </p>
 
-### <span style="border-bottom:2px solid Coral;"> 2.4 User Behavior and Preferences </span>
+### <span style="color:Coral"> 2.4 User Behavior and Preferences </span>
 
 - #### Tenure
 
@@ -175,7 +175,7 @@ We are also interested in the preference of users among cards of various content
 
 The plots above highlight the popularity patterns. The boxplots show the share of clicks, that cards of a particular content ID received during the month across all users, calculating by the percentage of clicks to total impressions a user is exposed to. The share of clicks for the majority of content types is below 5%, whereas around 4 visible bars enjoyed a share of clicks that reached over 10%. The content that appeals to new users is different from that of all users. For example, contentId '5002,5015,5094' is more popular among new users, while no clicks from new users for contentId '1001,2002,2010' and '1003,3000,1026' which enjoy popularity among all users.
 
-#### <span style="border-bottom:2px solid Coral;"> In conclusion, our key findings from the data exploration are:  </span>
+#### <span style="color:Coral"> In conclusion, our key findings from the data exploration are:  </span>
 - Location matters: users from less developped regions are more likely to be active.  
 - Gender matters: the application may be more appealing to the male users.  
 - Age matters: The user population, especially the active user population, for the application is young.  
@@ -184,13 +184,13 @@ The plots above highlight the popularity patterns. The boxplots show the share o
 
 Based on these findings, we next try some machine learning models to predict users' activity intensity level with user demographic information and early behavoirs.
 
-### <span style="border-bottom:2px solid Coral;"> 2.5 Models to Predict User Activity Level from Initial Actions </span>
+### <span style="color:Coral"> 2.5 Models to Predict User Activity Level from Initial Actions </span>
 
 >As evident from the user characteristics in the previous sections, there is a ‘hub-and-tail’ type distribution when it comes to the activity levels of the users and popularity of content, i.e., there are a few highly active users and viral cards, and many middle to low activity users and low popularity content. This kind of distribution, also known as a Power Law Distribution, is very commonly seen in various aspects of social networks and is one of the roadblocks when it comes to setting up successful predictive models on social data (Muchnik, L., Pei, S., Parra, L. et al.,2013). Predictive models are additionally difficult because of factors like (i) user diversity – wherein a global model may not be applicable to all users, (ii) social influence – as user relationships can greatly influence activity and (ii) the dynamic nature of such networks where user behaviour can easily change over time (Zhu Y., Zhong E., Pan S.J., et.al, 2013).  
 
 Despite these obstacles, there is great inherent commercial value predicting the behaviour of a user. In the case of NCM , marketing and recommendation strategies can be more focused and differentiated for active vs. non-active users based on different desired end goals, resulting in reduced costs. With this motivation in mind, we looked to apply machine learning models and methodologies to predict whether a user will be active or inactive in the future based on their early actions.
 
-#### 2.5.1 Model Preparation
+#### <span style="color:Coral"> 2.5.1 Model Preparation </span>
 
 To set up the model, the individual impression level data from the ‘impression_data’ file (with 30 days of records) was grouped by ‘userId’ and the values transformed as below to get our desired input and target variables:
 - The first 10 days of data (‘dt’ <= 10) for each user is summed up to get 13 input variables, i.e., the summed activity of each user in the first 10 days including card impressions, clicks, comments, into personal homepage, shares, view comment, likes, view time and the demographic information of each user including province, age, gender, egistered months and total number of accounts followed.  
@@ -206,7 +206,7 @@ Additionally, there are some important aspects of this predictive problem that n
 
 Next, several machine learning models are applied, including Logistics Regression, SVM, Decision Tree and Neural Networks. We shuffle and split the data to 60% training set, 20% validation set and 20% test set. For each model, we do hyperparameters tuning on training set and use the validation set to select the best hyperparameters(Jason Brownlee, 2019). We then use test set to evaluate the model performance using mean squared error and compute its confusion matrix and classification report.  
 
-#### <span style="border-bottom:2px solid Coral;"> 2.5.2 Logistics Regression </span>
+#### <span style="color:Coral"> 2.5.2 Logistics Regression </span>
 
 Logistic regression is a popular machine learning algorithm for supervised classification problems, which is often used as a baseline model. It assumes that the classes are almost or perfectly linearly seperable and data is fitted into a linear regression model which then be acted upon by a logistic function predicting the target categorical dependent variable. Here we have a binary logistic regression model with 2 possible outcomes, i.e., 1 for active and 0 for inactive.  
 
