@@ -197,15 +197,37 @@ To set up the model, the individual impression level data from the ‘impression
 Hence, the goal of our predictive model is a binary classification of users into future active or future inactive based on the initial 10 days of data, with our class of interest being future active users and our goal being achieving the highest possible accuracy in this prediction. Common machine learning models for binary classification are Logistic Regression and Support Vector Machines (SVM), and hence they are our first choices to test out. We also look at Decision Trees (DT) as they are purportedly apt for general classification problems, and Neural Networks (NN) as they can result in high levels of accuracy but at the cost of interpretability.
 
 Additionally, there are some important aspects of this predictive problem that need to be taken into consideration before implementing the models. 
-- Firstly, we have a relatively small number of input variables (only 13) compared with the data volume, and consequently relatively few parameters that needed to be identified. Hence, we don't look at regularization in any of the models, because regularization works well when there is limited data but many parameters which is not the case here and could in fact have undesirable variable selection effect.    
-- Secondly, it is noted that our dataset is somewhat imbalanced i.e., the number of active users is much smaller (represents only about 22% of total users in the dataset for prediction models). To increase the generalizability of our models and recall for the class of interest, we utilize the upsampling technique, applying 4 times random sampling among active users within the same sample dataset to increase the active users size. As a result, the data size in the new dataset increase from 628,788 to 1,188,448, with around 47% active users.  
-- Thirdly, there are plenty null value in the 'mlogViewTime' column in impression dataset and 'age' and 'gender' column in user_demographic dataset. We assign zero to null value in 'mlogViewTime' under the assumption that missing data implied no views and browsing streams. We also replace null value in 'age' with zero, so that it could represent a single group itself, instead of assigning a mean or median value which would fall into the existing age groups. For null value in 'gender', we simply replace them with 'unknown'. 
+- Firstly, it is noted that our dataset is somewhat imbalanced i.e., the number of active users is much smaller (represents only about 22% of total users in the dataset for prediction models). To increase the generalizability of our models and recall for the class of interest, we utilize the upsampling technique, applying 4 times random sampling among active users within the same sample dataset to increase the active users size. As a result, the data size in the new dataset increase from 628,788 to 1,188,448, with around 47% active users.  
+- Secondly, there are plenty null value in the 'mlogViewTime' column in impression dataset and 'age' and 'gender' column in user_demographic dataset. We assign zero to null value in 'mlogViewTime' under the assumption that missing data implied no views and browsing streams. We also replace null value in 'age' with zero, so that it could represent a single group itself, instead of assigning a mean or median value which would fall into the existing age groups. For null value in 'gender', we simply replace them with 'unknown'.  
+- Thirdly, the categorical variables 'province' and 'gender' are tranfered into dummy variables as dummy variables allows easy interpretation and calculation of the odds ratios, and increases the stability and significance of the coefficients (Garavaglia,et.al, 1998).  And we scale the numerical variables by Z-score normalization, bringing all features in the same standing, so that one significant feature doesn’t impact the model just because of its large magnitude.  
 
-Next, we normalized the variables and then generate models using several machine learning models, including logistics regression, SVM, Decision Tree and Neural Networks. We shuffle and split the data to 60% training set, 20% validation set and 20% test set. For each model, we do hyperparameters tuning on training set and use the validation set to select the best hyperparameters. We then use test set to evaluate the model performance using mean squared error and compute its confusion matrix and classification report. 
+Next, several machine learning models are applied, including Logistics Regression, SVM, Decision Tree and Neural Networks. We shuffle and split the data to 60% training set, 20% validation set and 20% test set. For each model, we do hyperparameters tuning on training set and use the validation set to select the best hyperparameters(Jason Brownlee, 2019). We then use test set to evaluate the model performance using mean squared error and compute its confusion matrix and classification report. 
 
 #### 2.5.1 Logistics Regression  
 
+Logistic regression is a popular machine learning algorithm for supervised classification problems, which is often used as a baseline model. It assumes that the classes are almost or perfectly linearly seperable and data is fitted into a linear regression model which then be acted upon by a logistic function predicting the target categorical dependent variable. Here we have a binary logistic regression model with 2 possible outcomes, i.e., 1 for active and 0 for inactive.  
 
+**Hyperparameters Tuning**
+
+- Hyperparameters
+(i) Solver:  
+Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
+(ii) Penalty:  
+L1, L2 and no penalty 
+(iii) C (inverse of regularization strength):  
+A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
+
+- Tuning Technique
+We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
+**Model and Performance**
+The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 and solver = liblinear. After retraining the model with the best setting of hyperparameters and apply the optimal logistic regression to the test set, we get the following results:  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_LR.png" height="250" width="800" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_LR_coef.png" height="220" width="800" />
+</p> 
+
+The accuracy score on test set is about 0.72, and the accuracy score for our class of insterest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
 
 
 
@@ -216,6 +238,10 @@ Next, we normalized the variables and then generate models using several machine
 
 ***
 ## References
+
+- Garavaglia, S.B., Dun, A.S., & Hill, B.M. (1998). A smart guide to dummy variables: four applications and a macro. 
+
+- Jason Brownlee. (2019). Tune Hyperparameters for Classification Machine Learning Algorithms. Available from: https://machinelearningmastery.com/hyperparameters-for-classification-machine-learning-algorithms/
 
 - Muchnik, L., Pei, S., Parra, L. et al. (2013) Origins of power-law degree distribution in the heterogeneity of human activity in social networks. Sci Rep 3, 1783. Available from: https://doi.org/10.1038/srep01783
 
