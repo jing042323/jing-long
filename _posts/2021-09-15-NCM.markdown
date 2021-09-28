@@ -24,7 +24,7 @@ This report is structured around 4 main sections:
 **4. Business Implications**  
 - Recommendations to NCM 
 
-<span style="color:LightCoral">**This post contains Section 1 and 2. Please see here for Section 3 and 4.**</span>
+<span style="color:Coral">**This post contains Section 1 and 2. Please see here for Section 3 and 4.**</span>
 
 
 <hr style="border:1.5px solid gray">
