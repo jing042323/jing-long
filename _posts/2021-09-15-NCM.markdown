@@ -15,7 +15,7 @@ This report is structured around 4 main sections:
 
 **2. User Characteristics and Engagement**  
 - A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.
-- Models to predict user activity  
+- Models to predict user activity, including Logistic Regression, SVM, Decision Tree and Neural Networks.  
 
 **3. Recommender System**  
 - A review of recommender system best practice
@@ -223,6 +223,7 @@ A high value of C tells the model to give high weight to the training data, and 
 - Tuning Technique  
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
+
 **Model and Performance**  
 
 The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 and solver = liblinear. After retraining the model with the best setting of hyperparameters and apply the optimal logistic regression to the test set, we get the following results:  
