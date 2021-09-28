@@ -236,7 +236,7 @@ The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 an
 
 The accuracy score on test set is about 0.72, and the accuracy score for our class of insterest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
 
-
+#### <span style="color:Coral"> 2.5.3 SVM </span>
 
 
 
