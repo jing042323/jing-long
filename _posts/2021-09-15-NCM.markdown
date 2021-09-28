@@ -211,11 +211,15 @@ Logistic regression is a popular machine learning algorithm for supervised class
 
 - Hyperparameters  
 
-(i) Solver: Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
-(ii) Penalty: L1, L2 and no penalty 
-(iii) C (inverse of regularization strength): A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
+(i) Solver:  
+Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
+(ii) Penalty:  
+L1, L2 and no penalty  
+(iii) C (inverse of regularization strength):  
+A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
 
 - Tuning Technique  
+
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
 **Model and Performance**  
 
