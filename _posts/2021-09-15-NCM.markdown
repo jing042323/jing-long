@@ -209,22 +209,21 @@ Logistic regression is a popular machine learning algorithm for supervised class
 
 **Hyperparameters Tuning**
 
-- Hyperparameters
-(i) Solver:  
-Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
-(ii) Penalty:  
-L1, L2 and no penalty 
-(iii) C (inverse of regularization strength):  
-A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
+- Hyperparameters  
 
-- Tuning Technique
+(i) Solver: Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
+(ii) Penalty: L1, L2 and no penalty 
+(iii) C (inverse of regularization strength): A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
+
+- Tuning Technique  
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
-**Model and Performance**
+**Model and Performance**  
+
 The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 and solver = liblinear. After retraining the model with the best setting of hyperparameters and apply the optimal logistic regression to the test set, we get the following results:  
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/NCM/2_5_LR.png" height="250" width="800" />
-<img src="{{site.baseurl}}/assets/img/NCM/2_5_LR_coef.png" height="220" width="800" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_LR_coef.png" height="250" width="800" />
 </p> 
 
 The accuracy score on test set is about 0.72, and the accuracy score for our class of insterest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
