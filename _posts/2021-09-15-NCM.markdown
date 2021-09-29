@@ -208,7 +208,7 @@ Next, several machine learning models are applied, including Logistics Regressio
 
 #### <span style="color:Coral"> 2.5.2 Logistics Regression </span>
 
-Logistic regression is a popular machine learning algorithm for supervised classification problems, which is often used as a baseline model. It assumes that the classes are almost or perfectly linearly seperable and data is fitted into a linear regression model which then be acted upon by a logistic function predicting the target categorical dependent variable. Here we have a binary logistic regression model with 2 possible outcomes, i.e., 1 for active and 0 for inactive.  
+Logistic regression is a popular machine learning algorithm for supervised classification problems, which is often used as a baseline model. It assumes that the classes are almost or perfectly linearly seperable. Here we have a binary logistic regression model with 2 possible outcomes, i.e., 1 for active and 0 for inactive. Data is fitted into a linear regression model which then be squashed within the range [0, 1] by a logistic function. If the squashed value is greater than a threshold value(0.5), we assign it a label 1, else we assign it a label 0. 
 
 **Hyperparameters Tuning**
 
@@ -216,8 +216,10 @@ Logistic regression is a popular machine learning algorithm for supervised class
 
 (i) Solver:  
 Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
+
 (ii) Penalty:  
 L1, L2 and no penalty  
+
 (iii) C (inverse of regularization strength):  
 A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
 
@@ -237,6 +239,30 @@ The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 an
 The accuracy score on test set is about 0.72, and the accuracy score for our class of insterest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
 
 #### <span style="color:Coral"> 2.5.3 SVM </span>
+
+Support Vector Machine is another popular supervised learning algorithm which can be used for classification and regression problems as support vector classification (SVC) and support vector regression (SVR). The objective of the support vector machine algorithm is to find a hyperplane with the maximum margin in an N-dimensional space(N is the number of features) that distinctly classifies the data points. In case of non-linearly separable data, Kernelized SVM is used instead of the simple SVM.
+
+**Hyperparameters Tuning**
+
+- Hyperparameters  
+
+(i) Kernel(control the manner in which the input variables will be projected):  
+Linear: A linear kernel can be used as normal dot product any two given observations. The product between two vectors is the sum of the multiplication of each pair of input values. It proves to be the best function when there are lots of features.   
+Polynomial: A polynomial kernel is a more generalized form of the linear kernel. The polynomial kernel can distinguish curved or nonlinear input space.  
+Radial Basis Function Kernel: RBF can map an input space in infinite dimensional space. It is usually chosen for non-linear data.  
+Sigmoid:It is mostly preferred for neural networks. This kernel function is similar to a two-layer perceptron model of the neural network, which works as an activation function for neurons.  
+
+We will not implement the ‘sigmoid’ kernel here as it is essentially a proxy for neural networks which we will be looking at separately later.  
+
+(ii) C (regularization parameter):  
+This is how you can control the trade-off between decision boundary and misclassification term. A smaller value of C creates a larger-margin hyperplane and a larger value of C creates a smaller-margin hyperplane. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
+
+(iii) Gamma:  
+Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’. It defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. We will use the default setting in sklearn which is 'scale', i.e., gamma = 1 / (n_features * X.var())  
+
+- Tuning Technique  
+
+We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
 
 
