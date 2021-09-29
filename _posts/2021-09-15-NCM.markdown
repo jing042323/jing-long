@@ -212,7 +212,7 @@ Logistic regression is a popular machine learning algorithm for supervised class
 
 **Hyperparameters Tuning**
 
-<span style="border-bottom:2px solid DarkSlateGray">Hyperparameters </span>
+<span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
 
 - Solver:  
 Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
@@ -223,7 +223,7 @@ L1, L2 and no penalty
 - C (inverse of regularization strength):  
 A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
 
-<span style="border-bottom:2px solid DarkSlateGray">Tuning Technique </span>  
+<span style="border-bottom:1.5px solid DimGray">Tuning Technique </span>  
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
 
@@ -244,7 +244,7 @@ Support Vector Machine is another popular supervised learning algorithm which ca
 
 **Hyperparameters Tuning**
 
-<span style="border-bottom:2px solid DarkSlateGray">Hyperparameters </span>
+<span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
 
 - Kernel(control the manner in which the input variables will be projected):  
 Linear: A linear kernel can be used as normal dot product any two given observations. The product between two vectors is the sum of the multiplication of each pair of input values. It proves to be the best function when there are lots of features.   
@@ -258,7 +258,7 @@ This is how you can control the trade-off between decision boundary and misclass
 - Gamma:  
 Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’. It defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. We will use the default setting in sklearn which is 'scale', i.e., gamma = 1 / (n_features * X.var())  
 
-<span style="border-bottom:2px solid DarkSlateGray">Tuning Technique </span> 
+<span style="border-bottom:1.5px solid DimGray">Tuning Technique </span> 
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
