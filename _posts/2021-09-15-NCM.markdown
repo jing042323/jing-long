@@ -267,6 +267,30 @@ We use Grid Search Cross-Validation instead of Train-Validation-Test to select t
 
 #### <span style="color:Coral"> 2.5.4 Random Forest </span>
 
+Random Forest is a supervised machine learning algorithm that can be used to solve regression and classification problems. It utilizes ensemble learning that combines many classifiers to provide solutions to complex problems. Random forest involves constructing a large number of decision trees from bootstrap samples from the training dataset, like bagging. But random forest also involves selecting a subset of input features at each split point in the construction of trees which is better than bagging. By reducing the features to a random subset that may be considered at each split point, it forces each decision tree in the ensemble to be more different and these less correlated trees are averaged to make a prediction, which often results in better performance than bagged decision trees.(Page 320, An Introduction to Statistical Learning with Applications in R, 2014)
+
+**Hyperparameters Tuning**
+
+<span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
+
+- max_features  
+The most important hyperparameter to tune for the random forest is the number of random features to consider at each split point. A good heuristic for classification is to set this hyperparameter to the square root of the number of input features.(Page 387, Applied Predictive Modeling, 2013)  
+num_features_for_split = sqrt(total_input_features)  
+
+- max_depth  
+Another important hyperparameter to tune is the depth of the decision trees. Deeper trees are often more overfit to the training data, but also less correlated, which in turn may improve the performance of the ensemble. Depths from 1 to 10 levels may be effective.  
+
+- n_estimators
+Ideally, this should be increased until no further improvement is seen in the model. Good values might be a log scale from 10 to 1,000.
+
+<span style="border-bottom:1.5px solid DimGray">Tuning Technique </span> 
+
+We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
+
+
+
+
+
 
 
 ***
