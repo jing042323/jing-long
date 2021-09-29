@@ -212,18 +212,18 @@ Logistic regression is a popular machine learning algorithm for supervised class
 
 **Hyperparameters Tuning**
 
-- Hyperparameters  
+<span style="border-bottom:2px solid DarkSlateGray">Hyperparameters </span>
 
-(i) Solver:  
+- Solver:  
 Saga is an extension of sag that also allows for L1 regularization and it should generally train faster than sag. And newton-cg is slow for large datasets, because it computes the second derivatives. Therefore, we exclude sag and newton-cg in our solver test set.  
 
-(ii) Penalty:  
+- Penalty:  
 L1, L2 and no penalty  
 
-(iii) C (inverse of regularization strength):  
+- C (inverse of regularization strength):  
 A high value of C tells the model to give high weight to the training data, and a lower weight to the complexity penalty. A low value tells the model to give more weight to this complexity penalty at the expense of fitting to the training data. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
 
-- Tuning Technique  
+<span style="border-bottom:2px solid DarkSlateGray">Tuning Technique </span>  
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
 
@@ -244,21 +244,21 @@ Support Vector Machine is another popular supervised learning algorithm which ca
 
 **Hyperparameters Tuning**
 
-- Hyperparameters  
+<span style="border-bottom:2px solid DarkSlateGray">Hyperparameters </span>
 
-(i) Kernel(control the manner in which the input variables will be projected):  
+- Kernel(control the manner in which the input variables will be projected):  
 Linear: A linear kernel can be used as normal dot product any two given observations. The product between two vectors is the sum of the multiplication of each pair of input values. It proves to be the best function when there are lots of features.   
 Polynomial: A polynomial kernel is a more generalized form of the linear kernel. The polynomial kernel can distinguish curved or nonlinear input space.  
 Radial Basis Function Kernel: RBF can map an input space in infinite dimensional space. It is usually chosen for non-linear data.  
 Sigmoid:It is mostly preferred for neural networks. This kernel function is similar to a two-layer perceptron model of the neural network, which works as an activation function for neurons. We will not implement the ‘sigmoid’ kernel here as it is essentially a proxy for neural networks which we will be looking at separately later.  
 
-(ii) C (regularization parameter):  
+- C (regularization parameter):  
 This is how you can control the trade-off between decision boundary and misclassification term. A smaller value of C creates a larger-margin hyperplane and a larger value of C creates a smaller-margin hyperplane. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
 
-(iii) Gamma:  
+- Gamma:  
 Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’. It defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. We will use the default setting in sklearn which is 'scale', i.e., gamma = 1 / (n_features * X.var())  
 
-- Tuning Technique  
+<span style="border-bottom:2px solid DarkSlateGray">Tuning Technique </span> 
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
