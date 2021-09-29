@@ -250,9 +250,7 @@ Support Vector Machine is another popular supervised learning algorithm which ca
 Linear: A linear kernel can be used as normal dot product any two given observations. The product between two vectors is the sum of the multiplication of each pair of input values. It proves to be the best function when there are lots of features.   
 Polynomial: A polynomial kernel is a more generalized form of the linear kernel. The polynomial kernel can distinguish curved or nonlinear input space.  
 Radial Basis Function Kernel: RBF can map an input space in infinite dimensional space. It is usually chosen for non-linear data.  
-Sigmoid:It is mostly preferred for neural networks. This kernel function is similar to a two-layer perceptron model of the neural network, which works as an activation function for neurons.  
-
-We will not implement the ‘sigmoid’ kernel here as it is essentially a proxy for neural networks which we will be looking at separately later.  
+Sigmoid:It is mostly preferred for neural networks. This kernel function is similar to a two-layer perceptron model of the neural network, which works as an activation function for neurons. We will not implement the ‘sigmoid’ kernel here as it is essentially a proxy for neural networks which we will be looking at separately later.  
 
 (ii) C (regularization parameter):  
 This is how you can control the trade-off between decision boundary and misclassification term. A smaller value of C creates a larger-margin hyperplane and a larger value of C creates a smaller-margin hyperplane. Here we will try C = 100, 10, 1.0, 0.1 and 0.01.  
