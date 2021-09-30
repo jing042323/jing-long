@@ -226,7 +226,6 @@ A high value of C tells the model to give high weight to the training data, and 
 <span style="border-bottom:1.5px solid DimGray">Tuning Technique </span>  
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
-
 **Model and Performance**  
 
 The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 and solver = liblinear. After retraining the model with the best setting of hyperparameters and apply the optimal logistic regression to the test set, we get the following results:  
@@ -287,6 +286,9 @@ Ideally, this should be increased until no further improvement is seen in the mo
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
+**Model and Performance**  
+
+#### <span style="color:Coral"> 2.5.5 Neural Networks </span>
 
 
 
