@@ -65,7 +65,7 @@ Btw, I am good at making travel plans. I’d love to share if you need any trip 
 - **经济学学士**, **图卢兹第一大学（图卢兹经济学院）**, 2013   
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/education_chinese.png" height="275" width="700" />
+<img src="{{site.baseurl}}/assets/img/education_chinese.png" height="245" width="700" />
 </p>
 
 我非常喜欢经济学和数据科学，python是我最常使用的语言工具。我最爱的课程是统计学、机器学习和网络分析，不仅因为我这几门课的成绩都不错（嘿！），更重要的是我深深着迷于算法和网络效应在我们日常生活中产生的惊人力量。
