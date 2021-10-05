@@ -305,7 +305,7 @@ When forming the model, there are two decisions that must be made regarding the 
 In our case, we have the input shape of (950758, 47) which is large, 3 to 5 hidden layers are more suitable. But increasing hidden layers will also increase the complexity of the model, as the rationale behind the building of the first NN model trained is to keep it as simple as possibleso, we will choose 3 here which is the smallest among 3,4,5.  
 
 - How many neurons will be in each of these layers?  
-(i) Input layer: the input layer will consist of 47 neurons. 
+(i) Input layer: the input layer will consist of 47 neurons.  
 (ii) Output layer: the output layer will have 2 neurons, one per class.  
 (iii) Hidden layer: when deciding the number of neurons on hidden layers, we can consider the following rules: The number of hidden neurons should be between the size of the input layer and the output layer. The most appropriate number of hidden neurons is sqrt(input layer nodes * output layer nodes). The number of hidden neurons should keep on decreasing in subsequent layers to get more and more close to pattern and feature extraction and to identify the target class.  
 According to these rules, we can get: The number of hidden neurons is between 2 and 47. The most appropriate number of hidden neurons is  sqrt(2*47) ≈ 10
