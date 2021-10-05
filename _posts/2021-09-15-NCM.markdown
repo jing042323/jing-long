@@ -317,9 +317,9 @@ In terms of the loss, we adopt the ‘binary_crossentropy’ function as it is t
 
 Then we will change the epochs and batch size in the fit function.  
 
-The batch size is a number of samples processed before the model is updated. When all training samples are used to create one batch, the learning algorithm is called batch gradient descent. When the batch is the size of one sample, the learning algorithm is called stochastic gradient descent. When the batch size is more than one sample and less than the size of the training dataset, the learning algorithm is called mini-batch gradient descent. In the case of mini-batch gradient descent, popular batch sizes include 32, 64, and 128 samples. 
+- The batch size is a number of samples processed before the model is updated. When all training samples are used to create one batch, the learning algorithm is called batch gradient descent. When the batch is the size of one sample, the learning algorithm is called stochastic gradient descent. When the batch size is more than one sample and less than the size of the training dataset, the learning algorithm is called mini-batch gradient descent. In the case of mini-batch gradient descent, popular batch sizes include 32, 64, and 128 samples. 
 
-The number of epochs is the number of complete passes through the training dataset. The number of epochs can be set to an integer value between one and infinity. You may see examples of the number of epochs in the literature and in tutorials set to 10, 100, 500, 1000, and larger.
+- The number of epochs is the number of complete passes through the training dataset. The number of epochs can be set to an integer value between one and infinity. You may see examples of the number of epochs in the literature and in tutorials set to 10, 100, 500, 1000, and larger.
 
 Here, we will try stochastic gradient descent with batch size 1. And 3 different epochs which are 10, 100 and 1000. We will apply the training-validation-test procedure to find out the best value for epochs and batch_size.
 
