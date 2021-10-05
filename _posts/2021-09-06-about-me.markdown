@@ -28,7 +28,7 @@ I have a passion for both Economics and Data Science and Python is the language 
 Research area: renewables,  market power in electricity market.  
 Main tools: Python, R, PPT
 Main responsibility: economic modeling, data processing and analysis.  
-Achievements: one renewable related paper(ready to submit).
+Achievements: one renewable ownership related paper(ready to submit).
 
 - **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
 Project involved: Research on dynamic monitoring of electricity spot market in Southern China  
