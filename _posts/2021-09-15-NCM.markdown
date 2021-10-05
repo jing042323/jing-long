@@ -293,7 +293,35 @@ We use Grid Search Cross-Validation instead of Train-Validation-Test to select t
 Neural networks are multi-layer networks of neurons that we use to make classification and predictions which can either be supervised or unsupervised. [Here](https://towardsdatascience.com/understanding-neural-networks-19020b758230) is a brief and clear introduction of Neural Networks from Tony Yiu, which I think is a very good reading to understand the basics of this algorithm. His opinion about the aspects that make Neural Networks special can be summarized as:
 >(i) Each neuron is its own miniature model with its own bias and set of incoming features and weights. (ii) Each individual model/neuron feeds into numerous other individual neurons across all the hidden layers of the model. So we end up with models plugged into other models in a way where the sum is greater than its parts. This allows neural networks to fit all the nooks and crannies of our data including the nonlinear parts (but beware overfitting — and definitely consider regularization to protect your model from underperforming when confronted with new and out of sample data). (iii) The versatility of the many interconnected models approach and the ability of the backpropagation process to efficiently and optimally set the weights and biases of each model lets the neural network to robustly “learn” from data in ways that many other algorithms cannot.  
 
+After understanding how this algorithm works, we start to tune hyperparatmers.
 
+**Hyperparameters Tuning**  
+
+When forming the model, there are two decisions that must be made regarding the hidden layers:  
+- How many hidden layers to actually have in the Neural Networks?  
+(i) If the data is linearly separable then you don't need any hidden layers at all.  
+(ii) If data is less complex and is having fewer dimensions or features then neural networks with 1 to 2 hidden layers would work.  
+(iii) If data is having large dimensions or features then to get an optimum solution, 3 to 5 hidden layers can be used.  
+In our case, we have the input shape of (950758, 47) which is large, 3 to 5 hidden layers are more suitable. But increasing hidden layers will also increase the complexity of the model, as the rationale behind the building of the first NN model trained is to keep it as simple as possibleso, we will choose 3 here which is the smallest among 3,4,5.  
+
+- How many neurons will be in each of these layers?  
+(i) Input layer: the input layer will consist of 47 neurons. We will ‘flatten’ the input data, so that a (28x28) shape flattens to 784.  
+(ii) Output layer: the output layer will have 2 neurons, one per class.  
+(iii) Hidden layer: we have decided to set 3 hidden layers. When deciding the number of neurons on hidden layers, we can consider the following rules: The number of hidden neurons should be between the size of the input layer and the output layer. The most appropriate number of hidden neurons is sqrt(input layer nodes * output layer nodes). The number of hidden neurons should keep on decreasing in subsequent layers to get more and more close to pattern and feature extraction and to identify the target class. According to these rules, we can get:
+The number of hidden neurons is between 2 and 47.
+The most appropriate number of hidden neurons is  sqrt(2*47) ≈ 10
+ 
+Above all, we are going to set 3 hidden layers with 47, 10 and 2 hidden neurons on each layer. The hidden layer employs the standard ‘ReLu’ activation function, while for the final layer as we had a binary classification task the ‘sigmoid’ function is used. 
+
+In terms of the loss, we adopt the ‘binary_crossentropy’ function as it is the most apt one and used the ‘adam’ version of the stochastic gradient descent algorithm to minimize losses.  
+
+Then we will change the epochs and batch size in the fit function.  
+
+The batch size is a number of samples processed before the model is updated. When all training samples are used to create one batch, the learning algorithm is called batch gradient descent. When the batch is the size of one sample, the learning algorithm is called stochastic gradient descent. When the batch size is more than one sample and less than the size of the training dataset, the learning algorithm is called mini-batch gradient descent. In the case of mini-batch gradient descent, popular batch sizes include 32, 64, and 128 samples. 
+
+The number of epochs is the number of complete passes through the training dataset. The number of epochs can be set to an integer value between one and infinity. You may see examples of the number of epochs in the literature and in tutorials set to 10, 100, 500, 1000, and larger.
+
+Here, we will try stochastic gradient descent with batch size 1. And 3 different epochs which are 10, 100 and 1000. We will apply the training-validation-test procedure to find out the best value for epochs and batch_size.
 
 
 
