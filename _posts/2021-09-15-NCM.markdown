@@ -297,6 +297,8 @@ After understanding how this algorithm works, we start to tune hyperparatmers.
 
 **Hyperparameters Tuning**  
 
+<span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
+
 When forming the model, there are two decisions that must be made regarding the hidden layers:  
 - How many hidden layers to actually have in the Neural Networks?  
 (i) If the data is linearly separable then you don't need any hidden layers at all.  
@@ -320,7 +322,15 @@ Then we will change the epochs and batch size in the fit function.
 
 - The number of epochs is the number of complete passes through the training dataset. The number of epochs can be set to an integer value between one and infinity. You may see examples of the number of epochs in the literature and in tutorials set to 10, 100, 500, 1000, and larger.
 
-Here, we will try stochastic gradient descent with batch size 1. And 3 different epochs which are 10, 100 and 1000. We will apply the training-validation-test procedure to find out the best value for epochs and batch_size.
+Here, we will try stochastic gradient descent with batch size 1. And 3 different epochs which are 10, 100 and 1000. 
+
+<span style="border-bottom:1.5px solid DimGray">Tuning Technique </span> 
+
+We will apply the training-validation-test procedure to find out the best value for epochs and batch size.
+
+**Model and Performance**  
+
+
 
 
 
