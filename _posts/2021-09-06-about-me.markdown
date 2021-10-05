@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Me
+title: About Me | 关于我
 date: 2021-09-16
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: aboutme.jpg # Add image post (optional)
@@ -16,8 +16,9 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 - **MSc Economics**, **The Hong Kong University of Science and Technology**, 2014  
 - **BA Economics**, **Université Toulouse 1 Capitole(Toulouse School of Economics)**, 2013  
 
-
-![My eduction]({{site.baseurl}}/assets/img/education.png){:height="275px" width="700px"}  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/education.png" height="275" width="700" />
+</p>
 
 I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analytics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
 
@@ -45,6 +46,18 @@ After three years of working experience in financial market, I find myself more 
 
 I love travelling, movies and swimming. And I am a big fan of Friends.  
 Btw, I am good at making travel plans. I’d love to share if you need any trip tips.
-![Travel]({{site.baseurl}}/assets/img/travel2.jpg){:height="400px" width="400px"}
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/travel2.jpg" height="400" width="400" />
+</p>
 
 Have fun in browsing through the content and thank you for visiting! If you have any thoughts/questions don't hesitate to reach out :)
+
+嗨，我叫龙婧，我是一名获得了经济学和商业分析学双硕士学位的数据分析师。从想要实现的目标开始，通过数据处理、分析到可视化，一直到实际的商业意义，我非常享受从数据中去获得有价值的见解这一过程。像经济学家一样思考，像数据科学家一样行动，是我努力的方向。
+
+
+
+
+
+
+
