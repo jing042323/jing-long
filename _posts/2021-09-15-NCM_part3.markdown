@@ -29,14 +29,14 @@ Models to predict user activity based on users' early actions.
 - SVM  
 - Random Forest  
 - Neural Networks  
-
+<span style="color:Coral">
 **4. Recommender System**  
 - A review of recommender system best practice
 - Recommender systems for NCM and their relative merits  
 
 **5. Business Implications**  
 - Recommendations to NCM 
-
+</span>
 <span style="color:Coral">**This post contains Section 4 and 5. Please check [here](https://jing042323.github.io/jing-long/NCM_part1/) for section 1 and 2, and [here](https://jing042323.github.io/jing-long/NCM_part2/) for Section 3.**</span>
 
 
