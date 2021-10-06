@@ -16,7 +16,7 @@ tags: [project, case study]
 3. Constructing different recommender systems and discussing each one's merit and demerit. (available [here](https://jing042323.github.io/jing-long/NCM_part3/))  
 
 **Data Volume**: 57 million impressions data and over 2 million user data.  
-**Tools**: Python(Pandas, Numpy, Matplotlib, Scikit-learn)
+**Tools**: Python(Pandas, Numpy, Matplotlib, Scikit-learn)  
 **Project Duration**: 2 weeks
 
 ***
