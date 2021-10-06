@@ -33,7 +33,7 @@ Achievements: one renewable ownership related paper(ready to submit).
 - **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
 Project involved: Research on dynamic monitoring of electricity spot market in Southern China  
 Main responsibility: design monitoring metrics, data preparation and analysis by Python and Excel, report writing and presentation.  
-Main tools：Python, Excel, PPT
+Main tools：Python, Excel, PPT  
 Achievements: two annual reports, one core journal paper and two methods have been applied for national patents.
 
 - **Assistant Project Manager**, **Corporate Business Dempartment**, **Southwest Securities Company**, 2018  
