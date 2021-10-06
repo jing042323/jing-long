@@ -17,7 +17,6 @@ tags: [project, case study]
 
 - **Data Volume**: 57 million impressions data and over 2 million user data.  
 - **Tools**: Python(Pandas, Numpy, Matplotlib, Scikit-learn)  
-- **Project Duration**: 2 weeks
 
 ***
 
