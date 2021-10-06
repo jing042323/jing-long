@@ -52,13 +52,45 @@ Broadly speaking, recommender systems are algorithms used to suggest personalise
 
 ## <span style="color:Coral"> 4.1 A review of recommender system best practice </span>  
 
-In the following sections we explore how 3 of the world's largest content platform recommendation systems (YouTube, Netflix and Spotify) approach the challenges of developing an effective system and use this as a basis for our subsequent analysis.  
+In the following sections we explore how 3 of the world's largest content platform recommendation systems (YouTube, Spotify and Netflix) approach the challenges of developing an effective system and use this as a basis for our subsequent analysis.  
 
 ### <span style="color:Coral"> Youtube </span>
 
+YouTube recommendation algorithms provide 70% of the content viewed by over 2.3 billion active users from an enormous catalogue of content, which is growing at a rate of 500 hours every minute (Omnicore Agency, 2021). The following are the 3 main challenges in developing an effective recommendation engine in this challenging environment (Covington, 2016):
+- Scale – Most of the established recommendation systems can’t efficiently handle the large volume of users and content that need to be managed by the YouTube recommendation engine. The key challenge here is to balance the quality of the recommendation being provided with the speed required to ensure a high-quality user experience is maintained.  
+- Freshness – With over 500 hours of new content being generated every minute it is essential that the recommendation system is able to reflect the latest content and user behaviours.  
+- Noise – Obtaining accurate rankings is a big challenge with the majority of users not leaving any explicit feedback. To overcome this issue Google largely relies on more implicit behavioural signals to feed its algorithm.
 
+To deliver this capability, Google developed a bespoke 2 stage content-based filter system. This algorithm initially provides a shortlist of items based on the user history and demographics before assigning a more precise score to this subset. In terms of the metrics used to assess user activity, the main inputs used are click-through rate (CTR) and the length of time a user watches a video, as these are seen as providing a more reliable and accurate assessment, when compared to the more explicit measures available. Users are initially profiled using demographic information such as gender, age, geographic region, and device, then this information is progressively supplemented by usage data as user behaviours are observed.
 
+Google also notes that users have a preference to watch new material that has been recently uploaded and therefore the algorithm has been designed to favour providing new content, while ensuring it remains relevant to the user. Another key challenge is to introduce “churn” in recommendations, ensuring that if a user was recommended a video but did not watch it the algorithm will demote the item on subsequent requests.
 
+### <span style="color:Coral"> Spotify </span>
+
+Spotify places greater emphasis on the need of a recommendation system to provide effective exploration, with the aim of increasing understanding of the user and ultimately enhancing their experience. It developed a bespoke epsilon-greedy multi-armed bandit (MAB) algorithm to provide recommendations called BaRT (Bandits for Recsplanations as Treatments). As with any MAB, the algorithm balances exploit, where it uses known information about the user to provide content with a high probability of success, but also randomly “explores” to allow the discovery of new interests for the user. It is also noted that excessive exploration has the potential to confuse users, therefore Spotify typically limits the amount of exploration content to less than 10% (McInerney et al, 2015).
+
+To enhance the capability of the BaRT algorithm, additional contextual information, such as time of day and content metadata tagging techniques are employed. Deep learning algorithms are used to profile content that would otherwise not be directly available, these include:  
+- Natural Language Processing (NLP) - NLP is used to scrape large amounts of data written in blog posts, articles and discussion forums to provide information about a song or artists that they can’t obtain directly from the Spotify dataset.  
+- Audio modelling – Convolutional Neural Networks are used to analyse the raw audio files and assign characteristics to each song enabling them to be grouped based on the similarity of certain characteristics.
+
+### <span style="color:Coral"> Netflix </span>
+
+Netflix recommender system influences 80% of hours streamed on their platform, with only 20% of viewed content being the result of a direct search(Gomez-Uribe et al, 2015). It used labelled rows recommending specific content based on a variety of different methods that they term as “themes”. The themes range from a form of collaborative filter providing a “personalised recommender”, a content-based filter titled “because you watched ...” as well as context-based filter showing called “trending now” showing content that reflects real world events or seasonal interests.  
+
+Given the importance of the recommender system in delivering content to users, Netflix also pays attention to the “cold start” problem. The approach taken involves using a survey provided during the sign-up process, in which members are asked “to select videos from an algorithmically populated set” to provide some insight as to their future preferences.
+
+### <span style="color:Coral"> Summary and Implication for NCM </span>
+
+To summarise the above research the following 6 key observations have been made and subsequently used to inform our proposal to NCM:
+
+- **Different recommendation methods**: At present, no single recommendation system is perfect. While the implementation may vary significantly in terms of the methodology and complexity, with their own benefits and shortcomings. In many applications, including NCM, the best solution may be to provide a hybrid system which delivers a selection of recommendations based on a variety of criteria.  
+- **Handling Scale**: The volumes of data used to profile both individuals and content is vast. The major challenge is to provide high quality, personalised recommendations, while not compromising the user experience with latency issues. The solution here appears to be a 2- phase approach, firstly making a “rough cut” to obtain a subset of the total dataset before providing a more comprehensive assessment of the potential “fit” between content and user.  
+- **Selection of metrics**: The key behind a good recommendation system is the quality of the metrics used to indicate customer satisfaction. Traditional explicit measure such as “likes” or star ratings are limited both in terms of the consistency of the assessment and the likelihood of a response, resulting in data sparsity issues and bias from the users. Implicit measures such as viewing time can provide a much more accurate assessment of an individual assessment.  
+- **Explore vs Exploit**: Another key aspect of a good recommendation system is getting the right balance between exploiting the perceived best match between content and user and exploring new genres or creators. The ability to provide a recommendation that the user themselves may not have naturally searched for is one of the key value offerings of a recommendation system.  
+- **Freshness**: In addition to exploring, another key challenge is to ensure that users are presented with new content as most algorithms will naturally favour established material. Furthermore, particular care should be taken to avoid repeatedly recommending the same item if the user has already indicated they are not interested in it.  
+- **Cold start**: Building recommendation engines is particularly difficult where little is known about either the content or the user. This is particularly important for new users, where, if they are not satisfied with the recommendations provided, they are likely to reject the platform before the opportunity to develop a more detailed profile is even possible. To overcome this, different techniques can be used to fill the information gap ranging from simple surveys to deep learning. One simple approach is to consider the user as an average person in all the categories and slowly refine her details as the system collect more data.  
+
+## <span style="color:Coral"> 4.2 Recommender Systems for NCM </span> 
 
 
 
@@ -68,3 +100,10 @@ In the following sections we explore how 3 of the world's largest content platfo
 ***
 ## References
 
+- Covington, P. Adams, J. Sargin, E. (2016) Deep Neural Networks for YouTube Recommendations. Google  
+
+- GOMEZ-URIBE, C. HUNT, N. (2015) The Netflix Recommender System: Algorithms, Business Value, and Innovation. Netflix.
+
+- McInerney, J. Lacker, B. Hansen S, Higley, K. Bouchard,H. Gruson, Mehrotra, R, (2015) Explore, Exploit, and Explain: Personalizing Explainable Recommendations with Bandits. Spotify  
+
+- YouTube by the Numbers: Stats, Demographics & Fun Facts [online] Available at: <https://www.omnicoreagency.com/youtube-statistics/>
