@@ -23,15 +23,15 @@ over 57 million impression data and 2 million user data.
 - **Tools**:  
 Python(Pandas, Numpy, Matplotlib, Scikit-learn)  
 
-- **主要内容**:
+- **主要内容**：
 1. 分析用户特征和偏好，区分活跃用户和非活跃用户。([查看](https://jing042323.github.io/jing-long/NCM_part1/))  
 2. 建立预测模型，根据用户初始行为识别用户活跃度。 ([查看](https://jing042323.github.io/jing-long/NCM_part2/))  
 3. 建立不同的推荐系统，并讨论每个系统的优点和缺点。([查看](https://jing042323.github.io/jing-long/NCM_part3/))  
 
-- **数据量**:  
-超过5700万条视频曝光数据和200万用户数据
-- **工具**:  
-Python(Pandas, Numpy, Matplotlib, Scikit-learn) 
+- **数据量**：  
+超过5700万条视频曝光数据和200万用户数据。
+- **工具**：  
+Python(Pandas, Numpy, Matplotlib, Scikit-learn)。 
 
 ***
 
