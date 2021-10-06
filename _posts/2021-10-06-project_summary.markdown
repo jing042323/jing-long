@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [project, case study]
 ---
 
-Here are brief introdutions for each project I did and links for full reports are provided.
+Here are brief introdutions for each project I did and links for the full reports are provided.
 
 ***
 ### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span>
