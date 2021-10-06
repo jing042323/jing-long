@@ -14,7 +14,7 @@ This report is structured around 4 main sections:
 **1. Introduction and Business Goals**  
 - About NCM  
 - The Data   
-- Our goals
+- Our Goals
 
 **2. User Characteristics and Engagement**  
 A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.  
@@ -32,7 +32,7 @@ A detailed analysis of the NCM dataset to produce insight and understanding rega
 
 **4. Recommender System**  
 - A review of recommender system best practice
-- Recommender systems for NCM and their relative merits  
+- Recommender systems for NCM and their relative merit and demerit  
 
 **5. Business Implications**  
 - Recommendations to NCM 

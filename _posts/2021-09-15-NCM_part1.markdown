@@ -12,17 +12,17 @@ In order to help NetEase Cloud Music (NCM) enhance user experience and ultimatel
 
 This report is structured around 4 main sections:
 
-**1. Introduction and Business Goals**  
-- About NCM  
-- The Data   
-- Our goals
+<span style="color:black">**1. Introduction and Business Goals**</span>  
+- <span style="color:black">**About NCM**</span>  
+- <span style="color:black">**The Data**</span>  
+- <span style="color:black">**Our Goals**</span>  
 
-**2. User Characteristics and Engagement**  
-A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.  
-- Usage Scenarios  
-- User Activity Intensity  
-- User Demographics: location, gender and age  
-- User Behavior and Preferences: tenure, impression and content  
+<span style="color:black">**2. User Characteristics and Engagement**</span>  
+<span style="color:black">**A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.**</span>  
+- <span style="color:black">**Usage Scenarios**</span>  
+- <span style="color:black">**User Activity Intensity**</span>  
+- <span style="color:black">**User Demographics: location, gender and age**</span>  
+- <span style="color:black">**User Behavior and Preferences: tenure, impression and content**</span>  
 
 **3. User Activity Prediction Model** 
 Models to predict user activity based on users' early actions. 

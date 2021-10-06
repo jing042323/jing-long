@@ -14,7 +14,7 @@ This report is structured around 4 main sections:
 **1. Introduction and Business Goals**  
 - About NCM  
 - The Data   
-- Our goals
+- Our Goals
 
 **2. User Characteristics and Engagement**  
 A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.  
@@ -30,12 +30,12 @@ Models to predict user activity based on users' early actions.
 - Random Forest  
 - Neural Networks  
 
-**4. Recommender System**  
-- A review of recommender system best practice
-- Recommender systems for NCM and their relative merits  
+<span style="color:black">**4. Recommender System**</span>  
+- <span style="color:black">**A review of recommender system best practice**</span>  
+- <span style="color:black">**Recommender systems for NCM and their relative merit and demerit**</span>  
 
-**5. Business Implications**  
-- Recommendations to NCM 
+<span style="color:black">**5. Business Implications**</span>  
+- <span style="color:black">**Recommendations to NCM**</span>  
 
 <span style="color:Coral">**This post contains Section 4 and 5. Please check [here](https://jing042323.github.io/jing-long/NCM_part1/) for section 1 and 2, and [here](https://jing042323.github.io/jing-long/NCM_part2/) for Section 3.**</span>
 
