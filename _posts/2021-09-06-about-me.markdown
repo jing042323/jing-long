@@ -26,7 +26,7 @@ I have a passion for both Economics and Data Science and Python is the language 
 
 - **Research Assistant**, **School of Applied Economics**, **Renmin University of China**, 2021  
 Research area: renewables,  market power in electricity market.  
-Main tools: Python, R, PPT
+Main tools: Python, R, AMPL, PPT
 Main responsibility: economic modeling, data processing and analysis.  
 Achievements: one renewable ownership related paper(ready to submit).
 
@@ -75,7 +75,7 @@ Btw, I am good at making travel plans. I’d love to share if you need any trip 
 - **研究助理**, **应用经济学院**, **中国人民大学**, 2021  
 研究领域：新能源、电力市场中的市场力；  
 主要职责：经济学模型建模，数据处理与分析；  
-使用工具：Python, R, PPT；    
+使用工具：Python, R, AMPL, PPT；    
 主要成果：新能源所有权相关论文一篇（已完成，待提交)。
 
 - **研究员**, **知能汇融（北京）咨询有限公司**, 2019 \- 2020  
