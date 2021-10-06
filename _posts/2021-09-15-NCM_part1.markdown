@@ -81,7 +81,6 @@ The purpose of this analysis is to better understand the behavior of NCM users, 
 There are plenty of null values in the user demographics dataset, as it is normal that users don't want to give out their personal information during registering. Even though their demographic information is not complete, their behavior data are still worth investigating. Therefore, we include users with null value in the activity intensity analysis, while they are excluded from user demographics analysis.
 
 The code for section 2.1 to 2.4 is available here: [Appendix I](https://github.com/jing042323/Case-Study/blob/main/NCM/Appendix_I_User_Analysis-2.html).
-The code for section 2.5 is available here: [Appendix II](https://github.com/jing042323/Case-Study/tree/main/NCM).
 
 ## <span style="color:Coral"> 2.1 Usage Scenarios </span>
 
