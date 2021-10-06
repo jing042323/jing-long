@@ -43,9 +43,9 @@ Models to predict user activity based on users' early actions.
 
 <hr style="border:1.5px solid gray">
 
-## <span style="border-bottom:2px solid Coral;color:Coral">1. Introduction and Business Goals</span>
+# <span style="border-bottom:2px solid Coral;color:Coral">1. Introduction and Business Goals</span>
 
-### <span style="color:Coral"> About NCM </span>
+## <span style="color:Coral"> About NCM </span>
 
 NetEase Cloud Music (NCM) is one of the largest Chinese companies in the growing music/video streaming market. NCM has become very popular as a free music streaming service since 2013, with its major product being a mobile app with five main tabs:
 - Discovery (recommended albums and playlists)
@@ -58,7 +58,7 @@ The focus of this business report and the data challenge is on the Cloud Village
 - Music Square \- shows two vertical streams of music video cards recommended to a user by the NCM recommender system. Categories includes Music Collection, Hot Music, Musician, Live Music, Original Music, Music video, Dance,...
 - Karaoke Room \- shows two vertical streams of individual rooms for social acitivities such as chat, sing, games and even study. Users can join the existing rooms or create their own rooms.
 
-### <span style="color:Coral"> The Data </span>
+## <span style="color:Coral"> The Data </span>
 
 We are provided with four categories of data (impressions, cards, creators and users) from NCM Cloud Village fully described in Zhang et al.(2020). In particular, the data includes information for over 57 million Impressions associated with over 2 million users from November 1st to November 30th 2019. The impressions in the data refers to the display of a card to a user. Users in the data do not contain the entire population of users, but it is a randomly sampled subset of users from those who have accessed the tab at least once in the sample period. According to Zhang et al.(2020),the data is spread across 6 tables that can be joined and combined to offer a full representation of the events: 
 - Impression_data.csv - Impression level data (57.7 mil. rows) with 13 data fields including user actions
@@ -68,13 +68,13 @@ We are provided with four categories of data (impressions, cards, creators and u
 - Creator_stats.csv - Creator-day-level data (2.6 mil. rows) with daily summary statistics for creators
 - User_demographics.csv - User data (2 mil. rows) with static information on the users 
 
-### <span style="color:Coral"> Our Goals </span>
+## <span style="color:Coral"> Our Goals </span>
 
 Considering the data availability, we focus on the analysis of the **Music Square** in **Cloud Village**. The main goal of the report could be framed as understanding the NCM Cloud Village user base in terms of user activity and deriving insights and models that could help NCM differentiate users and develop customized recommender system, and ultimately improve the user activity and engagement. While there is no information on NCM current recommender system, using the datasets provided on cards impression and users demographic, user classification models and recommender systems could be designed using machine learning techniques, with either supervised learning or unsupervised learning model. The scope of this analysis is limited to developing an effective solution from the user perspective and we will not study on the creators' behaviour at this stage.  
 
 ***
 
-## <span style="border-bottom:2px solid Coral;color:Coral">2. User Characteristics and Engagement</span>
+# <span style="border-bottom:2px solid Coral;color:Coral">2. User Characteristics and Engagement</span>
 
 The purpose of this analysis is to better understand the behavior of NCM users, espeacially behaviour of active users relative to inactive users. The insights from this analysis can be consumed by various departments to improve the overall customer experience and engagement.  
 
@@ -83,7 +83,7 @@ There are plenty of null values in the user demographics dataset, as it is norma
 The code for section 2.1 to 2.4 is available here: [Appendix I](https://github.com/jing042323/Case-Study/blob/main/NCM/Appendix_I_User_Analysis-2.html).
 The code for section 2.5 is available here: [Appendix II](https://github.com/jing042323/Case-Study/tree/main/NCM).
 
-### <span style="color:Coral"> 2.1 Usage Scenarios </span>
+## <span style="color:Coral"> 2.1 Usage Scenarios </span>
 
 As we can see from the first graph below, which shows the number of impressions per day across the month, we observe a cyclical pattern with an increased level of activity at the weekends. Closer inspection of the data also reveals a daily cyclical patten, shown in the second figure below, where an increase in the impressions during lunch time and in the evening after work can be observed. From this we can infer the predominant use case for the application is to unwind and decompress outside of working hours.
 
@@ -94,7 +94,7 @@ As we can see from the first graph below, which shows the number of impressions 
 <img src="{{site.baseurl}}/assets/img/NCM/2_1_impr_day.png" height="180" width="700" />
 </p>
 
-### <span style="color:Coral"> 2.2 User Activity Intensity </span>
+## <span style="color:Coral"> 2.2 User Activity Intensity </span>
 
 In the dataset, NCM provides us with a column 'level' which shows the activity intensity of the user ranging from 0 to 10. The activity intensity level is a combination of a user’s app time and frequency of interactions with app; the smaller this number is, the less active the user is. (Zhang et al.(2020)). We will first take a look at the 'level' column.
 
@@ -118,11 +118,11 @@ The classes are imbalanced, with only nearly 20% of users satisfying the 2.338% 
 
 Having developed an understanding of active and inactive users, we then try to better understand the impact of some user features on their level of engagement.
 
-### <span style="color:Coral"> 2.3 User Demographics </span>
+## <span style="color:Coral"> 2.3 User Demographics </span>
 
 We have some user demographic information, including province, age and gender. In addition, user tenure(measured by the registered months) and the number of people a user has followed till December 1st are also provided. We then delve into the analysis of how active users differ from the inactive ones in terms of these user features.
 
-- #### Location
+- ### Location
 
 We combine our NCM data with the provincial GDP of China in 2019(from [Statista](https://www.statista.com/statistics/278557/gdp-of-china-by-region/)) to find out more about the geographic influence.
 
@@ -134,7 +134,7 @@ The average active rate among provinces is about 18% and nearly half of the prov
 
 Above all, we find that users from more developped regions are less likely to be active in general. The intuitive interpretation to this is that, users from more developped regions(provinces with higher GDP level) are more often live a hectic life so that they have less time for leisure. Moreover, these users face more diversified ways for entertainment, therefore it is harder to attract them and keep them addicted to the application. On the contrary, users from less developped regions may have more time and lower quality requirements.
 
-- #### Gender and Age
+- ### Gender and Age
 
 As we can find in the following figures, male users represents a larger proportion in active users than female users and the percentage of female users in inactive users is higher than that in active users. Hence, we can loosely infer that the application may be more appealing to the male users than to the female users.  
 
@@ -152,9 +152,9 @@ Among the youngest active and inactive users (12-16 years), girls are a majority
 <img src="{{site.baseurl}}/assets/img/NCM/2_3_gender_age.png" height="290" width="700" />
 </p>
 
-### <span style="color:Coral"> 2.4 User Behavior and Preferences </span>
+## <span style="color:Coral"> 2.4 User Behavior and Preferences </span>
 
-- #### Tenure
+- ### Tenure
 
 Having developed an understanding the demographic features of active and inactive users, we then seek to better understand the impact of tenure, defined as the length of their contract, on their level of engagement.
 
@@ -164,7 +164,7 @@ Having developed an understanding the demographic features of active and inactiv
 
 We observe that, on average, the CTR of longtime users(more than 6 months since users' first registration) is about 21% lower than that of the new users(less than 6 months since users' first registration). And a more detailed analysis shows that the average CTR for active users first peak at small registered months(smaller than 10 months), then decreases with the increase of registered months, and finally revert to a high level at large registered months(more than 60 months). Oppositely, for inactive users, the average CTR faces a upward trend along with the increase of registered months. There are many potential motivations driving these changes in behavior. One possible reason can be that people experiment with the platform and then lose their interest due to the poor user experience. If NCM could improve the ability of its algorithms to generate and display fresh content or exploration enabaling users to discover alternative materials, users were more likely to become long-term users as those highly engaged users with over 60 months of tenure and contribute more active behaviors. Moreover, we can find that new users are either very active users or very inactive users, which brings NCM a big challenge of how to attract and retain new users quickly.
 
-- #### Impression and Content
+- ### Impression and Content
 
 In addition to the analysis of user tenure, we look at users' activity patterns in comparison with the less engaged users based on impression dataset. We also review the behavior of the new users (tenure <= 6 months), as NCM may be particularly interested in being able to catch any early signs of high engagement.
 
@@ -189,7 +189,7 @@ We are also interested in the preference of users among cards of various content
 
 The plots above highlight the popularity patterns. The boxplots show the share of clicks, that cards of a particular content ID received during the month across all users, calculating by the percentage of clicks to total impressions a user is exposed to. The share of clicks for the majority of content types is below 5%, whereas around 4 visible bars enjoyed a share of clicks that reached over 10%. The content that appeals to new users is different from that of all users. For example, contentId '5002,5015,5094' is more popular among new users, while no clicks from new users for contentId '1001,2002,2010' and '1003,3000,1026' which enjoy popularity among all users.
 
-#### <span style="color:Coral"> In conclusion, our key findings from the data exploration are:  </span>
+### <span style="color:Coral"> In conclusion, our key findings from the data exploration are:  </span>
 - Location matters: users from less developped regions are more likely to be active.  
 - Gender matters: the application may be more appealing to the male users.  
 - Age matters: The user population, especially the active user population, for the application is young.  

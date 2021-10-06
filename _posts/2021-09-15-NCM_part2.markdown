@@ -42,13 +42,13 @@ Models to predict user activity based on users' early actions.
 
 <hr style="border:1.5px solid gray">
 
-## <span style="border-bottom:2px solid Coral;color:Coral">3. User Activity Prediction Model</span>
+# <span style="border-bottom:2px solid Coral;color:Coral">3. User Activity Prediction Model</span>
 
 As evident from the user characteristics in the previous sections, there is a ‘hub-and-tail’ type distribution when it comes to the activity levels of the users and popularity of content, i.e., there are a few highly active users and viral cards, and many middle to low activity users and low popularity content. This kind of distribution, also known as a Power Law Distribution, is very commonly seen in various aspects of social networks and is one of the roadblocks when it comes to setting up successful predictive models on social data (Muchnik, L., Pei, S., Parra, L. et al.,2013). Predictive models are additionally difficult because of factors like (i) user diversity – wherein a global model may not be applicable to all users, (ii) social influence – as user relationships can greatly influence activity and (ii) the dynamic nature of such networks where user behaviour can easily change over time (Zhu Y., Zhong E., Pan S.J., et.al, 2013).  
 
 Despite these obstacles, there is great inherent commercial value predicting the behaviour of a user. In the case of NCM , marketing and recommendation strategies can be more focused and differentiated for active vs. non-active users based on different desired end goals, resulting in reduced costs. With this motivation in mind, we looked to apply machine learning models and methodologies to predict whether a user will be active or inactive in the future based on their early actions.
 
-### <span style="color:Coral"> 3.1 Model Preparation </span>
+## <span style="color:Coral"> 3.1 Model Preparation </span>
 
 To set up the model, the individual impression level data from the ‘impression_data’ file (with 30 days of records) was grouped by ‘userId’ and the values transformed as below to get our desired input and target variables:
 - The first 10 days of data (‘dt’ <= 10) for each user is summed up to get 13 input variables, i.e., the summed activity of each user in the first 10 days including card impressions, clicks, comments, into personal homepage, shares, view comment, likes, view time and the demographic information of each user including province, age, gender, egistered months and total number of accounts followed.  
@@ -64,11 +64,11 @@ Additionally, there are some important aspects of this predictive problem that n
 
 Next, several machine learning models are applied, including Logistics Regression, SVM, Random Forest and Neural Networks. We shuffle and split the data to 60% training set, 20% validation set and 20% test set. For each model, we do hyperparameters tuning on training set and use the validation set to select the best hyperparameters(Jason Brownlee, 2019). We then use test set to evaluate the model performance using mean squared error and compute its confusion matrix and classification report.  
 
-### <span style="color:Coral"> 3.2 Logistics Regression </span>
+## <span style="color:Coral"> 3.2 Logistics Regression </span>
 
 Logistic regression is a popular machine learning algorithm for supervised classification problems, which is often used as a baseline model. It assumes that the classes are almost or perfectly linearly seperable. Here we have a binary logistic regression model with 2 possible outcomes, i.e., 1 for active and 0 for inactive. Data is fitted into a linear regression model which then be squashed within the range [0, 1] by a logistic function. If the squashed value is greater than a threshold value(0.5), we assign it a label 1, else we assign it a label 0. 
 
-#### <span style="color:Coral"> Hyperparameters Tuning </span>
+### <span style="color:Coral"> Hyperparameters Tuning </span>
 
 <span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
 
@@ -84,7 +84,7 @@ A high value of C tells the model to give high weight to the training data, and 
 <span style="border-bottom:1.5px solid DimGray">Tuning Technique </span>  
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.  
-#### <span style="color:Coral"> Model and Performance </span>
+### <span style="color:Coral"> Model and Performance </span>
 
 The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 and solver = liblinear. After retraining the model with the best setting of hyperparameters and apply the optimal logistic regression to the test set, we get the following results:  
 
@@ -95,11 +95,11 @@ The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 an
 
 The accuracy score on test set is about 0.72, and the accuracy score for our class of insterest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
 
-### <span style="color:Coral"> 3.3 SVM </span>
+## <span style="color:Coral"> 3.3 SVM </span>
 
 Support Vector Machine is another popular supervised learning algorithm which can be used for classification and regression problems as support vector classification (SVC) and support vector regression (SVR). The objective of the support vector machine algorithm is to find a hyperplane with the maximum margin in an N-dimensional space(N is the number of features) that distinctly classifies the data points. In case of non-linearly separable data, Kernelized SVM is used instead of the simple SVM.
 
-#### <span style="color:Coral"> Hyperparameters Tuning </span>
+### <span style="color:Coral"> Hyperparameters Tuning </span>
 
 <span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
 
@@ -119,13 +119,13 @@ Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’. It defines how f
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
-#### <span style="color:Coral"> Model and Performance </span>
+### <span style="color:Coral"> Model and Performance </span>
 
-### <span style="color:Coral"> 3.4 Random Forest </span>
+## <span style="color:Coral"> 3.4 Random Forest </span>
 
 Random Forest is a supervised machine learning algorithm that can be used to solve regression and classification problems. It utilizes ensemble learning that combines many classifiers to provide solutions to complex problems. Random forest involves constructing a large number of decision trees from bootstrap samples from the training dataset, like bagging. But random forest also involves selecting a subset of input features at each split point in the construction of trees which is better than bagging. By reducing the features to a random subset that may be considered at each split point, it forces each decision tree in the ensemble to be more different and these less correlated trees are averaged to make a prediction, which often results in better performance than bagged decision trees.(Page 320, An Introduction to Statistical Learning with Applications in R, 2014)
 
-#### <span style="color:Coral"> Hyperparameters Tuning </span>
+### <span style="color:Coral"> Hyperparameters Tuning </span>
 
 <span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
 
@@ -143,16 +143,16 @@ Ideally, this should be increased until no further improvement is seen in the mo
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
-#### <span style="color:Coral"> Model and Performance </span> 
+### <span style="color:Coral"> Model and Performance </span> 
 
-### <span style="color:Coral"> 3.5 Neural Networks </span>
+## <span style="color:Coral"> 3.5 Neural Networks </span>
 
 Neural networks are multi-layer networks of neurons that we use to make classification and predictions which can either be supervised or unsupervised. [Here](https://towardsdatascience.com/understanding-neural-networks-19020b758230) is a brief and clear introduction of Neural Networks from Tony Yiu, which I think is a very good reading to understand the basics of this algorithm. His opinion about the aspects that make Neural Networks special can be summarized as:
 >(i) Each neuron is its own miniature model with its own bias and set of incoming features and weights. (ii) Each individual model/neuron feeds into numerous other individual neurons across all the hidden layers of the model. So we end up with models plugged into other models in a way where the sum is greater than its parts. This allows neural networks to fit all the nooks and crannies of our data including the nonlinear parts (but beware overfitting — and definitely consider regularization to protect your model from underperforming when confronted with new and out of sample data). (iii) The versatility of the many interconnected models approach and the ability of the backpropagation process to efficiently and optimally set the weights and biases of each model lets the neural network to robustly “learn” from data in ways that many other algorithms cannot.  
 
 After understanding how this algorithm works, we start to tune hyperparatmers.
 
-#### <span style="color:Coral"> Hyperparameters Tuning </span> 
+### <span style="color:Coral"> Hyperparameters Tuning </span> 
 
 <span style="border-bottom:1.5px solid DimGray">Hyperparameters </span>
 
@@ -185,7 +185,7 @@ Here, we will try stochastic gradient descent with batch size 1. And 3 different
 
 We will apply the training-validation-test procedure to find out the best value for epochs and batch size.
 
-#### <span style="color:Coral"> Model and Performance </span> 
+### <span style="color:Coral"> Model and Performance </span> 
 
 
 

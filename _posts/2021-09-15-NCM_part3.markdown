@@ -42,7 +42,22 @@ Models to predict user activity based on users' early actions.
 
 <hr style="border:1.5px solid gray">
 
-## <span style="border-bottom:2px solid Coral;color:Coral">4. Recommender System</span>
+# <span style="border-bottom:2px solid Coral;color:Coral">4. Recommender System</span>
+
+Broadly speaking, recommender systems are algorithms used to suggest personalised, relevant content to users based on some underlying knowledge of both the item and the individual. With the growth of online platforms, a key product differentiator is the ability of an effective recommender system to provide the most engaging and valuable experience. In particular, the system must overcome the limitation of the relatively small real estate a screen provides to deliver targeted content of interest to a specific individual. There are several methods of delivering this capability that can be broadly categorised as follows:
+- **Content-based filtering** – Items are assigned metadata to reflect its characteristics. The algorithm then recommends items to a user that are similar to those they have previously selected.  
+- **Collaborative filtering** – This approach uses a matrix of item preferences across the user base. By analyzing similarities between users or items, the algorithm predicts what users might be interested in and make recommendations to them. There are user-based, item-based and model-based collaborative filtering.
+- **Contextual filtering** – Recommend items that match known information about the users’ current circumstances or environment, e.g., location, events or even the time of the day.
+- **Social and demographic filtering** – Recommend items that are liked by demographically similar users or people who have been tagged as 'friends'.  
+
+## <span style="color:Coral"> 4.1 A review of recommender system best practice </span>  
+
+In the following sections we explore how 3 of the world's largest content platform recommendation systems (YouTube, Netflix and Spotify) approach the challenges of developing an effective system and use this as a basis for our subsequent analysis.  
+
+### <span style="color:Coral"> Youtube </span>
+
+
+
 
 
 
