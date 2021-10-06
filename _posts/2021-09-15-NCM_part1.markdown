@@ -37,7 +37,7 @@ Models to predict user activity based on users' early actions.
 **5. Business Implications**  
 - Recommendations to NCM 
 
-<span style="color:Coral">**This post contains Section 1 and 2. Please check here for section 3, and here for Section 4 and 5.**</span>
+<span style="color:Coral">**This post contains Section 1 and 2. Please check [here](https://jing042323.github.io/jing-long/NCM_part2/) for section 3, and here for Section 4 and 5.**</span>
 
 
 <hr style="border:1.5px solid gray">
@@ -195,7 +195,7 @@ The plots above highlight the popularity patterns. The boxplots show the share o
 - User tenure matters: new users with less than 6 months of tenure and longtime users with over 60 months of tenure tend to be more active.  
 - Recommendation matters: volume of recommendations and average feed length are larger for active users and new users are less likely to get right recommendations.  
 
-Based on these findings, we next try some machine learning models to predict users' activity intensity level with user demographic information and early behavoirs. Please check it [here].
+Based on these findings, we next try some machine learning models to predict users' activity intensity level with user demographic information and early behavoirs. Please check it [here](https://jing042323.github.io/jing-long/NCM_part2/).
 
 
 
