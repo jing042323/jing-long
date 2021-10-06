@@ -1,0 +1,55 @@
+---
+layout: post
+title: NetEase Cloud Music Case Study - Part III
+date: 2021-09-15
+description: analysis of the NetEase Cloud Music (NCM) business case and the accompanying data set
+img: ncm.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [NetEase, Case Study, Business, Recommender System]
+---
+
+In order to help NetEase Cloud Music (NCM) enhance user experience and ultimately improve its user engagement, we aim to differentiate inactive users from active users and build a customized recommender system. In this report we provide a summary of our findings from analysis of the NCM business case and the accompanying data set. The code used to perform the analysis and develop recommender systems can be found in [my Github](https://github.com/jing042323/Case-Study/tree/main/NCM).
+
+This report is structured around 4 main sections:  
+**1. Introduction and Business Goals**  
+- About NCM  
+- The Data   
+- Our goals
+
+**2. User Characteristics and Engagement**  
+A detailed analysis of the NCM dataset to produce insight and understanding regarding user characteristics and preferences.  
+- Usage Scenarios  
+- User Activity Intensity  
+- User Demographics: location, gender and age  
+- User Behavior and Preferences: tenure, impression and content  
+
+**3. User Activity Prediction Model** 
+Models to predict user activity based on users' early actions. 
+- Logistic Regression  
+- SVM  
+- Random Forest  
+- Neural Networks  
+
+**4. Recommender System**  
+- A review of recommender system best practice
+- Recommender systems for NCM and their relative merits  
+
+**5. Business Implications**  
+- Recommendations to NCM 
+
+<span style="color:Coral">**This post contains Section 4 and 5. Please check [here](https://jing042323.github.io/jing-long/NCM_part1/) for section 1 and 2, and [here](https://jing042323.github.io/jing-long/NCM_part2/) for Section 3.**</span>
+
+
+<hr style="border:1.5px solid gray">
+
+## <span style="border-bottom:2px solid Coral;color:Coral">4. Recommender System</span>
+
+
+
+
+
+
+
+***
+## References
+
