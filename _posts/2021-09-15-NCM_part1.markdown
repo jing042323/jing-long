@@ -24,7 +24,7 @@ This report is structured around 4 main sections:
 - <span style="color:black">**User Demographics: location, gender and age**</span>  
 - <span style="color:black">**User Behavior and Preferences: tenure, impression and content**</span>  
 
-**3. User Activity Prediction Model** 
+**3. User Activity Prediction Model**  
 Models to predict user activity based on users' early actions. 
 - Logistic Regression  
 - SVM  
