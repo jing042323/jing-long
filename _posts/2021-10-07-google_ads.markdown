@@ -142,7 +142,7 @@ In addition to what we learn from our competitors about the advertisement design
 We use a worksheet from Google Ads which is very helpful in letting us better understand our business, goals and customers. By answering three question in the worksheet, i.e., What do I have to offer? What do I want to accomplish? Who are my customers?, we get our advertisement design. The full worksheet is avaible [here](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%201.pdf).  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/ads_design.png" height="410" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/ads_design.png" height="430" width="600" />  
 </p>
 
 - ### Landing Page Quality  
