@@ -133,6 +133,25 @@ A brief summary of average CPC of different keywords in our four target countrie
 
 Above all, it will be more efficient if we could differentiate our advertisement design and bidding strategy in different countries. However, due to the limited spending budget and running period of our ads, this time we will simplify the case by only launching the identical advertisement and trying the same bidding strategy in all our target countries.  
 
+## <span style="color:SeaGreen"> 2.2 Google Ads Design</span>  
+
+In addition to what we learn from our competitors about the advertisement design, we also keep in mind two important factors in improving the quality score of our ad, i.e., advertisement relevance and landing page quality.  
+
+- ### Advertisement Relevance  
+
+We use a worksheet from Google Ads which is very helpful in letting us better understand our business, goals and customers. By answering three question in the worksheet, i.e., What do I have to offer? What do I want to accomplish? Who are my customers?, we get our advertisement design. The full worksheet is avaible [here](https://viewscreen.githubusercontent.com/view/pdf?browser=safari&color_mode=light&commit=4b323134835aadfe9f0c0ed6e27fa8310d07747e&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a696e673034323332332f436173652d53747564792f346233323331333438333561616466653966306330656436653237666138333130643037373437652f476f6f676c655f4164732f417070656e646978253230312e706466&logged_in=true&nwo=jing042323%2FCase-Study&path=Google_Ads%2FAppendix+1.pdf&platform=mac&repository_id=407420216&repository_type=Repository&version=15#836049b8-1a7d-4825-bd81-c22fd57af2df).  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/ads_design.png" height="410" width="600" />  
+</p>
+
+- ### Landing Page Quality  
+
+After designing our ads, we make some small changes on the homepage of our website to make the guideline clearer. First, we create three new buttons on homepage and each of them is linked to the corresponding subpage. Second, we add a new “Contact Us” subpage and link it to the “Join Us” button on the homepage. All these changes make our website easier to navigate and it is probablely more efficient to direct visitors to our subpages and find out more details. 
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/homepage.png" height="190" width="600" />  
+</p>
 
 
 
