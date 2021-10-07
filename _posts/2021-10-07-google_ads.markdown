@@ -62,6 +62,7 @@ In summary, there are 3 steps we want our customers to accomplish in this Ads ca
 |     Cognitive   stage                                         |     Affective   stage                                       |     Behavioral   stage                  |
 |     Awareness & Interest                                      |     Evaluation & Trial                                      |     Decision & Confirmation             |  
 
+
 |     Advertising Objectives                                                                                                                                           |
 |---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
 |     Create awareness, i.e. Visit & navigate our website    |     Generate interest & desire, i.e. Like our content    |     Catch attention, i.e. Join us    |
