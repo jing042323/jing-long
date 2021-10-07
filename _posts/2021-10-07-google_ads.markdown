@@ -139,7 +139,7 @@ In addition to what we learn from our competitors about the advertisement design
 
 - ### Advertisement Relevance  
 
-We use a worksheet from Google Ads which is very helpful in letting us better understand our business, goals and customers. By answering three question in the worksheet, i.e., What do I have to offer? What do I want to accomplish? Who are my customers?, we get our advertisement design. The full worksheet is avaible [here](https://viewscreen.githubusercontent.com/view/pdf?browser=safari&color_mode=light&commit=4b323134835aadfe9f0c0ed6e27fa8310d07747e&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a696e673034323332332f436173652d53747564792f346233323331333438333561616466653966306330656436653237666138333130643037373437652f476f6f676c655f4164732f417070656e646978253230312e706466&logged_in=true&nwo=jing042323%2FCase-Study&path=Google_Ads%2FAppendix+1.pdf&platform=mac&repository_id=407420216&repository_type=Repository&version=15#836049b8-1a7d-4825-bd81-c22fd57af2df).  
+We use a worksheet from Google Ads which is very helpful in letting us better understand our business, goals and customers. By answering three question in the worksheet, i.e., What do I have to offer? What do I want to accomplish? Who are my customers?, we get our advertisement design. The full worksheet is avaible [here](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%201.pdf).  
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads/ads_design.png" height="410" width="600" />  
