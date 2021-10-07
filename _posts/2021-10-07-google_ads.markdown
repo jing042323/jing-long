@@ -150,7 +150,7 @@ We use a worksheet from Google Ads which is very helpful in letting us better un
 After designing our ads, we make some small changes on the homepage of our website to make the guideline clearer. First, we create three new buttons on homepage and each of them is linked to the corresponding subpage. Second, we add a new “Contact Us” subpage and link it to the “Join Us” button on the homepage. All these changes make our website easier to navigate and it is probablely more efficient to direct visitors to our subpages and find out more details. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/homepage.png" height="190" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/homepage.png" height="210" width="600" />  
 </p>
 
 
