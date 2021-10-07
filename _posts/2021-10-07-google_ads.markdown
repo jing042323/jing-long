@@ -48,23 +48,23 @@ At the early launch of our website, we spread the news informing close circle of
 
 Google is an indisputable champion of the world’s search engine market. The latest research indicates that Google has acquired 92.41% of the world’s market share (StatCounter, 2021). Google is where people search for what to do, where to go and what to buy. After comparing with other types of advertising, and due to our limited budget (£20 maximum), we decide to use Google Ads (Search Network) for our official website. Our ads have the chance to appear on Google at the moment when someone is looking for products or services like ours. A well-timed advertisement can turn visitors into valuable customers.  
 
-In our last round of word-of-mouth campaign, we have 80 visitors in total for 2 weeks. And based on information provided by Google Ads, it estimates that we can have at least 240 clicks for one month which is equivalent to about 60 clicks per week. Considering this information and our business objectives, we are ambitious and expect to double the number of visitors in our last round of campaign. Therefore, our primary target is to acquire **80** new visitors within **1** week(for example, 6 days) by running Google Ads.  
+In our last round of word-of-mouth campaign, we have 80 visitors in total for 2 weeks. And based on information provided by Google Ads, it estimates that we can have at least 240 clicks for one month which is equivalent to about 60 clicks per week. Considering this information and our business objectives, we are ambitious and expect to double the number of visitors in our last round of campaign. Therefore, our primary target is to acquire **80** new visitors within **1** week(for example, 6 days) by running Google Ads. Since our previous campaign among close circle of contacts were focusing on the four countries of Malaysia, Singapore, Ireland and United Kingdom, we plan to have the Google Ad published to these 4 countries as target market. 
 
 In addition, a typical customer’s path to purchase has 3 major steps: Awareness, Evaluation, Decision (Srinivasan, 2016). Thus, for our campaign to be effective, it is important that our marketing effort addresses the customer’s needs at each step of her decision-making process, and more importantly, nudges her positively towards making a purchase. Hence, our Ads campaign aims to let more people know and remember us, indicate our main service, and attract people to click our Ads.  
 
-|     Consumer Path To Purchase                                                                                                                                      |
-|---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
-|     Cognitive   stage                                         |     Affective   stage                                       |     Behavioral   stage                  |
-|     Awareness & Interest                                      |     Evaluation & Trial                                      |     Decision & Confirmation             |  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/consumer_path.png" height="180" width="600" />
+</p>
 
 In summary, there are 3 steps we want our customers to accomplish in this Ads campaign:
-- Visit & navigate our website  
--	Like our content  
-- Join us by providing their contact information  
+- Create awareness, i.e., visit & navigate our website  
+-	Generate interest & desire, i.e., like our content  
+- Catch Attention, i.e., join us by providing their contact information  
 
-|     Advertising Objectives                                                                                                                                           |
-|---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
-|     Create awareness, i.e. visit & navigate our website    |     Generate interest & desire, i.e. like our content    |     Catch attention, i.e. join us    |  
+*** 
+
+# <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">2. Ads Preparation</span> 
+
 
 
 
