@@ -12,7 +12,7 @@ In this project, we first design and launch our own website by Weebly, and use t
 
 The full report contains: 
 
-**1. Introcution**  
+**1. Introduction**  
 - Business Context  
 - Google Ads Campaign Objectives  
 
@@ -30,6 +30,9 @@ The full report contains:
 **4. Reflections and Lesson Learnt**  
 
 <hr style="border:1.5px solid gray">
+
+# <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">1. Introduction</span>  
+
 
 
 
