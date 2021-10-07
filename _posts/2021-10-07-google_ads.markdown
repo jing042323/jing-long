@@ -119,6 +119,7 @@ Taking keyword 'Travel Planning' as an example, the following table presents val
 We can see that situation varies in our target countries. The UK market faces the most intensive competition with the highest CPC and competitive density. Our competitors in the UK market pays on average $1.83 for one click on their ads. But the UK is also the largest market among the four countries as it has the biggest volume, which means there are a much greater number of visitors in the UK search for 'Travel planning'.  
 
 A brief summary of average CPC of different keywords in our four target countries is shown below:  
+
 |     Keyword                       |     Average CPC($)    |     Average CPC(£)    |
 |-----------------------------------|-----------------------|-----------------------|
 |     Travel   planning             |     0.96              |     0.69              |
