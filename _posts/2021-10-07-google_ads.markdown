@@ -82,7 +82,7 @@ Based on the above information, aiming to get a higher Ad Rank for our ads, we w
 As a new entrant, we lack information about the tourism industry. And whether our ads can be shown or not is closely related to the strategies of our competitors. By spying on our competitors, we can quickly learn about how competitive this industry is and what ads they have, and thus better make our advertising plan. The focus of our competitor analysis will be in two part, i.e., ad design and bidding strategy. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="600" />
+<img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="700" />
 </p>
 
 
