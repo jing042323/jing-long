@@ -65,9 +65,25 @@ In summary, there are 3 steps we want our customers to accomplish in this Ads ca
 
 # <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">2. Ads Preparation</span> 
 
+Before the design of our ads, let's look at some important information on how Google Ads works, especially the format of ads and how to win an advertisement position.  
 
+First, there are different ways to show ads on Google’s advertising networks, including (i) **Google Search Network** - advertising in the search results and partner websites; (ii) **Google Display Network** - visual advertisement by banners on different websites across the web. Considering the aims of this project and our spending budget, we will use **Google Search Network** to display our ads. Furthermore, Google uses **broad match** as the default match type in Google Ads. In this way, if someone searches something identical or similar to our selected keywords on Google, our ads will have the chance to appear over or next to the regular (i.e. organic) results.  
 
+Second, once our ads are designed and launched, whether they can be shown or not depends on **Ad Rank** which measures the ranking of our ads on the list of all advertisers who are competing for a particular keyword. Ad Rank is determined by 3 parameters including bid price, quality score and format impact. Bid price plays a key role in the ranking of our ads and is decided through our bidding strategy, while quality score is estimated by Google after evaluating the expected number of clicks(CTR), relevance and landing page quality of our ads. Format impact is not relevant in our case as it is more important in Google Display Network. So our final Ad Rank formula is **Ad Rank = Bid * Quality Score**.  
 
+Based on the above information, aiming to get a higher Ad Rank for our ads, we will start our ads by the following steps: 
+- gain insight on tourism advertising by competitor analysis;  
+- design our ads;  
+- decide our bidding strategy and keywords;  
+- publish our final ads on Google.  
+
+## <span style="color:SeaGreen"> 2.1 Competitor Analysis </span>  
+
+As a new entrant, we lack information about the tourism industry. And whether our ads can be shown or not is closely related to the strategies of our competitors. By spying on our competitors, we can quickly learn about how competitive this industry is and what ads they have, and thus better make our advertising plan. The focus of our competitor analysis will be in two part, i.e., ad design and bidding strategy. 
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="600" />
+</p>
 
 
 
