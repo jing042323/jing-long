@@ -65,7 +65,7 @@ In summary, there are 3 steps we want our customers to accomplish in this Ads ca
 
 |     Advertising Objectives                                                                                                                                           |
 |---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
-|     Create awareness, i.e. Visit & navigate our website    |     Generate interest & desire, i.e. Like our content    |     Catch attention, i.e. Join us    |
+|     Create awareness, i.e. visit & navigate our website    |     Generate interest & desire, i.e. like our content    |     Catch attention, i.e. join us    |
 
 
 
