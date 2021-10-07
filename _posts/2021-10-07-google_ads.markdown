@@ -85,7 +85,7 @@ As a new entrant, we lack information about the tourism industry. And whether ou
 <img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="600" />  
 </p>
 
-### Ad Design  
+- ### Ad Design  
 
 We searched several keywords relating to our business, such as tour planner and travel agency, to see who will be competing with us in Google Ads. We tried the same keyword search in four target countries of our ads, including Singapore, Malaysia, the UK and Ireland.  
 
@@ -97,7 +97,7 @@ However, there are still some differences among our target countries and these d
 <img src="{{site.baseurl}}/assets/img/Google_Ads/competitor1.png" height="220" width="600" />  
 </p>
 
-### Bidding Strategy  
+- ### Bidding Strategy  
 
 
 
