@@ -51,21 +51,21 @@ Google is an indisputable champion of the world’s search engine market. The la
 In our last round of word-of-mouth campaign, we have 80 visitors in total for 2 weeks. And based on information provided by Google Ads, it estimates that we can have at least 240 clicks for one month which is equivalent to about 60 clicks per week. Considering this information and our business objectives, we are ambitious and expect to double the number of visitors in our last round of campaign. Therefore, our primary target is to acquire **80** new visitors within **1** week(for example, 6 days) by running Google Ads.  
 
 In addition, a typical customer’s path to purchase has 3 major steps: Awareness, Evaluation, Decision (Srinivasan, 2016). Thus, for our campaign to be effective, it is important that our marketing effort addresses the customer’s needs at each step of her decision-making process, and more importantly, nudges her positively towards making a purchase. Hence, our Ads campaign aims to let more people know and remember us, indicate our main service, and attract people to click our Ads.  
+|     Consumer Path To Purchase                                                                                                                                      |
+|---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
+|     Cognitive   stage                                         |     Affective   stage                                       |     Behavioral   stage                  |
+|     Awareness & Interest                                      |     Evaluation & Trial                                      |     Decision & Confirmation             |  
 
 In summary, there are 3 steps we want our customers to accomplish in this Ads campaign:
 - Visit & navigate our website  
 -	Like our content  
 - Join us by providing their contact information  
 
-|     Consumer Path To Purchase                                                                                                                                      |
-|---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
-|     Cognitive   stage                                         |     Affective   stage                                       |     Behavioral   stage                  |
-|     Awareness & Interest                                      |     Evaluation & Trial                                      |     Decision & Confirmation             |  
-
-
 |     Advertising Objectives                                                                                                                                           |
 |---------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------|
-|     Create awareness, i.e. visit & navigate our website    |     Generate interest & desire, i.e. like our content    |     Catch attention, i.e. join us    |
+|     Create awareness, i.e. visit & navigate our website    |     Generate interest & desire, i.e. like our content    |     Catch attention, i.e. join us    |  
+
+
 
 
 
