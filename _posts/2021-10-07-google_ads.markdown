@@ -82,10 +82,22 @@ Based on the above information, aiming to get a higher Ad Rank for our ads, we w
 As a new entrant, we lack information about the tourism industry. And whether our ads can be shown or not is closely related to the strategies of our competitors. By spying on our competitors, we can quickly learn about how competitive this industry is and what ads they have, and thus better make our advertising plan. The focus of our competitor analysis will be in two part, i.e., ad design and bidding strategy. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="700" />
+<img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="600" />  
 </p>
 
+### Ad Design  
 
+We searched several keywords relating to our business, such as tour planner and travel agency, to see who will be competing with us in Google Ads. We tried the same keyword search in four target countries of our ads, including Singapore, Malaysia, the UK and Ireland.  
+
+According to our search results, we find that the advertisement contents from our potential competitors are quite similar in different countries. Most advertisements consist of a brief and clear introduction of the key products followed by an invitation to visiting the websites. In addition, words like 'free' and 'best' are widely used to attract and motivate visitors.  
+
+However, there are still some differences among our target countries and these differences may bring us some ideas on how to improve our ad design and set our bidding strategy in different competition environment. Firstly, when searching 'tour planner' in Google, most of the results are shown in 'trip planner' or 'travel planner' instead in the UK, which means 'trip' and 'travel' are perhaps more in line with English language habits. (The figure below shows an example of our search results: ‘tour planner’ and ‘travel agency’ searches in Google UK.) Therefore we need to pay attention to the use of words in our ad design, making it more acceptable to our target customers. Secondly, the number of ads shown is different in our target countries. For example, we get more ads displayed in Google UK than in Google Singapore when searching the same keywords. It could be caused by different advertising policies and intensity of competition in these countries.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/competitor1.png" height="220" width="600" />  
+</p>
+
+### Bidding Strategy  
 
 
 
