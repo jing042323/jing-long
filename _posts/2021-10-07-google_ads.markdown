@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [Google Ads, Google Analytics, keyword advertising]
 ---
 
-In this project, we first design and launch our own website by Weebly, and use tag manager to monitor the site via Google Analytics. Then, we use Google Paid/Keyword Advertising with a budget of £20 to bring visitors to our site. Our goal is to measure the effectiveness of our advertising plan and adjust our decision making through analysing the real data we collect over few weeks.  
+In this project, we first design and launch our own website by Weebly, and use tag manager to monitor the site via Google Analytics. Then, we use Google Paid/Keyword Advertising with a budget of £20 to bring visitors to our site. Our goal is to measure the effectiveness of our advertising plan and adjust our decision making through analysing the real data we collect over a few weeks.  
 
 The full report contains: 
 
