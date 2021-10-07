@@ -79,13 +79,13 @@ Based on the above information, aiming to get a higher Ad Rank for our ads, we w
 
 ## <span style="color:SeaGreen"> 2.1 Competitor Analysis </span>  
 
-As a new entrant, we lack information about the tourism industry. And whether our ads can be shown or not is closely related to the strategies of our competitors. By spying on our competitors, we can quickly learn about how competitive this industry is and what ads they have, and thus better make our advertising plan. The focus of our competitor analysis will be in two part, i.e., ad design and bidding strategy. 
+As a new entrant, we lack information about the tourism industry. And whether our ads can be shown or not is closely related to the strategies of our competitors. By spying on our competitors, we can quickly learn about how competitive this industry is and what ads they have, and thus better make our advertising plan. The focus of our competitor analysis will be in two part, i.e., advertisement design and bidding strategy. 
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads/spy.png" height="190" width="600" />  
 </p>
 
-- ### Ad Design  
+- ### Advertisement Design  
 
 We searched several keywords relating to our business, such as tour planner and travel agency, to see who will be competing with us in Google Ads. We tried the same keyword search in four target countries of our ads, including Singapore, Malaysia, the UK and Ireland.  
 
@@ -98,6 +98,39 @@ However, there are still some differences among our target countries and these d
 </p>
 
 - ### Bidding Strategy  
+
+Whether our ads can be shown successfully depends not only on our own bid price but also highly depends on the bidding strategies of our competitors. Understanding competitors’ actions plays a key role in the process of developing our own bidding strategy. There are some tools online to spy on our competitors, such as Auction Insights, SimilarWeb, Ahrefs, SEMRush, etc. (OMG, 2021). Most of these tools need registration and charge for service. Due to our limited budget, we chose [SEMRush](https://www.semrush.com/) which specializes in competitor data and provides free trials.  
+
+We checked CPC, keyword difficulty, volume and competitive density of a group of keywords in different countries. Values of these indexes show us how our potential competitors compete in the current advertising market and how hard for us to join and win the competition.  
+
+Taking keyword 'Travel Planning' as an example, the following table presents values of the indexes we mentioned above and the figure below is the screenshots of keyword overview in the UK, Singapore, Malaysia and Ireland.  
+
+|     Country      |     CPC($)    |     Keyword Difficulty    |     Volume    |     Competitive Density    |
+|------------------|---------------|---------------------------|---------------|----------------------------|
+|     The   UK     |     1.83      |     80%                   |     24000     |     0.37                   |
+|     Singapore    |     0.51      |     75%                   |     140       |     0.25                   |
+|     Malaysia     |     0.45      |     66%                   |     170       |     0.06                   |
+|     Ireland      |     1.03      |     /                     |     10        |     0.09                   |
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/competitor2.png" height="440" width="600" />  
+</p>
+
+We can see that situation varies in our target countries. The UK market faces the most intensive competition with the highest CPC and competitive density. Our competitors in the UK market pays on average $1.83 for one click on their ads. But the UK is also the largest market among the four countries as it has the biggest volume, which means there are a much greater number of visitors in the UK search for 'Travel planning'.  
+
+A brief summary of average CPC of different keywords in our four target countries is shown below:  
+|     Keyword                       |     Average CPC($)    |     Average CPC(£)    |
+|-----------------------------------|-----------------------|-----------------------|
+|     Travel   planning             |     0.96              |     0.69              |
+|     Travel   itinerary planner    |     0.74              |     0.53              |
+|     Travel   tips                 |     0.71              |     0.51              |
+|     Travel   agency               |     1.62              |     1.17              |
+|     Plan   your trip              |     1.29              |     0.93              |
+|     Travel   consulting           |     1.07              |     0.77              |
+|     City   tour                   |     0.48              |     0.35              |
+|     Culture   tour                |     1.05              |     0.76              |  
+
+Above all, it will be more efficient if we could differentiate our advertisement design and bidding strategy in different countries. However, due to the limited spending budget and running period of our ads, this time we will simplify the case by only launching the identical advertisement and trying the same bidding strategy in all our target countries.  
 
 
 
