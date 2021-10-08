@@ -329,7 +329,7 @@ From the above learning on bid price and adjustment made throughout the campaign
 We had our monitoring planned and done at 8.30 a.m. ~ 10.30 a.m. and 8.30 p.m. 10.30 p.m., considering that the ad campaign were published at Malaysia, Singapore, Ireland, U.K. with 8-hour difference. Looking at the users’ click behavior extracted from Google Analytics below, our monitoring could be timed in a different way, perhaps 3 times a day, with one in the morning 8.30 a.m. ~ 10.30 a.m., and another two in the evening, 5.00 p.m. ~ 7.00 p.m. and 10.00 pm.~ 11.00 p.m.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection1.png" height="160" width="400" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection1.png" height="130" width="400" />  
 </p>
 
 Then, we could have taken the advantage of digital marketing of having the real-time performance to have the marketing strategy (i.e. bid price, ad design, target market) evaluated more responsively to the campaign performance, by considering the users’ click trend, remaining budget value, CPC, keywords search performance and target market. 
@@ -337,7 +337,7 @@ Then, we could have taken the advantage of digital marketing of having the real-
 Looking into the trending of clicks and CPC over the period, as shown below, we can see that the CPC is trending down after bid price adjustment as the ad is still receiving increasing clicks over the campaign period.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection2.png" height="300" width="400" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection2.png" height="250" width="400" />  
 </p>
 
 If we have monitor the ad performance in a timely manner, looking into the detail of analytics instead of the default dashboard (the default dashboard in Google Ads shows number of impressions, clicks, total spend, and conversion), or if we have a purposely-built performance dashboard for monitoring, we could have adjusted the bid price earlier, and thus pressing the the CPC curve flatter and sooner.  
