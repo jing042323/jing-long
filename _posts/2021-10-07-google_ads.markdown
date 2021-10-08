@@ -113,7 +113,7 @@ Taking keyword 'Travel Planning' as an example, the following table presents val
 |     Ireland      |     1.03      |     /                     |     10        |     0.09                   |
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/competitor2.png" height="440" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/competitor2.png" height="420" width="600" />  
 </p>
 
 We can see that situation varies in our target countries. The UK market faces the most intensive competition with the highest CPC and competitive density. Our competitors in the UK market pays on average $1.83 for one click on their ads. But the UK is also the largest market among the four countries as it has the biggest volume, which means there are a much greater number of visitors in the UK search for 'Travel planning'.  
@@ -153,7 +153,44 @@ After designing our ads, we make some small changes on the homepage of our websi
 <img src="{{site.baseurl}}/assets/img/Google_Ads/homepage.png" height="210" width="600" />  
 </p>
 
+## <span style="color:SeaGreen"> 2.3 Bidding Strategy</span>  
 
+Our auction strategy should be set according to our business goal. As we describe in the introduction section, our first and fundamental business goal is to increase the number of website visitors. Therefore, cost-per-click (CPC) will be an appropriate metric to use in our bidding strategy.  
+
+We have checked the average CPC for a group of keywords in our competitor analysis. Among these keywords, we decide to use three of them, which are **Travel Planning**, **Travel Itinerary Planner** and **Travel Tips**. These three keywords have relatively lower average CPC and they are very well matched with our services as well as what we put in our ads. In addition, we add another keyword which is **Customized Travel Planner**. We fail to find competitors information on this keyword, but we think this one highlights one of our key selling points which is 'customized', and it is more specific so that it may not be as competitive as the other three keywords.  
+
+|     Keyword                        |     Average CPC($)    |     Average CPC(£)    |
+|------------------------------------|-----------------------|-----------------------|
+|     Travel   planning              |     0.96              |     0.69              |
+|     Travel   itinerary planner     |     0.74              |     0.53              |
+|     Travel   tips                  |     0.71              |     0.51              |
+|     Customized   travel planner    |     /                 |     /                 |
+|     Average                        |     0.8               |     0.58              |  
+
+Another important thing to consider is that our bidding strategy is capped by our spending budget which is £20. Combining this constraint with our business objective(acquiring 80 new visitors for 6 days), the whole bidding strategy becomes:  
+- Spending budget = £20  
+- Expected Ad running time = 6 days  
+- Objective = 80 new visitors(clicks) during ad running time  
+- Expected Clicks per day = 80/6 ≈ 13.3  
+Then we can get:  
+- Expected CPC = £20/80 = £0.25 per click  
+- Expected Daily Average Spend = Expected CPC * Expected Clicks per day 0.25*13.3 = £3.325  
+
+**In conclusion, our first bidding strategy will be setting four keywords, which are Travel Planning, Travel Itinerary Planner, Travel Tips and Customized Travel Planner, with a daily average spending of £3.30.** It is noticed that our expected CPC is relatively lower than the average CPC of our competitors (£0.25 < £0.58), which is mainly due to our small spending budget and the lower expected value one click brings to us. We will try this low expected CPC first and adjust our bidding strategy according to the real situation.
+
+## <span style="color:SeaGreen"> 2.4 Publishing Final Google Ads</span>  
+
+The following diagram shows the final Google Ads design and bid price used for our digital marketing campaign, using Google Ads. Our designed advertisement go live in 10th April 2021. 
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/ads_launch.png" height="380" width="480" />  
+</p>
+
+*** 
+
+# <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">3. Ads Effectiveness Analysis</span>  
+
+## <span style="color:SeaGreen"> 3.1 Summary of Ads Campaign </span>  
 
 
 
