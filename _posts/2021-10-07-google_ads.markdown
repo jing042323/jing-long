@@ -246,7 +246,7 @@ Over the course of our experiment, our website attracted both new (87%) and retu
 We will use the following metrics to measure the effectiveness of our campaign in each major step of the customer’s path to purchase:   
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/metrics.png" height="550" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/metrics.png" height="500" width="600" />  
 </p>
 
 - ### Effectiveness of our ad at Stage 1: Cognitive stage  
