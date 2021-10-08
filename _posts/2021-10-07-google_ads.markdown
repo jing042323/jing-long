@@ -289,7 +289,7 @@ On Day-3 morning (the 5th round of tracking), there are 35 clicks and 2 conversi
 On the Day-3 evening (the 6th round of tracking), we notice the total number of impressions increases in spite of the bid price reduction. It means our ad still appears in Google search result, and our bid price still beats our competitors' prices. However, there is no change in the number of clicks. Instead reducing the bid price again, we try another way to improve our ad campaign which is modifying our advertisement design as followed to make it more attractive.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/ad_change.png" height="200" width="400" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/ad_change.png" height="230" width="400" />  
 </p>
 
 Tracking was continued on the following days without change. Till 14th April 2021 (Day-5) morning, the ad has received 7720 impressions, 101 clicks and 5 conversions, with a total spending of £14.20. Although we do not exceeded budget, we decide to stop the campaign due to the following reasons:  
