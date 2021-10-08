@@ -172,7 +172,6 @@ Another important thing to consider is that our bidding strategy is capped by ou
 - Expected Ad running time = 6 days  
 - Objective = 80 new visitors(clicks) during ad running time  
 - Expected Clicks per day = 80/6 ≈ 13.3  
-Then we can get:  
 - Expected CPC = £20/80 = £0.25 per click  
 - Expected Daily Average Spend = Expected CPC * Expected Clicks per day 0.25*13.3 = £3.325  
 
@@ -183,7 +182,7 @@ Then we can get:
 The following diagram shows the final Google Ads design and bid price used for our digital marketing campaign, using Google Ads. Our designed advertisement go live in 10th April 2021. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/ads_launch.png" height="380" width="480" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/ads_launch.png" height="360" width="480" />  
 </p>
 
 *** 
