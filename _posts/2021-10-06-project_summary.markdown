@@ -19,7 +19,7 @@ Here are brief introdutions for each project I did and links of the full reports
 3. Constructing different recommender systems and discussing each one's merit and demerit. (available [here](https://jing042323.github.io/jing-long/NCM_part3/))  
 
 - **Data Volume**:  
-over 57 million impression data and 2 million user data.  
+over 57 million impression data and 2 million user data  
 - **Tools**:  
 PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)  
 
@@ -45,7 +45,7 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 3. Track and adjust the advertising plan according to the effectiveness evaluatation based on the real data from Google Analytics.  
 
 - **Data Volume**:  
-5 days of impression data and user data.  
+5 days of impression data and user data
 - **Tools**:  
 Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)  
 
