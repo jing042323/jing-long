@@ -251,6 +251,42 @@ We will use the following metrics to measure the effectiveness of our campaign i
 
 - ### Effectiveness of our ad at Stage 1: Cognitive stage  
 
+Only traffic brought in by Google search eventually clicks on the ‘Learn more’ button to find out more about our services. In addition, all other performance metrics (Session duration, Average page view per session, Bounce rate) are much better for traffic brought in via Google search than Content network. In fact, average session duration, number of page view per session were nearly 2 times higher. Such metrics likely translate to much more interest and higher brand awareness. Also, return users not only have lower bounce rate but also show much better performance metrics compared to new user. This is expected since such users likely return due to a previous good experience and are thus keen to explore our services further. 
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/stage1.png" height="350" width="500" />  
+</p>
+
+- ### Effectiveness of our ad at Stage 2: Affective stage - Like our content  
+
+Only traffic brought in by ‘Google search’ likes our pages. Also, we see that more than 40% of the traffic from Google search returns to our website while less than 6% of the traffic from Content network do so. This is aligned with our previous hypothesis that traffic from Content network is generally more passive as they are shown our ad most likely due to a loosely similar content they are browsing on. On the other hand, traffic from Google search is more likely to be active users searching for topics aligned to keywords we advertise. This is further reinforced by the fact that only traffic brought in by Google search likes our pages.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/stage2.png" height="180" width="500" />  
+</p>
+
+- ### Effectiveness of our ad at Stage 3: Behavioral stage - Join us
+
+During our experiment period, we have 5 clicks on the contact us page and only 3 visitors click on the ‘Join us’ button for users to send us their contact details. Hence, we are not able to draw much insights on the influence of our ad on the conversion rate with such limited data.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/stage3.png" height="180" width="250" />  
+</p>
+
+In summary, as a new company, there is huge potential for us to improve our brand awareness which is an important building block that can eventually lead to sales conversion. In view of this, it is positive that Google search ad improves traffic to our site and leads to more upper funnel activities. With more than 40% of the visitors returning to our site, this is possibly a good sign that the brand awareness brought by Google search ad is sticky. Moving forward, we can further conduct experiments to determine how we can turn this brand awareness into sales conversions, e.g., with better service differentiation etc. Moreover, we note that compared to traffic from Content network, traffic from Google search shows much higher average session duration, average page view per session, return rate and lower bounce rate. This further confirms our hypothesis that traffic from Google search is more engaged compared to traffic form Content network. However, such paid search advertising alone does not seem effective in improving our conversion rate. In fact, we received only 5 conversions over the period of our experiment. Moreover, the effectiveness of the advertisement on brand consideration cannot be quantified due to the low number of ‘likes’ events.  
+
+## <span style="color:SeaGreen"> 3.3 Tracking and Adjustment of Ads Campaign </span>  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
