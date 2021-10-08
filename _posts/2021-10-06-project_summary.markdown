@@ -37,7 +37,7 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 
 ### <span style="color:DodgerBlue"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span>  
 
-[Full Report|完整报告](https://jing042323.github.io/jing-long/google_ads/)  
+[Full Report 完整报告](https://jing042323.github.io/jing-long/google_ads/)  
 
 - **Major tasks**:
 1. Design and launch a website for product and service marketing by Weebly ([check it](http://tourscurator4u.weebly.com/)), and use tag manager to monitor the site via Google Analytics.   
