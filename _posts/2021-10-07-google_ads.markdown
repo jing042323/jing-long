@@ -254,7 +254,7 @@ We will use the following metrics to measure the effectiveness of our campaign i
 Only traffic brought in by Google search eventually clicks on the ‘Learn more’ button to find out more about our services. In addition, all other performance metrics (Session duration, Average page view per session, Bounce rate) are much better for traffic brought in via Google search than Content network. In fact, average session duration, number of page view per session were nearly 2 times higher. Such metrics likely translate to much more interest and higher brand awareness. Also, return users not only have lower bounce rate but also show much better performance metrics compared to new user. This is expected since such users likely return due to a previous good experience and are thus keen to explore our services further. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/stage1.png" height="350" width="500" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/stage1.png" height="350" width="600" />  
 </p>
 
 - ### Effectiveness of our ad at Stage 2: Affective stage - Like our content  
@@ -262,7 +262,7 @@ Only traffic brought in by Google search eventually clicks on the ‘Learn more�
 Only traffic brought in by ‘Google search’ likes our pages. Also, we see that more than 40% of the traffic from Google search returns to our website while less than 6% of the traffic from Content network do so. This is aligned with our previous hypothesis that traffic from Content network is generally more passive as they are shown our ad most likely due to a loosely similar content they are browsing on. On the other hand, traffic from Google search is more likely to be active users searching for topics aligned to keywords we advertise. This is further reinforced by the fact that only traffic brought in by Google search likes our pages.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/stage2.png" height="180" width="500" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/stage2.png" height="180" width="600" />  
 </p>
 
 - ### Effectiveness of our ad at Stage 3: Behavioral stage - Join us
@@ -270,13 +270,49 @@ Only traffic brought in by ‘Google search’ likes our pages. Also, we see tha
 During our experiment period, we have 5 clicks on the contact us page and only 3 visitors click on the ‘Join us’ button for users to send us their contact details. Hence, we are not able to draw much insights on the influence of our ad on the conversion rate with such limited data.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/stage3.png" height="180" width="250" />  
-</p>
+<img src="{{site.baseurl}}/assets/img/Google_Ads/stage3.png" height="180" width="300" />  
+</p>  
+
 
 In summary, as a new company, there is huge potential for us to improve our brand awareness which is an important building block that can eventually lead to sales conversion. In view of this, it is positive that Google search ad improves traffic to our site and leads to more upper funnel activities. With more than 40% of the visitors returning to our site, this is possibly a good sign that the brand awareness brought by Google search ad is sticky. Moving forward, we can further conduct experiments to determine how we can turn this brand awareness into sales conversions, e.g., with better service differentiation etc. Moreover, we note that compared to traffic from Content network, traffic from Google search shows much higher average session duration, average page view per session, return rate and lower bounce rate. This further confirms our hypothesis that traffic from Google search is more engaged compared to traffic form Content network. However, such paid search advertising alone does not seem effective in improving our conversion rate. In fact, we received only 5 conversions over the period of our experiment. Moreover, the effectiveness of the advertisement on brand consideration cannot be quantified due to the low number of ‘likes’ events.  
 
 ## <span style="color:SeaGreen"> 3.3 Tracking and Adjustment of Ads Campaign </span>  
 
+We monitor the Ad performance every 12-hour through Google Ads and Google Analytics. On Day-2 evening(the 4th round of tracking), we have 26 clicks on our ad from 447 impressions, amounting to £9.12 total spent which is approximately £0.35 per click (we estimate £0.25 per click). The cost spent is higher than what we estimate. Thus, we change the strategy to lower our bid-price by 25% from £3.30 to £2.48 so that we could have enough budget for the remaining 4 days. Meanwhile, we drop two keywords which are “Travel Planning” and “Customized Travel Planner”, as a result from the evaluation of the effectiveness of our keywords on Day-1 and Day-2. We find these two keywords have only one search record each, returning a high Cost-per-Click compared with other keywords. 
+
+On Day-3 morning (the 5th round of tracking), there are 35 clicks and 2 conversions recorded. It means 9 clicks are added after the price revision. A total of £11.05 is spent so far. Again, to control our budget, we decide to reduce the bid price by 20% to £1.98 (this is equivalent to 40% reduction from 1st bid price of £3.30), taking into considerations of the following:  
+- 55% of our budget (£20) is spend till Day-3 morning, with £8.95 left for another 4-day campaign.  
+- Cost-per-Click is £0.315, which is still higher than our initial budgeted bid price of £0.25.  
+- Minimum budget of £1.32 as required by Google Ads.  
+- Using a different bid price to test Ad-Rank.  
+
+On the Day-3 evening (the 6th round of tracking), we notice the total number of impressions increases in spite of the bid price reduction. It means our ad still appears in Google search result, and our bid price still beats our competitors' prices. However, there is no change in the number of clicks. Instead reducing the bid price again, we try another way to improve our ad campaign which is modifying our advertisement design as followed to make it more attractive.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/ad_change.png" height="200" width="400" />  
+</p>
+
+Tracking was continued on the following days without change. Till 14th April 2021 (Day-5) morning, the ad has received 7720 impressions, 101 clicks and 5 conversions, with a total spending of £14.20. Although we do not exceeded budget, we decide to stop the campaign due to the following reasons:  
+
+- High number of clicks (101) received in 4-day of campaign, far exceeding our initial target of 80 clicks within a week.  
+- The ad campaign returns with low conversions, with only 5 records. If we keep the ad running to complete the 6-day ad campaign, we are doubtful whether the conversion recorded would go beyond 10.
+
+The following table summarizes the tracking and adjustment made throughout the campaign:  
+
+|     Date                        |     Tracking Round    |     Bid Price    |     Change / Adjustment                                                                                                             |
+|---------------------------------|-----------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+|     Day-1: 10th   April 2021    |     -                 |     £3.30        |     Campaign   went live at 4.52 a.m.                                                                                               |
+|     Day-1: 10th   April 2021    |     1                 |     £3.30        |                                                                                                                                     |
+|     Day-1: 10th   April 2021    |     2                 |     £3.30        |                                                                                                                                     |
+|     Day-2: 11th   April 2021    |     3                 |     £2.48        |     Bid price   reduced 25% to £2.48                                                                                                |
+|     Day-2: 11th   April 2021    |     4                 |     £2.48        |     Ad design   changed.      Dropped   keywords “travel planning”, “customized travel planner”.     Modified ad   descriptions.    |
+|     Day-3: 12th   April 2021    |     5                 |     £1.98        |     Bid price   reduced 20% to £1.98                                                                                                |
+|     Day-3: 12th   April 2021    |     6                 |     £1.98        |                                                                                                                                     |
+|     Day-4: 13th   April 2021    |     7                 |     £1.98        |                                                                                                                                     |
+|     Day-4: 13th   April 2021    |     8                 |     £1.98        |                                                                                                                                     |
+|     Day-5: 14th   April 2021    |     9                 |     £1.98        |     Campaign   stopped                                                                                                              |  
+
+# <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">4. Reflections and Lesson Learnt</span>  
 
 
 
