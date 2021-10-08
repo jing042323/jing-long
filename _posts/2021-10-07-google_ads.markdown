@@ -368,7 +368,7 @@ Marketing through word-of-mouth and close contact recommendation would return a 
 
 ## Appendices  
 
-- [Appendix 1](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%201.pdf) - Worksheet: 3 questions to ask when writing your ad 
+- [Appendix 1](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%201.pdf) – Worksheet: 3 questions to ask when writing your ad 
 - [Appendix 2](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%202-%20Raw_data_from_Google_Analytics.xlsx) – Raw data from Google Analytics 
 
 
