@@ -329,7 +329,7 @@ From the above learning on bid price and adjustment made throughout the campaign
 We had our monitoring planned and done at 8.30 a.m. ~ 10.30 a.m. and 8.30 p.m. 10.30 p.m., considering that the ad campaign were published at Malaysia, Singapore, Ireland, U.K. with 8-hour difference. Looking at the users’ click behavior extracted from Google Analytics below, our monitoring could be timed in a different way, perhaps 3 times a day, with one in the morning 8.30 a.m. ~ 10.30 a.m., and another two in the evening, 5.00 p.m. ~ 7.00 p.m. and 10.00 pm.~ 11.00 p.m.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection1.png" height="180" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection1.png" height="160" width="400" />  
 </p>
 
 Then, we could have taken the advantage of digital marketing of having the real-time performance to have the marketing strategy (i.e. bid price, ad design, target market) evaluated more responsively to the campaign performance, by considering the users’ click trend, remaining budget value, CPC, keywords search performance and target market. 
@@ -337,7 +337,7 @@ Then, we could have taken the advantage of digital marketing of having the real-
 Looking into the trending of clicks and CPC over the period, as shown below, we can see that the CPC is trending down after bid price adjustment as the ad is still receiving increasing clicks over the campaign period.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection2.png" height="360" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection2.png" height="300" width="400" />  
 </p>
 
 If we have monitor the ad performance in a timely manner, looking into the detail of analytics instead of the default dashboard (the default dashboard in Google Ads shows number of impressions, clicks, total spend, and conversion), or if we have a purposely-built performance dashboard for monitoring, we could have adjusted the bid price earlier, and thus pressing the the CPC curve flatter and sooner.  
@@ -346,7 +346,7 @@ If we have monitor the ad performance in a timely manner, looking into the detai
 From our previous analysis, traffic brought in by Content network has much lower performance metric compared to traffic from Google search. This is likely due to the more passive nature of the traffic from Content network. Moreover, by having traffic from both Content network & Google search, it is tough for us to finetune our Google ad parameters. As seen in the graph below, when we first dropped our bid price and introduced new keywords on 11 Apr, the traffic from Content network & Google search started trending in opposite directions.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection3.png" height="200" width="600" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection3.png" height="300" width="500" />  
 </p>
 
 Hence, in the absence of a bigger budget to understand the different drivers behind the traffic from Google search vs Content network, we should consider turning off the traffic from Content network and instead focus on traffic from Google search which has performed better so far.  
@@ -361,10 +361,10 @@ Marketing through word-of-mouth and close contact recommendation would return a 
 
 ## Reference  
 
-- OMG, (2021) Google Ads Secrets: How to Spy on Competitors Adwords Edition. Available from: https://www.onlinemarketinggurus.com.au/blog/google-adwords-competitor-analysis [Accessed 15 April 2021].  
+- OMG, (2021) Google Ads Secrets: How to Spy on Competitors Adwords Edition. Available from: https://www.onlinemarketinggurus.com.au/blog/google-adwords-competitor-analysis.  
 - Srinivasan, S., Rutz, O., Pauwels, K. (2016). "Paths to and off purchase: Quantifying the impact of traditional marketing and online consumer activity". Journal of the Academy of Marketing Science. 44 (4), 440-453  
-- StatCounter, (2021). statcounter GlobalStats: Search Engine Market Share Worldwide. Available from: https://gs.statcounter.com/search-engine-market-share [Accessed 16th April 2021].  
-- WordStream, (2021) Content Network - Contextual Advertising Tips & Best Practices. Available from: https://www.wordstream.com/content-network#:~:text=A%20content%20network%20is%20a,Google%20AdWords%20allows%20contextual%20advertising. [Accessed 15 April 2021]
+- StatCounter, (2021). statcounter GlobalStats: Search Engine Market Share Worldwide. Available from: https://gs.statcounter.com/search-engine-market-share.  
+- WordStream, (2021) Content Network - Contextual Advertising Tips & Best Practices. Available from: https://www.wordstream.com/content-network#:~:text=A%20content%20network%20is%20a,Google%20AdWords%20allows%20contextual%20advertising.
 
 ## Appendices  
 
