@@ -314,11 +314,62 @@ The following table summarizes the tracking and adjustment made throughout the c
 
 # <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">4. Reflections and Lesson Learnt</span>  
 
+- ### Bid pricing strategy and competitor analysis  
 
+The initial bid price was set at £3.30, considering the cost-per-click information available from online competitor 'spying' tool SEMRush, as well as our historical click-through-rate and our spending budget. We set the bid price lower than the average bid price of competitors on Day-1 to test the search result, with expectation to raise the bid price higher when time progress to get to the right bid price. However, our initial strategy did not work, and we managed to have our ad published and appeared within top-two rank right from the beginning. Even though we had reduced 40% from the initial bid price to £1.98, our ads were still ranked either the second top or bottom first sometimes.  
 
+Our bid price strategy was influenced by the price range bar in Google Ads where the range started at £2 and went up to £9, with £3 as the default recommended price from Google Ads. Therefore setting £3.30 as the first bid price is reasonable, beating the recommended £3 price, and it was close to our own calculation. The second adjustment (£2.48) was made to be above £2, taking 25% reduction, and the final adjustment was made to be slightly below £2 (£1.98). All our bid prices put in were below competitors range from SEMRush, yet we could still have our ad appeared. This points to the two unknown factors in determining Ad-Rank: (i) website and ad quality of our competitors, i.e. their click-through-rate, and (ii) their bid price.  
 
+What we learned, the bar range in Google Ads and the online tool information gave the range and the average value of competitors’ CPC. An ad could go to the top if the bid price is low, yet commands a very high landing page quality (or CTR). In addition, having the ad published in four different countries made the bid price difficult. The bid price offered could be low for countries like the UK due to market competition, but still a good bid to hit a high Ad-Rank in another country like Malaysia, or Singapore. Price determination of the ad should have considered which target market could turn in more customers, rather than setting one price for all. Else, different ad campaign (and bid price) for different market should have been designed to avoid this complication. This is evident from the dicussions in section 3 above, where different countries have a different CPC and CTR.  
 
+- ### Ad campaign performance monitoring  
 
+From the above learning on bid price and adjustment made throughout the campaign, it is important for us to track the ad campaign performance closely so that we can evaluate and adjust the pricing strategy accordingly. We had set two times of monitoring per day (approximately 12-hour interval) looking into Google Ads and Google Analytics dashboard, since we had planned for a short 6-day campaign period with a tight budget. With the close monitoring of ad performance, we were able to adjust our bid price and ad design progressively.  
+
+We had our monitoring planned and done at 8.30 a.m. ~ 10.30 a.m. and 8.30 p.m. 10.30 p.m., considering that the ad campaign were published at Malaysia, Singapore, Ireland, U.K. with 8-hour difference. Looking at the users’ click behavior extracted from Google Analytics below, our monitoring could be timed in a different way, perhaps 3 times a day, with one in the morning 8.30 a.m. ~ 10.30 a.m., and another two in the evening, 5.00 p.m. ~ 7.00 p.m. and 10.00 pm.~ 11.00 p.m.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection1.png" height="180" width="600" />  
+</p>
+
+Then, we could have taken the advantage of digital marketing of having the real-time performance to have the marketing strategy (i.e. bid price, ad design, target market) evaluated more responsively to the campaign performance, by considering the users’ click trend, remaining budget value, CPC, keywords search performance and target market. 
+
+Looking into the trending of clicks and CPC over the period, as shown below, we can see that the CPC is trending down after bid price adjustment as the ad is still receiving increasing clicks over the campaign period.
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection2.png" height="360" width="600" />  
+</p>
+
+If we have monitor the ad performance in a timely manner, looking into the detail of analytics instead of the default dashboard (the default dashboard in Google Ads shows number of impressions, clicks, total spend, and conversion), or if we have a purposely-built performance dashboard for monitoring, we could have adjusted the bid price earlier, and thus pressing the the CPC curve flatter and sooner.  
+- ### Google Search vs. Content Network
+
+From our previous analysis, traffic brought in by Content network has much lower performance metric compared to traffic from Google search. This is likely due to the more passive nature of the traffic from Content network. Moreover, by having traffic from both Content network & Google search, it is tough for us to finetune our Google ad parameters. As seen in the graph below, when we first dropped our bid price and introduced new keywords on 11 Apr, the traffic from Content network & Google search started trending in opposite directions.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/reflection3.png" height="200" width="600" />  
+</p>
+
+Hence, in the absence of a bigger budget to understand the different drivers behind the traffic from Google search vs Content network, we should consider turning off the traffic from Content network and instead focus on traffic from Google search which has performed better so far.  
+
+- ### Website quality  
+
+We achieved initial ad campaign objective of getting 80 clicks (or 80 users) and spent within budget, but we had not able to ‘convert’ enough users as there were only 5 users who clicked on the “Contact Us” page, 3 users who clicked on the “Join Us” button, and 0 user had left their contact with us. Contrary to the previous campaign by word-of-mouth to close friends and network, the paid ad-campaign has performed poorly although the website received more session views through paid ad-campaign.  
+
+Marketing through word-of-mouth and close contact recommendation would return a higher success probably due to the trust factor. Getting a stranger to leave their contact with us would be an uphill task unless the offer from the website is attractive and convincing enough to woo the users, turning their consideration into a likely purchase. To achieve this, an improved website design with a more professional service outlook will be needed, for example, introduction of the business management team, business contact information, attractive travel itinerary offering, complementary notes from customers.  
+
+***
+
+## Reference  
+
+- OMG, (2021) Google Ads Secrets: How to Spy on Competitors Adwords Edition. Available from: https://www.onlinemarketinggurus.com.au/blog/google-adwords-competitor-analysis [Accessed 15 April 2021].  
+- Srinivasan, S., Rutz, O., Pauwels, K. (2016). "Paths to and off purchase: Quantifying the impact of traditional marketing and online consumer activity". Journal of the Academy of Marketing Science. 44 (4), 440-453  
+- StatCounter, (2021). statcounter GlobalStats: Search Engine Market Share Worldwide. Available from: https://gs.statcounter.com/search-engine-market-share [Accessed 16th April 2021].  
+- WordStream, (2021) Content Network - Contextual Advertising Tips & Best Practices. Available from: https://www.wordstream.com/content-network#:~:text=A%20content%20network%20is%20a,Google%20AdWords%20allows%20contextual%20advertising. [Accessed 15 April 2021]
+
+## Appendices  
+
+- [Appendix 1](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%201.pdf) - Worksheet: 3 questions to ask when writing your ad 
+- [Appendix 2](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/Appendix%202-%20Raw_data_from_Google_Analytics.xlsx) – Raw data from Google Analytics 
 
 
 
