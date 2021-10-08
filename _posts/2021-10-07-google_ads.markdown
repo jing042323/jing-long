@@ -179,7 +179,7 @@ Another important thing to consider is that our bidding strategy is capped by ou
 
 ## <span style="color:SeaGreen"> 2.4 Publishing Final Google Ads</span>  
 
-The following diagram shows the final Google Ads design and bid price used for our digital marketing campaign, using Google Ads. Our designed advertisement go live in 10th April 2021. 
+The following diagram shows the final Google Ads design and bid price used for our digital marketing campaign, using Google Ads. Our designed advertisement go live on 10th April 2021. 
 
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads/ads_launch.png" height="360" width="480" />  
@@ -190,6 +190,45 @@ The following diagram shows the final Google Ads design and bid price used for o
 # <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">3. Ads Effectiveness Analysis</span>  
 
 ## <span style="color:SeaGreen"> 3.1 Summary of Ads Campaign </span>  
+
+Our Google Ads campaign ran for 4 days (instead of 6 days) from 10th April 2021 (Saturday morning) to 14th April 2021 (Wednesday morning).
+The following figure contains the screenshots of keyword searching by Google search engine on the four keywords we selected on Day-1 of the campaign, where our advertisement appears in the search results. With the bid price of £3.30 when our advertisement go live on 10th April 2021, our ad is seen placed at either second top, or bottom first in keyword searching results from Malaysia, Singapore, Ireland, and the United Kingdom.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/search_results.png" height="360" width="520" />  
+</p>
+
+The Google Ads campaign dashboard on 14th April 2021 when the campaign stopped is shown below:  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/dashboard.png" height="170" width="400" />  
+</p>
+
+The Google Ads campaign summary is as followed:  
+
+|     Campaign   duration                                   |     4 days   (4.52a.m., 10th April 2021 ~ 9.30a.m. 14th April 2021)    |   
+|     Total   impressions                                   |     7,720                                                              |   
+|     Total   clicks                                        |     101                                                                |   
+|     Total   users                                         |     74                                                                 |   
+|     Total   sessions                                      |     84                                                                 |   
+|     Bounce   rate                                         |     75%                                                                |   
+|     Page per   session                                    |     1.67                                                               |   
+|     Click   through rate                                  |     1.31%                                                              |   
+|     Total   conversions (click   on page “Contact Us”)    |     5                                                                  |   
+|     Cost per   Click                                      |     £0.14   ($0.19)                                                    |   
+|     Total   spent                                         |     £14.26   ($19.60)                                                  |   
+
+The following three figures show CPC, number of clicks and click through rate respectively over the four different targeted countries:  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/results1.png" height="200" width="400" />  
+<img src="{{site.baseurl}}/assets/img/Google_Ads/results2.png" height="200" width="400" /> 
+<img src="{{site.baseurl}}/assets/img/Google_Ads/results3.png" height="200" width="400" />  
+</p>
+
+Before we delve into our analysis on the data, we perform a quick EDA and observe the following:
+
+
 
 
 
