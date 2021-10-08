@@ -228,8 +228,19 @@ The following three figures show CPC, number of clicks and click through rate re
 
 Before we delve into our analysis on the data, we perform a quick EDA and observe the following:
 
+- **Traffic type**:  
+Out of the 84 session visits we received, only 1 was triggered from organic search and 1 due to direct entry of our website. The rest of the traffic all came from paid search advertising. This is as expected as we are a very new brand with no track record and brand exposure. Thus, it is unlikely that potential customers will enter our website directly. Moreover, with limited experience in SEO to optimize our web, it is unlikely that our new brand will be featured highly in an organic search. Hence, in our analysis, we will remove the traffic from organic search and direct website entry. We will focus instead on the traffic from paid search advertising.  
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads/eda1.png" height="230" width="500" />  
+</p>
 
+- **Ad distribution network**:  
+Our main ad distribution network are Google search (~30%) and Content network (~70%), also known as Google Adsense (this network is selected by default in any Google Ads campaign). With Content network, our ad runs against related web content. Based on our research (Wordstream, 2021), we expect users brought in from Content network (where users were on pages loosely related to our website) to be much more passive compared to those from Google search (where users were actively searching for keywords related to our website). We will delve deeper and verify this hypothesis in our analysis below.  
 
+- **User type**:  
+Over the course of our experiment, our website attracted both new (87%) and return users (13%). Compared to new users, we expect return users to be much more engaged and interested in our services. We will delve deeper and verify this hypothesis in our analysis below.  
+
+## <span style="color:SeaGreen"> 3.2 Effectiveness of Ads Campaign </span>
 
 
