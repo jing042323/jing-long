@@ -26,8 +26,8 @@ I have a passion for both Economics and Data Science and Python is the language 
 
 - **Research Assistant**, **School of Applied Economics**, **Renmin University of China**, 2021  
 Research area: renewables,  market power in electricity market.  
-Main tools: Python, R, AMPL, PPT  
 Main responsibility: economic modeling, data processing and analysis.  
+Main tools: Python, R, AMPL, PPT  
 Achievements: one paper with topic of renewable ownership.
 
 - **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
