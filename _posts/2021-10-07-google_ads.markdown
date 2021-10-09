@@ -310,7 +310,9 @@ The following table summarizes the tracking and adjustment made throughout the c
 |     Day-3: 12th   April 2021    |     6                 |     £1.98        |                                                                                                                                     |
 |     Day-4: 13th   April 2021    |     7                 |     £1.98        |                                                                                                                                     |
 |     Day-4: 13th   April 2021    |     8                 |     £1.98        |                                                                                                                                     |
-|     Day-5: 14th   April 2021    |     9                 |     £1.98        |     Campaign   stopped                                                                                                              |  
+|     Day-5: 14th   April 2021    |     9                 |     £1.98        |     Campaign   stopped                                                                                                            |  
+
+***
 
 # <span style="border-bottom:2px solid SeaGreen;color:SeaGreen">4. Reflections and Lesson Learnt</span>  
 
