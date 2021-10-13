@@ -96,7 +96,7 @@ The optimal hyperparameters we get from Grid Search is C = 0.01, penalty = L1 an
 <img src="{{site.baseurl}}/assets/img/NCM/2_5_LR_coef.png" height="250" width="800" />
 </p> 
 
-The accuracy score on test set is about 0.7202, and the accuracy score for our class of insterest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
+The accuracy score on test set is about 0.7202, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. From the coefficient table above, we can find that sum of clicks and impressions have the largest magnitude of positive impact, implying that these actions are the most characteristic of active users. The variables registeredMonthCnt and age however show a negative impact but relatively small in magnitude. These are in line with our findings in the previous sections.
 
 ## <span style="color:Coral"> 3.3 SVM </span>
 
@@ -122,7 +122,15 @@ Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’. It defines how f
 
 We use Grid Search Cross-Validation instead of Train-Validation-Test to select the best model, parameterized by a grid of hyperparameters.
 
-### <span style="color:Coral"> Model and Performance </span>
+### <span style="color:Coral"> Model and Performance </span>  
+
+The optimal hyperparameters we get from Grid Search is C = 100, kernel = 'rbf' and gamma = 'scale'. After retraining the model with the best setting of hyperparameters and apply the optimal SVM to the test set, we get the following results: 
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_SVM.png" height="250" width="800" />
+</p>
+
+The accuracy score on test set is about 0.7228, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. 
 
 ## <span style="color:Coral"> 3.4 Random Forest </span>
 
