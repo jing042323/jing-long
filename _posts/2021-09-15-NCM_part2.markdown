@@ -127,7 +127,7 @@ We use Grid Search Cross-Validation instead of Train-Validation-Test to select t
 The optimal hyperparameters we get from Grid Search is C = 100, kernel = 'rbf' and gamma = 'scale'. After retraining the model with the best setting of hyperparameters and apply the optimal SVM to the test set, we get the following results: 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/NCM/2_5_SVM.png" height="250" width="800" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_SVM.png" height="300" width="800" />
 </p>
 
 The accuracy score on test set is about 0.7228, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. 
@@ -159,7 +159,7 @@ We use Grid Search Cross-Validation instead of Train-Validation-Test to select t
 The optimal hyperparameters we get from Grid Search is max_depth = 10, max_features = 'sqrt' and n_estimators = 1000. After retraining the model with the best setting of hyperparameters and apply the optimal Random Forest to the test set, we get the following results: 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/NCM/2_5_RF.png" height="250" width="800" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_RF.png" height="300" width="800" />
 </p>
 
 The accuracy score on test set is about 0.7507, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. And we can see that the there are less false negative cases in Random Forest compared with SVM and Logistic Regression.
