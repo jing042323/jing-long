@@ -65,7 +65,7 @@ Additionally, there are some important aspects of this predictive problem that n
 - Thirdly, the categorical variables 'province' and 'gender' are tranfered into dummy variables as dummy variables allows easy interpretation and calculation of the odds ratios, and increases the stability and significance of the coefficients (Garavaglia,et.al, 1998).  And we scale the numerical variables by Z-score normalization, bringing all features in the same standing, so that one significant feature doesn’t impact the model just because of its large magnitude.  
 - Lastly, we have a very large dataset, posing various technical challenges on top of the complexity of the algorithms at hand. For example, the complexity of SVM with nonlinear-kernels is approximately O(n_samples^2 * n_features). With our dataset, it takes forever for a personal laptop to get results. Therefore, for simplicity, we take randomly 10% of the data as a sample to train the models. Further methods of sample selection can be done to improve accuracy, such as instance selection.
 
-Next, several machine learning models are applied, including Logistics Regression, SVM, Random Forest and Neural Networks. We shuffle and split the data to 60% training set, 20% validation set and 20% test set. For each model, we do hyperparameters tuning on training set and use the validation set to select the best hyperparameters(Jason Brownlee, 2019). We then use test set to evaluate the model performance using mean squared error and compute its confusion matrix and classification report.
+Next, several machine learning models are applied, including Logistics Regression, SVM, Random Forest and Neural Networks. We shuffle and split the data to 60% training set, 20% validation set and 20% test set. For Logistics Regression, SVM and Random Forest, we use Grid Search Cross-Validation to get the optimal setting of hyperparameters. For Neural Networks, we do hyperparameters tuning on training set and use the validation set to select the best hyperparameters(Jason Brownlee, 2019). We then use test set to evaluate the model performance using accuracy score and mean squared error, and compute its confusion matrix and classification report.
 
 ## <span style="color:Coral"> 3.2 Logistics Regression </span>
 
@@ -180,17 +180,17 @@ When forming the model, there are two decisions that must be made regarding the 
 (i) If the data is linearly separable then you don't need any hidden layers at all.  
 (ii) If data is less complex and is having fewer dimensions or features then neural networks with 1 to 2 hidden layers would work.  
 (iii) If data is having large dimensions or features then to get an optimum solution, 3 to 5 hidden layers can be used.  
-In our case, we have the input shape of (950758, 47) which is large, 3 to 5 hidden layers are more suitable. But increasing hidden layers will also increase the complexity of the model, as the rationale behind the building of the first NN model trained is to keep it as simple as possibleso, we will choose 3 here which is the smallest among 3,4,5.  
+In our case, we have the 47 inputs which is relatively large, 3 to 5 hidden layers are more suitable. But increasing hidden layers will also increase the complexity of the model, as the rationale behind the building of the first NN model trained is to keep it as simple as possibleso, we will choose 3 here which is the smallest among 3,4,5.  
 
 - How many neurons will be in each of these layers?  
 (i) Input layer: the input layer will consist of 47 neurons.  
 (ii) Output layer: the output layer will have 2 neurons, one per class.  
 (iii) Hidden layer: when deciding the number of neurons on hidden layers, we can consider the following rules: The number of hidden neurons should be between the size of the input layer and the output layer. The most appropriate number of hidden neurons is sqrt(input layer nodes * output layer nodes). The number of hidden neurons should keep on decreasing in subsequent layers to get more and more close to pattern and feature extraction and to identify the target class.  
-According to these rules, we can get: The number of hidden neurons is between 2 and 47. The most appropriate number of hidden neurons is  sqrt(2*47) ≈ 10
+According to these rules, we can get that the number of hidden neurons is between 2 and 47 and the most appropriate number of hidden neurons is  sqrt(2*47) ≈ 10. We will set the number of neurons on the middle hidden layer as 10 and we choose 28 (which is in the middle of 47 and 10) and 6 (which is in the middle of 10 and 2) neurons for the first and third hidden layers.
  
-Above all, we are going to set 3 hidden layers with 47, 10 and 2 hidden neurons on each layer. The hidden layer employs the standard ‘ReLu’ activation function, while for the final layer as we had a binary classification task the ‘sigmoid’ function is used. 
+Above all, we are going to set in total 5 layers, including an input layer with 47 neurons, 3 hidden layers with 28, 10 and 6 hidden neurons on each layer. The hidden layers employs the standard ‘ReLu’ activation function, while for the final layer as we had a binary classification task the ‘sigmoid’ function is used. 
 
-In terms of the loss, we adopt the ‘binary_crossentropy’ function as it is the most apt one and used the ‘adam’ version of the stochastic gradient descent algorithm to minimize losses.  
+In terms of the loss, we adopt the ‘SparseCategoricalCrossentropy’ function as it produces a category index of the most likely matching category which can save space and also match with the format of our output. And we use the ‘adam’ version of the stochastic gradient descent algorithm to minimize losses.  
 
 Then we will change the epochs and batch size in the fit function.  
 
