@@ -212,6 +212,27 @@ We will apply the training-validation-test procedure to find out the best value 
 
 The accuracy score on test set is about 0.7322, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. 
 
+## <span style="color:Coral"> 3.6 Final Activity Prediction Model & Results </span>  
+
+The accuracy of above candidate models are summarized below:  
+
+|                     | Accuracy | Precision | Recall | F1-score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression | 0.7163   | 0.71      | 0.71   | 0.71     |
+| SVM                 | 0.7228   | 0.72      | 0.72   | 0.72     |
+| Random Forest       | 0.7507   | 0.75      | 0.73   | 0.73     |
+| Neural Networks     | 0.7322   | 0.73      | 0.71   | 0.71     |  
+
+We select the Random Forest with upsampling as our final chosen prediction model for the following reasons:  
+It has the highest accuracy score, as well as precision, recall and f1-score. And it shows the least false negative cases among all the candidate models. For NCM, predicting future active users correctly (and minimizing false negatives) would be of utmost commercial importance as they can target them accordingly to strategically build their user base and minimize the opportunity cost of losing incorrectly targeted future active users.  
+
+Still, the accuracy score of our selected model is not high enough. Some of the improvements we suggest moving forward would be to enable lifting the constraints faced by the current modelling environment, such as:
+- acquiring more computing power to train the model on more data,  
+- obtaining data over a longer time period,  
+- adding in social network features such as connections and relationships,  
+- as well as potentially structurally changing the problem into a multiclass one with activity level labels instead, based on a more sophisticated user activity criterion (this would require a different choice of base model).  
+
+Thus, our selected final model provides a springboard based on which more advanced modeling and tuning can be conducted, given additional resources, to achieve increased accuracy metrics.
 
 ***
 ## References
