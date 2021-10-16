@@ -202,13 +202,15 @@ Here, we will try stochastic gradient descent with batch size 1. And 3 different
 
 <span style="border-bottom:1.5px solid DimGray">Tuning Technique </span> 
 
-We will apply the training-validation-test procedure to find out the best value for epochs and batch size.
+We will apply the training-validation-test procedure to find out the best value for epochs.
 
 ### <span style="color:Coral"> Model and Performance </span> 
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_NN.png" height="300" width="800" />
+</p>
 
-
-
+The accuracy score on test set is about 0.7322, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. 
 
 
 ***
