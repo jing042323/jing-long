@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NetEase Cloud Music Case Study - Part III
+title: NetEase Cloud Music Case Study - Part III - Recommender System
 date: 2021-09-13
 description: analysis of the NetEase Cloud Music (NCM) business case and the accompanying data set
 img: ncm_part3.png # Add image post (optional)
