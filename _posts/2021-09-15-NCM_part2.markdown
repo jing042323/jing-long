@@ -207,7 +207,7 @@ We will apply the training-validation-test procedure to find out the best value 
 ### <span style="color:Coral"> Model and Performance </span> 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/NCM/2_5_NN.png" height="300" width="800" />
+<img src="{{site.baseurl}}/assets/img/NCM/2_5_NN.png" height="270" width="800" />
 </p>
 
 The accuracy score on test set is about 0.7322, and the accuracy score for our class of interest (active user) is higher than that of the inactive class. 
