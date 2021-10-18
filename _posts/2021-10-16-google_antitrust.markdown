@@ -26,7 +26,7 @@ The report presents in the following format:
 
 Recently Google has been subjected to multiple antitrust cases in many countries. Google is alleged to be abusing its monopoly and network power. In this report, a case study on Google, focusing on the mobile access segment, has been carried out. Analysis on its practices on mobile operating system, mobile apps, network effect and a few learning from other antitrust cases have revealed the following:  
 
-**i.	Google’s dominance in mobile operating system market:**  
+**i.	Google’s dominance in mobile operating system market**  
 Android represents the largest market share of worldwide mobile operating system market. Google abuses its market power and uses various strategies to maintain this dominance, including (1) accessing real-time and vast amount of user data; (2) using contractual restrictions to favor its own applications; (3) acquisition of other tech companies to expand its market share.  
 
 **ii.	Dominance of Android’s default applications**  
@@ -42,7 +42,7 @@ The above findings have shown that Google’s practices have indeed reinforce it
 
 ***
 
-# <span style="border-bottom:2px solid yellow;color:yellow">2. Summary of the background</span>  
+# <span style="border-bottom:2px solid orange;color:orange">2. Summary of the background</span>  
 
 
 
