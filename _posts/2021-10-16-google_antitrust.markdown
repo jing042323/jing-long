@@ -87,7 +87,7 @@ It is with this trend in mind that we will approach the case study on Google ant
 Bala & Srinivasa (2016) has provided a framework showing the mobile industry stack that is comprised of four different functional layers, where each functional layer will be depending on the lower layer. From the lens of mobile users, the browser app used will be depending on the apps installed from distribution platform like Google Play, or App Store. Whether the distribution platform is Google Play or App Store will be depending on the mobile operating system (i.e. Android, iOS), and whether the mobile device like Samsung, Apple, Huawei is adopting Android or iOS as its operating system.  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_antitrust/3.png" height="300" width="200" />
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/3.png" height="280" width="230" />
 </p> 
 
 Likewise, looking through the mobile industry stack from Google’s viewpoint, Google has required all the mobile device manufacturers that are using Android operating system to have Google Play or other Google key proprietary apps (e.g. Search, Maps, YouTube, and etc) pre-installed, thus giving it advantage in controlling the applications layer (Bala & Srinivasa, 2016).  
