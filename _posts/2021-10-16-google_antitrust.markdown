@@ -16,10 +16,14 @@ This project helps us to gain a thorough understanding of digital marketing, the
 The report presents in the following format:  
 
 **1. Brief synopsis of our position and argument**  
+
 **2. Summary of the background**  
 - Overview of Google  
 - Summary of Google’s Antitrust Cases  
+
 **3. Analysis**  
+- Google’s dominance in mobile operating system market  
+- 
 **4. Proposal**  
 
 <hr style="border:1.5px solid gray">
@@ -66,10 +70,36 @@ Against the backdrop of Google antitrust allegations, we will perform a case stu
 
 # <span style="border-bottom:2px solid green;color:green">3. Analysis</span> 
 
+The use of mobile devices to access websites have been increasing over the years. The mobile device website traffic share has grown from 31% in early year 2015 to around 50% in year 2020 (Statista, 2020). Meanwhile the mobile share of organic search engine increased more than 2 folds from year 2013 to 62% in year 2020 (Statista, 2020). 
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/1.png" height="250" width="800" />
+</p>  
 
+Another report from Statista (2020) has shown online shopping traffic contribution by mobile devices of more than 50%.  
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/2.png" height="250" width="800" />
+</p>  
 
+It is with this trend in mind that we will approach the case study on Google antitrust by focusing on the mobile segment. We will analyze Google’s dominance in the mobile industry in area of operating system, applications (apps) and mobile channel of digital marking.  
+
+Bala & Srinivasa (2016) has provided a framework showing the mobile industry stack that is comprised of four different functional layers, where each functional layer will be depending on the lower layer. From the lens of mobile users, the browser app used will be depending on the apps installed from distribution platform like Google Play, or App Store. Whether the distribution platform is Google Play or App Store will be depending on the mobile operating system (i.e. Android, iOS), and whether the mobile device like Samsung, Apple, Huawei is adopting Android or iOS as its operating system.  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/3.png" height="300" width="200" />
+</p> 
+
+Likewise, looking through the mobile industry stack from Google’s viewpoint, Google has required all the mobile device manufacturers that are using Android operating system to have Google Play or other Google key proprietary apps (e.g. Search, Maps, YouTube, and etc) pre-installed, thus giving it advantage in controlling the applications layer (Bala & Srinivasa, 2016).  
+
+Using the "Mobile Industry Slack", we will analyze how Google builds its dominance in the top three layers, its incentives in capturing the mobile access segment, by looking into:
+- Mobile operating system  
+- Android default applications  
+- Cross market strength and network  
+
+In addition, we will also use other antitrust cases or new development in technology field, i.e. fintech, as learning points in arguing our position that Google is abusing its monopoly and network power, and we will then propose for changes based on our analysis.  
+
+## <span style="color:green"> 3.1 Google’s dominance in mobile operating system market </span> 
 
 
 
