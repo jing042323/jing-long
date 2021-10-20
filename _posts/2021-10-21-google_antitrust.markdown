@@ -354,4 +354,4 @@ Lastly, consumers should start taking active steps to lobby for greater transpar
 
 ## Reference 
 
-Please check <a href="github.com/jing042323/Case-Study/blob/main/Google_antitrust/References.pdf" target="_blank">Here.</a>
+Please check [here](https://htmlpreview.github.io/?https://github.com/jing042323/Case-Study/blob/main/Google_antitrust/References.html).
