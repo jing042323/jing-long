@@ -9,7 +9,7 @@ tags: Google, Antitrust
 ---
 
 Google is currently facing anti-trust actions in many different regions. Moving first are the ones in the U.S and Australia, and EU is also following. In this project, we first read the basic background readings, do some research and take the following position for discussion:  
-**_Making a case against the current structure and practices, arguing that Google is abusing its monopoly and network power, and proposing a radical change in the platform._**  
+**Making a case against the current structure and practices, arguing that Google is abusing its monopoly and network power, and proposing a radical change in the platform.**  
 
 This project helps us to gain a thorough understanding of digital marketing, the peculiar network and platform power inherent in this kind of marketing and the structural issues that are causing so many problems to so many businesses.  
 
