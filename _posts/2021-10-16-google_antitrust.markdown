@@ -142,7 +142,7 @@ Google invested in Android and realized it could be used to extend its dominance
 As Android continues to gain market share, its demand grows and also the number of pre-installed Google Apps increases. We can see from the graph below that 7 of 15 most popular smartphone applications in the U.S. are from Google and 4 of them reach more than 50% of mobile audience. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_antitrust/5.png" height="400" width="300" />
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/5.png" height="300" width="280" />
 </p>
 
 Google is crowding out other applications and consuming a lot of memory on devices, stuffing users’ mobile phones with applications that they don’t need.   
@@ -319,7 +319,7 @@ Our last pillar is to define technology standards which big tech must adopt to a
 Given Open bank’s widespread success in countries like China (see diagram below), we are confident that a similar holistic regulatory framework like Open tech can work as it lower the barrier of entry and encourages competition and innovation from smaller firms while protecting user’s data at the same time.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_antitrust/12.png" height="600" width="500" />
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/12.png" height="400" width="400" />
 </p>
 
 ## <span style="color:DodgerBlue">4.3 Common data storage platform</span>   
