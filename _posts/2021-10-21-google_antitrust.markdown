@@ -351,3 +351,7 @@ Antitrust case against Google and the likes should bring the industry together i
 Lastly, consumers should start taking active steps to lobby for greater transparency and standards in personal data usage. Although consumers in general care about privacy, a survey from Redman & Waitman (2020) showed that only 32% of such consumers are willing to act to protect their privacy. (e.g. switch providers over data sharing policies). Such complacency might be precisely the reason for the lack of motivation of the big tech companies to improve their data governing and sharing standards.  
 
 *** 
+
+## Reference 
+
+Please check [here](https://docs.google.com/viewer?url=https://github.com/jing042323/Case-Study/blob/main/Google_antitrust/References.pdf) for the reference.
