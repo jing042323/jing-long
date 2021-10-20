@@ -33,7 +33,7 @@ The report presents in the following format:
 - Open tech standard  
 - Common data storage platform  
 
-**5. Conclusion – Where do we go next?  
+**5. Conclusion – Where do we go next?**  
 - Google  
 - Regulators  
 - Industry  
