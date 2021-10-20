@@ -142,7 +142,7 @@ Google invested in Android and realized it could be used to extend its dominance
 As Android continues to gain market share, its demand grows and also the number of pre-installed Google Apps increases. We can see from the graph below that 7 of 15 most popular smartphone applications in the U.S. are from Google and 4 of them reach more than 50% of mobile audience. 
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_antitrust/5.png" height="500" width="300" />
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/5.png" height="400" width="300" />
 </p>
 
 Google is crowding out other applications and consuming a lot of memory on devices, stuffing users’ mobile phones with applications that they don’t need.   
