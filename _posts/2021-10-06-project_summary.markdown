@@ -10,12 +10,12 @@ tags: [project, case study]
 
 Here are brief introdutions for each project I did and links of the full reports are provided.
 # Summary of projects
-1. [NetEase Cloud Music Case Study | 网易云音乐案例分析](### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span>)
+1. [NetEase Cloud Music Case Study 网易云音乐案例分析](#netease)
 
 
 
 ***
-### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span>
+### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span> <a name="netease"></a>
 
 - **Major tasks**:
 1. Analysis on user characteristics and preferences to differentiate inactive users from active users. (available [here](https://jing042323.github.io/jing-long/NCM_part1/))  
