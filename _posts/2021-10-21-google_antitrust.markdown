@@ -296,7 +296,7 @@ Breaking up this pre-installation apps, not only extra storage capacity could be
 
 Consequently, installation of Google proprietary apps by users by choice would provide a strong argument to Google to defend themselves against antitrust case, as their dominance (if Google proprietary apps like Google Search, Google Map, etc have maintain as the preferred choice) in the market are determined by the customers, and not by built-in contractual advantage with the mobile device manufacturers.   
 
-- **introducing ‘Opt-in’ feature, instead of ‘Opt-out’ feature in Google apps**  
+- **Introducing ‘Opt-in’ feature, instead of ‘Opt-out’ feature in Google apps**  
 
 Other than the break-up between Android mobile operating system and pre-installation apps, another feature could be introduced to Google proprietary apps, for users to ‘opt-in’ extra features, instead of the current normal practice of ‘opt-out’ selection. For example, if users would like to receive advertisement when they do search using Google Search or Chrome, they would have to select ‘opt-in’ in the browser setting to have advertisement appear together. Users of Google Ads, will have to ‘opt-in’ for their advertisement appearing in Google Network Partners (like YouTube) in order to gain extra ad appearance through multiple channels, instead of the current default setting where the user will have to untick and select ‘opt-out’ of those additional features. Again, it is giving the right to user for a conscious choice. It is the same case like ordering fool when reading a menu in restaurant. Both set meals, and a la carte appear with their prices in the menu for the customer to choose; rather than having a default meal sets for diners to opt-out individual meal, making a difficult thinking situation for the diners.  
 
@@ -319,7 +319,7 @@ Our last pillar is to define technology standards which big tech must adopt to a
 Given Open bank’s widespread success in countries like China (see diagram below), we are confident that a similar holistic regulatory framework like Open tech can work as it lower the barrier of entry and encourages competition and innovation from smaller firms while protecting user’s data at the same time.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/Google_antitrust/12.png" height="400" width="400" />
+<img src="{{site.baseurl}}/assets/img/Google_antitrust/12.png" height="300" width="400" />
 </p>
 
 ## <span style="color:DodgerBlue">4.3 Common data storage platform</span>   
