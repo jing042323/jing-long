@@ -9,9 +9,10 @@ tags: [project, case study]
 ---
 
 Here are brief introdutions for each project I did and links of the full reports are provided.
-# Summary of projects
-1. [NetEase Cloud Music Case Study 网易云音乐案例分析](#netease)
-
+### Summary of projects
+1. [NetEase Cloud Music Case Study 网易云音乐案例分析](#netease)  
+2. [Google Ads Campaign 谷歌广告投放商业实践与分析](#google_ads)  
+3. [Google Antitrust Case 谷歌反垄断案例分析](#google_antitrust)
 
 
 ***
@@ -39,7 +40,7 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 
 ***
 
-### <span style="color:DodgerBlue"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span>  
+### <span style="color:DodgerBlue"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
 
 [Full Report 完整报告](https://jing042323.github.io/jing-long/google_ads/)  
 
@@ -65,7 +66,7 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
 ***
 
-### <span style="color:DodgerBlue"> Google Antitrust Case | 谷歌反垄断案例分析</span>  
+### <span style="color:DodgerBlue"> Google Antitrust Case | 谷歌反垄断案例分析</span><a name="google_antitrust"></a>
 
 [Full Report 完整报告](https://jing042323.github.io/jing-long/google_antitrust/)  
 
