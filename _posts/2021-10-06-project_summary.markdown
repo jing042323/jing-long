@@ -38,7 +38,8 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)
 - **工具**：  
 PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。 
 
-[Back to catalog 返回目录](#main)
+[Back to catalog 返回目录](#main)  
+
 ***
 
 ### <span style="color:DodgerBlue"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
@@ -65,7 +66,8 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)
 - **工具**：  
 Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
-[Back to catalog 返回目录](#main)
+[Back to catalog 返回目录](#main)  
+
 ***
 
 ### <span style="color:DodgerBlue"> Google Antitrust Case | 谷歌反垄断案例分析</span><a name="google_antitrust"></a>
@@ -88,7 +90,8 @@ This project helps to gain a thorough understanding of digital marketing, the pe
 3. 总结从其他反垄断案件、数据透明度和金融科技竞争方面的学习。  
 4. 向谷歌、监管机构、行业和消费者提供对策和建议，包括谷歌移动系统接入产品和服务的拆分、开放技术标准和通用数据存储平台等。  
 
-[Back to catalog 返回目录](#main)
+[Back to catalog 返回目录](#main)  
+
 ***
 
 
