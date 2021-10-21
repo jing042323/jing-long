@@ -90,7 +90,7 @@ This project helps to gain a thorough understanding of digital marketing, the pe
 3. 总结从其他反垄断案件、数据透明度和金融科技竞争方面的学习。  
 4. 向谷歌、监管机构、行业和消费者提供对策和建议，包括谷歌移动系统接入产品和服务的拆分、开放技术标准和通用数据存储平台等。  
 
-<font size="0.8"> [Back to catalog 返回目录](#main) </font> 
+[<font size="0.8">Back to catalog 返回目录</font>](#main)  
 
 ***
 
