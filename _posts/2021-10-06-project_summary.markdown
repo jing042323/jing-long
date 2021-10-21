@@ -61,6 +61,28 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
 ***
 
+### <span style="color:DodgerBlue"> Google Antitrust Case | 谷歌反垄断案例分析</span>  
+
+[Full Report 完整报告](https://jing042323.github.io/jing-long/google_antitrust/)  
+
+This project helps to gain a thorough understanding of digital marketing, the peculiar network and platform power inherent in this kind of marketing and the structural issues that are causing so many problems to so many businesses.  
+
+- **Major tasks**:
+1. Literature review and research on the background, including overview of Google and its antitrust cases.  
+2. Analysis on Google's dominance, cross-market strengths and network power in different markets, such as mobile operating system market and Android's default applications.  
+3. Summarize the learning from other antitrust cases and emerging enforcement on data transparency and competition for fintech.  
+4. Provide proposals and recommendations to Google, regulator, industry and consumer, including break-up of Google mobile access product/services, open tech standard and common data storage platform.  
+
+这个项目有助于深入了解数字营销，特别是其固有且独特的网络和平台力量，以及给众多企业带来诸多麻烦的结构性问题。  
+
+- **主要内容**：
+1. 文献收集和背景研究，包括谷歌及其反垄断案例综述。  
+2. 分析谷歌在不同市场的主导地位以及它的跨市场优势和网络实力，比如在移动操作系统市场和Android的默认应用市场。  
+3. 总结从其他反垄断案件、数据透明度和金融科技竞争方面的学习。  
+4. 向谷歌、监管机构、行业和消费者提供对策和建议，包括谷歌移动系统接入产品和服务的拆分、开放技术标准和通用数据存储平台等。  
+
+***
+
 
 
 
