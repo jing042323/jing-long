@@ -38,7 +38,7 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)
 - **工具**：  
 PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。 
 
-[Back to catalog 返回目录](#main)  
+[<font size="0.8">Back to catalog 返回目录</font>](#main)  
 
 ***
 
@@ -66,7 +66,7 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)
 - **工具**：  
 Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
-[Back to catalog 返回目录](#main)  
+[<font size="0.8">Back to catalog 返回目录</font>](#main)  
 
 ***
 
