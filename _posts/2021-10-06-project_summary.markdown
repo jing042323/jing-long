@@ -9,6 +9,10 @@ tags: [project, case study]
 ---
 
 Here are brief introdutions for each project I did and links of the full reports are provided.
+# Summary of projects
+1. [NetEase Cloud Music Case Study | 网易云音乐案例分析](### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span>)
+
+
 
 ***
 ### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span>
