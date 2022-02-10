@@ -1,26 +1,112 @@
 ---
 layout: page
-title: About
-permalink: /about/
-image: 01.jpg
+title: About Me
+permalink: /about-me/
+image: aboutme.jpg
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hi, I am Jing Long, a data analyst with a background in Economics and Business Analytics. I enjoy the process of getting valuable insights out of data, from the first ideas around what you want to achieve, through data preparation, analysis and visualisation, all the way to the business implications. Thinking like an economist and acting like a data scientist is what I want to do.
+
+## <span style="border-bottom:2px solid orange;"> My Education Background </span>
+
+- **MSc Business Analytics**, **Imperial College London**, 2021  
+- **MSc Economics**, **The Hong Kong University of Science and Technology**, 2014  
+- **BA Economics**, **Université Toulouse 1 Capitole(Toulouse School of Economics)**, 2013  
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/education.png" height="270" width="700" />
+</p>
+
+I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analytics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
+
+## <span style="border-bottom:2px solid orange;"> My Career Experience </span>
+
+- **Research Assistant**, **School of Applied Economics**, **Renmin University of China**, 2021  
+Research area: renewables,  market power in electricity market.  
+Main responsibility: economic modeling, algorithms, data processing and analysis.  
+Main tools: Python, R, Latex, PPT  
+Achievements: one paper with topic of renewable ownership.
+
+- **Research Analyst**, **Energy Talent Consulting Company**, 2019 \- 2020  
+Project involved: Research on dynamic monitoring of electricity spot market in Southern China  
+Main responsibility: design monitoring metrics, data preparation and analysis by Python and Excel, report writing and presentation.  
+Main tools：Python, Excel, PPT  
+Achievements: two annual reports, one core journal paper and two methods have been applied for national patents.
+
+- **Assistant Project Manager**, **Corporate Business Dempartment**, **Southwest Securities Company**, 2018  
+Participate in project due diligence, transaction structure design and contract negotiation. Track management and risk of invested projects.
+
+- **Accounting Teller**, **Operation Dempartment**, **Bank of Communications**, 2015 \- 2017  
+Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account.  
+
+After three years of working experience in financial market, I find myself more interested in dealing with numbers and doing research. In 2019, I start my journey into data. Now I am still excited about challenges as a data analyst.
+
+
+## <span style="border-bottom:2px solid orange;"> My interests in spare time  </span>
+
+I love travelling, movies and swimming. And I am a big fan of Friends.  
+Btw, I am good at making travel plans. I’d love to share if you need any trip tips.
+
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/travel2.jpg" height="400" width="400" />
+</p>
 
 ***
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+嗨，我叫龙婧，是一名数据分析师。我获得了经济学和商业分析学双硕士学位。一直以来，我非常享受从数据中去获得有价值的见解, 从想要实现的目标开始，通过数据处理、分析到可视化，一直到实际的商业意义。像经济学家一样思考，像数据科学家一样行动，是我努力的方向。
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+## <span style="border-bottom:2px solid orange;"> 我的教育背景 </span>
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+- **商业分析学硕士**, **伦敦帝国理工学院**, 2021  
+- **经济学硕士**, **香港科技大学**, 2014  
+- **经济学学士**, **图卢兹第一大学（图卢兹经济学院）**, 2013   
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/education_chinese.png" height="240" width="700" />
+</p>
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+我非常喜欢经济学和数据科学，python是我最常使用的语言工具。我最爱的课程是统计学、机器学习和网络分析，不仅因为我这几门课的成绩都不错（嘿！），更重要的是我深深着迷于算法和网络效应在我们日常生活中产生的惊人力量。
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+## <span style="border-bottom:2px solid orange;"> 我的工作经历 </span>
+
+- **研究助理**, **应用经济学院**, **中国人民大学**, 2021  
+研究领域：新能源、电力市场中的市场力；  
+主要职责：经济学模型建模、算法研究、数据处理与分析；  
+使用工具：Python, R, Latex, PPT；    
+主要成果：主题为新能源所有权的论文一篇。
+
+- **研究员**, **知能汇融（北京）咨询有限公司**, 2019 \- 2020  
+主要负责项目：南方区域电力现货市场动态监测研究；    
+主要职责：设计市场监测体系和指标、数据处理与分析、报告撰写及汇报；    
+使用工具：Python, Excel, PPT；   
+主要成果：完成《南方区域电力现货市场2019年分析报告》、《南方区域电力现货市场2020年分析报告》各一份；完成论文《电力现货市场中统一结算电价对不同类型用户影响分析》，核心期刊《价格理论与实践》已录用；完成两个国家专利申报。
+
+- **项目经理助理**, **公司业务部**, **西南证券**, 2018  
+参与项目尽职调查、交易结构设计和合同谈判；跟踪投资项目的管理和风险。
+
+- **会计柜员**, **营运部**, **交通银行**, 2015 \- 2017  
+为个人和公司客户提供个性化的银行服务；检查每日现金库存和余额账户。
+
+在金融行业工作了三年之后，我发现自己对数据研究类的工作更有兴趣。在2019年，我正式开始了我的数据之旅，直到现在，我依然对数据分析工作带给我的挑战感到无比兴奋！  
+
+## <span style="border-bottom:2px solid orange;"> 我的日常爱好  </span>
+
+我喜爱旅行、电影和游泳！  
+我是老友记的超级粉丝！  
+对了，我很喜欢（也很擅长）做旅行攻略，很乐意分享任何旅行tips！
+
+***
+
+Have fun in browsing through the content and thank you for visiting! If you have any thoughts/questions don't hesitate to reach out :)  
+
+
+
+
+
+
+
+
+
+
+
+
