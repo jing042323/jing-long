@@ -16,7 +16,7 @@ Here are brief introdutions for each project I did and links of the full reports
 ### <span style="color:DarkSeaGreen"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span> <a name="netease"></a>
 
 - **Major tasks**:
-1. Analysis on user characteristics and preferences to differentiate inactive users from active users. (available [here](https://jing042323.github.io/jing-long/NCM_part1/))  
+1. Analysis on user characteristics and preferences to differentiate inactive users from active users. (available [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part1/))  
 2. Building prediction models, including Logistic Regression, SVM, Random Forest and Neural Networks, to identify user activity based on initial actions. (available [here](https://jing042323.github.io/jing-long/NCM_part2/))  
 3. Constructing different recommender systems and discussing each one's merit and demerit. (available [here](https://jing042323.github.io/jing-long/NCM_part3/))  
 
