@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My Study Notes | 学习笔记
-permalink: /my-study-notes/
+title: Study Notes | 学习笔记
+permalink: /study-notes/
 image: 
 ---
 
