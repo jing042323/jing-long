@@ -2,7 +2,7 @@
 layout: page
 title: My Projects | 我的项目
 permalink: /my-projects/
-image: summary.png
+image: 
 ---
 
 Here are brief introdutions for each project I did and links of the full reports are provided.
@@ -13,7 +13,7 @@ Here are brief introdutions for each project I did and links of the full reports
 
 
 ***
-### <span style="color:DodgerBlue"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span> <a name="netease"></a>
+### <span style="color:DarkSeaGreen"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span> <a name="netease"></a>
 
 - **Major tasks**:
 1. Analysis on user characteristics and preferences to differentiate inactive users from active users. (available [here](https://jing042323.github.io/jing-long/NCM_part1/))  
@@ -35,11 +35,11 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)
 - **工具**：  
 PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。 
 
-[<font size="0.8">Back to catalog 返回目录</font>](#main)  
+[<font size="1">Back to catalog 返回目录</font>](#main)  
 
 ***
 
-### <span style="color:DodgerBlue"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
+### <span style="color:DarkSeaGreen"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
 
 [Full Report 完整报告](https://jing042323.github.io/jing-long/google_ads/)  
 
@@ -63,11 +63,11 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)
 - **工具**：  
 Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
-[<font size="0.8">Back to catalog 返回目录</font>](#main)  
+[<font size="1">Back to catalog 返回目录</font>](#main)  
 
 ***
 
-### <span style="color:DodgerBlue"> Google Antitrust Case | 谷歌反垄断案例分析</span><a name="google_antitrust"></a>
+### <span style="color:DarkSeaGreen"> Google Antitrust Case | 谷歌反垄断案例分析</span><a name="google_antitrust"></a>
 
 [Full Report 完整报告](https://jing042323.github.io/jing-long/google_antitrust/)  
 
@@ -87,6 +87,6 @@ This project helps to gain a thorough understanding of digital marketing, the pe
 3. 总结从其他反垄断案件、数据透明度和金融科技竞争方面的学习。  
 4. 向谷歌、监管机构、行业和消费者提供对策和建议，包括谷歌移动系统接入产品和服务的拆分、开放技术标准和通用数据存储平台等。  
 
-[<font size="0.8">Back to catalog 返回目录</font>](#main)  
+[<font size="1">Back to catalog 返回目录</font>](#main)  
 
 ***
