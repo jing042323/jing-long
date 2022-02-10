@@ -2,7 +2,7 @@
 layout: page
 title: About Me | 关于我
 permalink: /about-me/
-image: jinglong.jpg
+image: 
 ---
 
 Hi, I am Jing Long, a data analyst with a background in Economics and Business Analytics. I enjoy the process of getting valuable insights out of data, from the first ideas around what you want to achieve, through data preparation, analysis and visualisation, all the way to the business implications. Thinking like an economist and acting like a data scientist is what I want to do.
