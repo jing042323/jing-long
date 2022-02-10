@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  NetEase Cloud Music Case Study - Part I - User Analysis
+title:  NetEase Cloud Music Part I - User Analysis
 date:   2021-09-15
 image:  ncm.png
 tags: [machine learning]
