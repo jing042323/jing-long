@@ -51,8 +51,6 @@ Participate in project due diligence, transaction structure design and contract 
 - **Accounting Teller**, **Operation Dempartment**, **Bank of Communications**, 2015 \- 2017  
 Provide customized banking services to individual and commercial customers. Check daily cash inventory and balance account.  
 
-After three years of working experience in financial market, I find myself more interested in dealing with numbers and doing research. In 2019, I start my journey into data. Now I am still excited about challenges as a data analyst.
-
 - **研究助理**, **应用经济学院**, **中国人民大学**, 2021  
 研究领域：新能源、电力市场中的市场力；  
 主要职责：经济学模型建模、算法研究、数据处理与分析；  
@@ -70,6 +68,8 @@ After three years of working experience in financial market, I find myself more 
 
 - **会计柜员**, **营运部**, **交通银行**, 2015 \- 2017  
 为个人和公司客户提供个性化的银行服务；检查每日现金库存和余额账户。
+
+After three years of working experience in financial market, I find myself more interested in dealing with numbers and doing research. In 2019, I start my journey into data. Now I am still excited about challenges as a data analyst.
 
 在金融行业工作了三年之后，我发现自己对数据研究类的工作更有兴趣。在2019年，我正式开始了我的数据之旅，直到现在，我依然对数据分析工作带给我的挑战感到无比兴奋！  
 
