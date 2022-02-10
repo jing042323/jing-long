@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About Me | 关于我
 permalink: /about-me/
 image: aboutme.jpg
 ---
@@ -14,7 +14,7 @@ Hi, I am Jing Long, a data analyst with a background in Economics and Business A
 - **BA Economics**, **Université Toulouse 1 Capitole(Toulouse School of Economics)**, 2013  
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/education.png" height="270" width="700" />
+<img src="{{site.baseurl}}/images/education.png" height="270" width="700" />
 </p>
 
 I have a passion for both Economics and Data Science and Python is the language I use most frequently. The courses I love the most during my study are statistics, machine learning and network analytics, not only because I am good at them(yay!) but also because I am fascinated by the amazing power of algorithm and network effect in our daily life.
@@ -48,7 +48,7 @@ I love travelling, movies and swimming. And I am a big fan of Friends.
 Btw, I am good at making travel plans. I’d love to share if you need any trip tips.
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/travel2.jpg" height="400" width="400" />
+<img src="{{site.baseurl}}/images/travel2.jpg" height="400" width="400" />
 </p>
 
 ***
@@ -62,7 +62,7 @@ Btw, I am good at making travel plans. I’d love to share if you need any trip 
 - **经济学学士**, **图卢兹第一大学（图卢兹经济学院）**, 2013   
 
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/education_chinese.png" height="240" width="700" />
+<img src="{{site.baseurl}}/images/education_chinese.png" height="240" width="700" />
 </p>
 
 我非常喜欢经济学和数据科学，python是我最常使用的语言工具。我最爱的课程是统计学、机器学习和网络分析，不仅因为我这几门课的成绩都不错（嘿！），更重要的是我深深着迷于算法和网络效应在我们日常生活中产生的惊人力量。
