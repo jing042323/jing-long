@@ -39,7 +39,7 @@ Models to predict user activity based on users' early actions.
 <span style="color:DarkSeaGreen">**This post contains Section 1 and 2. Please check [here](https://jing042323.github.io/jing-long/NCM_part2/) for section 3, and [here](https://jing042323.github.io/jing-long/NCM_part3/) for Section 4 and 5.**</span>
 
 
-<hr style="border:1.5px solid gray">
+<hr style="border:1.5px solid DarkSeaGreen">
 
 # <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">1. Introduction and Business Goals</span>
 
