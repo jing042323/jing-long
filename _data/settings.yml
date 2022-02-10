@@ -1,17 +1,17 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
+title: Jing Long
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: Jing Long's personal website
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Alex Rodriguez
+  name: Jing Long
   image: 01.jpg
-  say-hello: Hello, I’m <strong>Alex Rodriguez</strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
+  say-hello: Hello, I’m <strong>Jing Long</strong>
+  bio: I am a curious data enthusiast with a background in Economics and Business Analytics. Always hungry to keep learning.
 
 
 #-------------------------------
@@ -25,18 +25,18 @@ pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: jing-long # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
 # Instagram Feed
-instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
+instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile:  # Add instagram username
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-192087562-2 # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
