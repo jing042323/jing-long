@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NetEase Cloud Music Part II - Prediction Model
-date: 2021-09-14
+date: 2021-09-15
 image: ncm_part2.png
 tags: [machine learning]
 ---
