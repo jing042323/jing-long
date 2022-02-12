@@ -41,7 +41,7 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 
 ### <span style="color:DarkSeaGreen"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
 
-[Full Report 完整报告](https://jing042323.github.io/jing-long/google_ads/)  
+[Full Report 完整报告](https://jing042323.github.io/jing-long/2021/04/21/google_ads/)  
 
 - **Major tasks**:
 1. Design and launch a website for product and service marketing by Weebly ([check it](http://tourscurator4u.weebly.com/)), and use tag manager to monitor the site via Google Analytics.   
@@ -69,7 +69,7 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
 ### <span style="color:DarkSeaGreen"> Google Antitrust Case | 谷歌反垄断案例分析</span><a name="google_antitrust"></a>
 
-[Full Report 完整报告](https://jing042323.github.io/jing-long/google_antitrust/)  
+[Full Report 完整报告](https://jing042323.github.io/jing-long/2021/04/30/google_antitrust/)  
 
 This project helps to gain a thorough understanding of digital marketing, the peculiar network and platform power inherent in this kind of marketing and the structural issues that are causing so many problems to so many businesses.  
 

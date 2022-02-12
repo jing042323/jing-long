@@ -3,7 +3,7 @@ layout: post
 title: Google Antitrust Case
 date: 2021-04-30
 image: google_antitrust.png
-tags: Antitrust
+tags: [Digital Marketing]
 ---
 
 Google is currently facing anti-trust actions in many different regions. Moving first are the ones in the U.S and Australia, and EU is also following. In this project, we first read the basic background readings, do some research and take the following position for discussion:  
@@ -277,11 +277,11 @@ Although it is too early to determine if open banking has been a success in EU, 
 
 ***  
 
-# <span style="border-bottom:2px solid DodgerBlue;color:DodgerBlue">4. Proposal</span>  
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">4. Proposal</span>  
 
 From the above analysis, it is clear that Google’s current practice has reinforce its market dominance and created unfair competition in the mobile access segment. Changes will need to be implemented, with proposal as followed:  
 
-## <span style="color:DodgerBlue">4.1 Break-up of Google mobile access product/services </span>  
+## <span style="color:DarkSeaGreen">4.1 Break-up of Google mobile access product/services </span>  
 
 Learning from the Microsoft antitrust case in Europe, we can see that one possible change to Google in settling the antitrust cases could be a break-up of its current product or services.  
 
@@ -297,7 +297,7 @@ Consequently, installation of Google proprietary apps by users by choice would p
 
 Other than the break-up between Android mobile operating system and pre-installation apps, another feature could be introduced to Google proprietary apps, for users to ‘opt-in’ extra features, instead of the current normal practice of ‘opt-out’ selection. For example, if users would like to receive advertisement when they do search using Google Search or Chrome, they would have to select ‘opt-in’ in the browser setting to have advertisement appear together. Users of Google Ads, will have to ‘opt-in’ for their advertisement appearing in Google Network Partners (like YouTube) in order to gain extra ad appearance through multiple channels, instead of the current default setting where the user will have to untick and select ‘opt-out’ of those additional features. Again, it is giving the right to user for a conscious choice. It is the same case like ordering fool when reading a menu in restaurant. Both set meals, and a la carte appear with their prices in the menu for the customer to choose; rather than having a default meal sets for diners to opt-out individual meal, making a difficult thinking situation for the diners.  
 
-## <span style="color:DodgerBlue">4.2 Open tech standard</span>  
+## <span style="color:DarkSeaGreen">4.2 Open tech standard</span>  
 
 To address the thorny issues posed by our big tech ‘gatekeepers’, we believe that the existing antitrust laws which are punitive in nature are not sufficient. An active preventive/ nurturing approach must be used to address these issues holistically instead. Thus, we will model against regulations like the Open bank PSD2 standard to propose a set of governing principles so that big techs like Google take active steps to ensure their platform is compatible with smaller rivals and share data with these rivals without compromising the user’s data security. We will coin our proposed approach the ‘Open tech’ standard.  
 
@@ -319,7 +319,7 @@ Given Open bank’s widespread success in countries like China (see diagram belo
 <img src="{{site.baseurl}}/assets/img/Google_antitrust/12.png" height="300" width="400" />
 </p>
 
-## <span style="color:DodgerBlue">4.3 Common data storage platform</span>   
+## <span style="color:DarkSeaGreen">4.3 Common data storage platform</span>   
 
 The collection and control of user data is one of the most important source of Google’s market power. It becomes more and more powerful with an increase of data collection. With the user data, Google can build sophisticated user profiles, which benefits the development of its products and services and make more profits. From the analysis part above we also can see that Google is trying to acquire as much user data as it can.  
 
@@ -329,7 +329,7 @@ Therefore, it may be more appropriately to store all the data in a common platfo
 
 ***
 
-# <span style="border-bottom:2px solid black;color:black">5. Conclusion – Where do we go next?</span>  
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">5. Conclusion – Where do we go next?</span>  
 
 - **Google**  
 

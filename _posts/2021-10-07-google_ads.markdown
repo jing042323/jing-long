@@ -3,7 +3,7 @@ layout: post
 title: Google Ads Campaign
 date: 2021-04-21
 image: google_ads.png
-tags: [Google Analytics, keyword advertising]
+tags: [Digital Marketing]
 ---
 
 In this project, we had a very exciting firsthand experience of 'running' a business. We first design and launch our own website by Weebly, and use tag manager to monitor the site via Google Analytics. Then, we use Google Paid/Keyword Advertising with a budget of £20 to bring visitors to our site. Our goal is to measure the effectiveness of our advertising plan and adjust our decision making through analysing the real data we collect over a few weeks.  
