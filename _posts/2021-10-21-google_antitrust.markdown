@@ -3,7 +3,7 @@ layout: post
 title: Google Antitrust Case
 date: 2021-04-30
 image: google_antitrust.png
-tags: Digital-Marketing
+tags: [Digital Marketing]
 ---
 
 Google is currently facing anti-trust actions in many different regions. Moving first are the ones in the U.S and Australia, and EU is also following. In this project, we first read the basic background readings, do some research and take the following position for discussion:  
