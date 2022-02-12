@@ -17,7 +17,7 @@
           {% if post.tags.size >= 1 %}
             <div class="article-tags__box">
               {% for tag in post.tags %}
-                <b>{{ tag }}</b>
+                <a><b>{{ tag }}</b></a>
               {% endfor %}
             </div>
           {% else %}
