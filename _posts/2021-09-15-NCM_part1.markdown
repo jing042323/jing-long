@@ -36,7 +36,7 @@ Models to predict user activity based on users' early actions.
 **5. Business Implications**  
 - Recommendations to NCM 
 
-<span style="color:DarkSeaGreen">**This post contains Section 1 and 2. Please check [here](https://jing042323.github.io/jing-long/NCM_part2/) for section 3, and [here](https://jing042323.github.io/jing-long/NCM_part3/) for Section 4 and 5.**</span>
+<span style="color:DarkSeaGreen">**This post contains Section 1 and 2. Please check [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/) for section 3, and [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part3/) for Section 4 and 5.**</span>
 
 
 ***
