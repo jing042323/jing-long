@@ -18,7 +18,7 @@ Here are brief introdutions for each project I did and links of the full reports
 - **Major tasks**:
 1. Analysis on user characteristics and preferences to differentiate inactive users from active users. (available [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part1/))  
 2. Building prediction models, including Logistic Regression, SVM, Random Forest and Neural Networks, to identify user activity based on initial actions. (available [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/))  
-3. Constructing different recommender systems and discussing each one's merit and demerit. (available [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part3/))  
+3. Summarizing commonly used recommendation algorithms; Using K-prototypes for user clustering analysis, building recommendation systems based on the collaborative filtering algorithm(including UserCF, ItemCF, LFM) for each cluster, and discussing their advantages and disadvantages. (available [here](https://jing042323.github.io/jing-long/2021/09/15/NCM_part3/))  
 
 - **Data Volume**:  
 over 57 million impression data and 2 million user data  
@@ -27,8 +27,8 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)
 
 - **主要内容**：
 1. 分析用户特征和偏好，区分活跃用户和非活跃用户。([查看](https://jing042323.github.io/jing-long/2021/09/15/NCM_part1/))  
-2. 建立预测模型，根据用户初始行为识别用户活跃度，包括逻辑回归模型、支持向量机、随即森林和神经网络。 ([查看](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/))  
-3. 建立不同的推荐系统，并讨论每个系统的优点和缺点。([查看](https://jing042323.github.io/jing-long/2021/09/15/NCM_part3/))  
+2. 建立预测模型，根据用户初始行为识别用户活跃度，包括逻辑回归模型、支持向量机、随机森林和神经网络。 ([查看](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/))  
+3. 常用推荐算法总结；使用K-prototypes对用户进行聚类分析，对每个聚类建立基于协同过滤算法的推荐系统（UserCF、ItemCF、LFM），并讨论其优缺点。([查看](https://jing042323.github.io/jing-long/2021/09/15/NCM_part3/))  
 
 - **数据量**：  
 超过5700万条视频曝光数据和200万用户数据。
