@@ -94,7 +94,7 @@ As the business interest is to use the A/B test to determine the best location o
 In comparing OPTION A and OPTION B, the objective is to determine which *‘JOIN US!’* button will receive more clicks. Hence we will set the performance evaluation on “click-through-rate”, or “CTR”, where CTR = unique clicks/unique impressions.  
 
 We do not know if OPTION A or OPTION B would lead to the same CTR. Therefore set our A/B test hypothesis as followed:
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=H_0%3A%20CTR_%7BOPTION_A%7D%20%3D%20CTR_%7BOPTION_B%7D%20%5C%0AH_1%3A%20CTR_%7BOPTION_A%7D%20%5Cnq%20CTR_%7BOPTION_B%7D"></div>
+<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=H_0%3ACTR_%7BOPTION_A%7D%3DCTR_%7BOPTION_B%7D"></div>
 
 If the CTR is different, we will then select the design option that contribute to a higher CTR as our design choice.
 
