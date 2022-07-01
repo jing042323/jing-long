@@ -102,6 +102,68 @@ If the CTR is different, we will then select the design option that contribute t
 
 ## <span style="color:DarkSeaGreen"> B.2 Test Setup in Google Tag Manager and Google Analytics </span> 
 
+We plan to use Google Tag Manager to track button clicks into Google Analytics.  
+
+(1) View the source code  
+In Chrome, we could right-click the button and select ‘Inspect’. This will open Developer Tools, allowing us to view the source code of the page.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/1.jpg" height="90" width="600" />  
+</p>   
+We could see that the button locates in a form and that the button has a class of “wsite-button wsite-button-large wsite-button-normal”. We could track button clicks by using the class in Google Tag Manager.
+
+(2) Enable the variable  
+Google Tag Manager has a range of built-in variables that automatically make the details of interactions available when configuring tags and triggers. For example, we can use variables to check whether someone views a particular page, watches an embedded video, scrolls down a page, or in our case, clicks a particular button on our website.  
+Since we have identified the button’s class, we could enable ‘From Class’ from build-in variable.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/2.jpg" height="190" width="600" />  
+</p>  
+
+(3) Create a tag  
+Now, we could create our tag which will send data to Google Analytics when our button is clicked. Select ‘Tags’, click ‘New’ and name our tag ‘button’. After that, select ‘Google Analytics: Universal Analytics’ from Featured tab. Change the Track Type to ‘Event’, and enter the ‘Button’ as Category, ‘Click’ as the Action.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/3.jpg" height="190" width="600" />  
+</p>  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/4.jpg" height="240" width="300" />  
+</p>
+Before we save our new tag, we still need to add a trigger.  
+
+(4) Create a trigger  
+Trigger tells Google Tag Manager when a tag should (or shouldn’t) fire. For our button click tag we need to create a trigger so that the tag only fires when our button has been clicked. To do this, we select ‘Triggering’ for the tag to create a new trigger. In our case, we select ‘All Elements’ from Click section in trigger type.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/5.jpg" height="240" width="300" />  
+</p>
+Now we need to change the trigger so that it only fires on some clicks. We then select ‘Form Classes’, ‘Equals’ and enter the class we identified when we viewed the source code of our page.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/6.jpg" height="190" width="600" />  
+</p>
+Now, we could save the trigger, then save the tag.  
+
+(5) Publish the container  
+Click ‘Submit’ from the Workspace page of Tag Manager to publish the container to our website.  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/7.jpg" height="90" width="600" />  
+</p>  
+
+(6) Check Google Analytics  
+Now, we should be able to see the click data from ‘Behaviour’ in Google Analytics.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/8.jpg" height="190" width="600" />  
+</p>  
+
+## <span style="color:DarkSeaGreen"> B.3 Test Implementation </span> 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
