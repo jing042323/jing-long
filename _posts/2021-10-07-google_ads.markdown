@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Ads Campaign
+title: Google Ads Campaign - Keyword Advertising
 date: 2021-04-21
 image: google_ads.png
 tags: [Digital Marketing]
