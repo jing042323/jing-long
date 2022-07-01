@@ -2,7 +2,7 @@
 layout: post
 title: Google Ads Campaign - A/B Test
 date: 2021-03-30
-image: google_ads_ABtest.png
+image: google_ads_ABtest.jpeg
 tags: [Digital Marketing]
 ---
 
@@ -91,6 +91,11 @@ As the business interest is to use the A/B test to determine the best location o
 
 ### <span style="color:DarkSeaGreen"> B.1.2 Test Hypothesis </span> 
 
+In comparing OPTION A and OPTION B, the objective is to determine which *‘JOIN US!’* button will receive more clicks. Hence we will set the performance evaluation on “click-through-rate”, or “CTR”, where,$CTR = unique clicks/unique impressions$.  
+
+We do not know if OPTION A or OPTION B would lead to the same CTR. Therefore set our A/B test hypothesis as followed:
+$$H_0: CTR_{OPTION_A} = CTR_{OPTION_B}$$  
+$$H_0: CTR_{OPTION_A} \nq CTR_{OPTION_B}$$  
 
 
 
