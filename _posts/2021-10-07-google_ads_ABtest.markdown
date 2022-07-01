@@ -2,7 +2,7 @@
 layout: post
 title: Google Ads Campaign - A/B Test
 date: 2021-03-30
-image: google_ads_ABtest.png
+image: google_ads_ABtest.jpeg
 tags: [Digital Marketing]
 ---
 
@@ -71,6 +71,20 @@ Unsure of how effective would be our website design in capturing the visitors at
 We will implement this A/B test on the above two design on placement of *‘JOIN US!’* button, and evaluate its CTR.  
 
 We are going to use built-in functions from Google Tag Manager and Google Analytics to tag our website, and subsequently extract the relevant data to evaluate each CTR. In addition, we will use data extracted from Google Analytics to explore analytics on visitors' profile, i.e. device access and page view, so that we can improve our website design.
+
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section B - Test Design and Implementation</span>  
+
+## <span style="color:DarkSeaGreen"> B.1 Test Design </span>  
+
+
+
+
+
+
+
+
+
+
 
 
 
