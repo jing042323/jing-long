@@ -2,7 +2,7 @@
 layout: post
 title: Google Ads Campaign - A/B Test
 date: 2021-03-30
-image: google_ads.png
+image: google_ads_ABtest.jpeg
 tags: [Digital Marketing]
 ---
 
