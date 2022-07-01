@@ -96,8 +96,11 @@ In comparing OPTION A and OPTION B, the objective is to determine which *‘JOIN
 We do not know if OPTION A or OPTION B would lead to the same CTR. Therefore set our A/B test hypothesis as followed:
 $$H_0: CTR_{OPTION_A} = CTR_{OPTION_B}$$  
 $$H_0: CTR_{OPTION_A} \nq CTR_{OPTION_B}$$  
+![formula](https://render.githubusercontent.com/render/math?math=H_0:CTR_{OPTION_A}=CTR_{OPTION_B})
 
+If the CTR is different, we will then select the design option that contribute to a higher CTR as our design choice.
 
+## <span style="color:DarkSeaGreen"> B.2 Test Setup in Google Tag Manager and Google Analytics </span> 
 
 
 
