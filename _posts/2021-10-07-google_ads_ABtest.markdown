@@ -77,9 +77,19 @@ We are going to use built-in functions from Google Tag Manager and Google Analyt
 ## <span style="color:DarkSeaGreen"> B.1 Test Design </span>  
 
 
+### <span style="color:DarkSeaGreen"> B.1.1 Test Size </span>  
 
+As the business interest is to use the A/B test to determine the best location of placing the *‘JOIN US!’* button for leading visitors to click and then leave their personal information on this newly launched website, we need to get sufficient number of visitors for the A/B test to be done. We use the following assumption in determining the required sample size (or minimum visitors) to run our test.
 
+- As a new business entity, we set our 1st business target as acquiring the first 100 visitors to view our website as one of business milestone. Given the COVID-19 pandemic spread when we set up the business and the website, we expect headwind in promoting our business idea for people to look-up for tours consulting services. Therefore, we assume 100 as our population size, and we set a 10% margin of error, with a 90% confidence interval (lower than the industry norm of 95%). The high margin and lower confidence interval would make our sample size smaller, but faster to acquire the necessary test samples to test our website and offering in the beginning stage (and in the challenging time of COVID-19 pandemic).  
+- We use available sample size calculator from [SurveyMonkey](https://www.surveymonkey.com/mp/sample-size-calculator/) to calculate the required size.  
+- The result using the SurveyMonkey sample size calculator shows a sample size of 41.We will need to get at least 41 samples for our A/B test.
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/d4.jpg" height="190" width="600" />  
+</p>
+
+### <span style="color:DarkSeaGreen"> B.1.2 Test Hypothesis </span> 
 
 
 
