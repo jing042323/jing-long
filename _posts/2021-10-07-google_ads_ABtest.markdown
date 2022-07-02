@@ -221,15 +221,15 @@ Our previous hypothesis result show that there is no significant change in CTR w
 
 ## <span style="color:DarkSeaGreen"> D.1 Improvement 1: Separate testing for mobile vs desktop users</span>  
 
-- **Rationale**  
+**Rationale**  
 From our EDA presented earlier, we saw that mobile device users make up >65% of the users to our website. However, desktop users typically spend much more time on our website (session duration on desktop is nearly 3x higher compared mobile). Thus, there is a strong possibility that mobile vs desktop users indeed exhibit different behavior on our website.  
 
 In addition, according to our research, more than 20% of consumers will research product/service on their mobile devices before making any purchase. Typical searches include price comparison, product/service review etc. Also, mobile devices are more effective at generating leads which are later converted to purchases made on a desktop/ laptop. Thus, it is important that we understand any behavior differences between mobile and desktop users on our website so that we can then strategies and tailor-made our offering to these 2 groups of users e.g. adopt customized web layout for mobile vs desktop users to drive higher CTR.  
 
-- **Design**  
+**Design**  
 With the above rationale and observation in mind, in this section, we will perform a second round of testing. In this round of testing, our hypothesis will remain unchanged, but we will segregate our data according to the user device type (Mobile vs Desktop) before performing our hypothesis test.  
 
-- **Result**  
+**Result**  
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t6.jpg" height="190" width="600" />  
 </p>
@@ -237,12 +237,12 @@ With the above rationale and observation in mind, in this section, we will perfo
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t7.jpg" height="190" width="600" />  
 </p>
 
-- **Statistics Comparison**    
+**Statistics Comparison**    
 Regardless of test A or B, we saw that our mobile users exhibit a much higher CTR (nearly 2X higher) compared to our desktop users. Additionally, from the lower standard deviation/mean, we can also conclude that the CTR across our mobile users is much more stable compared to the desktop users.  
 
 While this result is consistent regardless of the tests, it provided valuable insights on the importance of mobile devices as a primary and relatively stable revenue generator compared to desktop devices. Hence, the management might want to consider more effort and resources to channel mobile users to our websites. (e.g. spend more budget on targeted google ads for our mobile users)
 
-- **Hypothesis Testing Interpretation**  
+**Hypothesis Testing Interpretation**  
 From our hypothesis test results, we saw that at 10% level of significance, t stat < tcritical for both our mobile vs desktop users. Thus, we fail to reject H0 and conclude that the CTR in test B is not significantly different than the CTR in test A.  
 
 *i.e. At 10% level of significance, for both mobile and desktop users, test B where the ‘Join us’ button is on the main landing page did not result in higher CTR compared to test A where the ‘Join us’ button is on the subpages.*  
@@ -260,12 +260,12 @@ mobile device to increase our CTR.
 
 ## <span style="color:DarkSeaGreen"> D.2 Improvement 2: A/B testing using Google optimize</span>  
 
-- **Rationale**  
+**Rationale**  
 In our previous experiment, we conducted our A/B testing by running test A’s web layout for a period before switching to test B’s web layout for another period. Although effective, we realise that such deployment might result in the same user being exposed to both layouts in different periods. Hence, it becomes difficult to attribute the effect of each layout on the eventual CTR of such a user.  
 
 To overcome this problem, we attempted the Google optimize software which will run both test A & test B over the test period. i.e. 50% of the audience will be exposed to test A and vice versa. Also, each user will be consistently exposed to the same test during the test period.  
 
-- **Result**  
+**Result**  
 Because our Google optimize testing started only 2 days ago (26 Mar 2021), we have not yet gathered enough data to have a more conclusive result. Although it is tempting to end the test now and draw a conclusion that the original design in test A seems to fetch a higher CTR, this conclusion will be highly flawed due to the very little data points (5 clicks) which we have gathered so far.  
 
 As a more prudent approach, we will continue to let the experiment run till the result converge before making any conclusion.  
