@@ -104,21 +104,21 @@ If the CTR is different, we will then select the design option that contribute t
 
 We plan to use Google Tag Manager to track button clicks into Google Analytics.  
 
-(1) View the source code  
+**(1) View the source code**  
 In Chrome, we could right-click the button and select ‘Inspect’. This will open Developer Tools, allowing us to view the source code of the page.
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/1.jpg" height="90" width="600" />  
 </p>   
 We could see that the button locates in a form and that the button has a class of “wsite-button wsite-button-large wsite-button-normal”. We could track button clicks by using the class in Google Tag Manager.
 
-(2) Enable the variable  
+**(2) Enable the variable**  
 Google Tag Manager has a range of built-in variables that automatically make the details of interactions available when configuring tags and triggers. For example, we can use variables to check whether someone views a particular page, watches an embedded video, scrolls down a page, or in our case, clicks a particular button on our website.  
 Since we have identified the button’s class, we could enable ‘From Class’ from build-in variable.
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/2.jpg" height="190" width="600" />  
 </p>  
 
-(3) Create a tag  
+**(3) Create a tag**  
 Now, we could create our tag which will send data to Google Analytics when our button is clicked. Select ‘Tags’, click ‘New’ and name our tag ‘button’. After that, select ‘Google Analytics: Universal Analytics’ from Featured tab. Change the Track Type to ‘Event’, and enter the ‘Button’ as Category, ‘Click’ as the Action.
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/3.jpg" height="190" width="600" />  
@@ -128,7 +128,7 @@ Now, we could create our tag which will send data to Google Analytics when our b
 </p>
 Before we save our new tag, we still need to add a trigger.  
 
-(4) Create a trigger  
+**(4) Create a trigger**  
 Trigger tells Google Tag Manager when a tag should (or shouldn’t) fire. For our button click tag we need to create a trigger so that the tag only fires when our button has been clicked. To do this, we select ‘Triggering’ for the tag to create a new trigger. In our case, we select ‘All Elements’ from Click section in trigger type.
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/5.jpg" height="240" width="300" />  
@@ -139,31 +139,83 @@ Now we need to change the trigger so that it only fires on some clicks. We then 
 </p>
 Now, we could save the trigger, then save the tag.  
 
-(5) Publish the container  
+**(5) Publish the container**  
 Click ‘Submit’ from the Workspace page of Tag Manager to publish the container to our website.  
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/7.jpg" height="90" width="600" />  
 </p>  
 
-(6) Check Google Analytics  
+**(6) Check Google Analytics**  
 Now, we should be able to see the click data from ‘Behaviour’ in Google Analytics.
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/8.jpg" height="190" width="600" />  
 </p>  
 
 ## <span style="color:DarkSeaGreen"> B.3 Test Implementation </span> 
+After we have finalized the test setting in Google Tag Manager and Google Analytics, we published our website on 14th March 2021. We set our 1st test on 16th March ~ 19th March 2021, representing the A-test, and 2nd test on 20th March ~ 23rd March 2021, representing the B-test. We used the gap between 14th March 2021 and 16th March to familiarize ourselves to operate Google Analytics, where preliminary data was collected and analytics performed to understand functionality of Google Analytics. These data were not used in our A/B test.  
 
+We reached out to own connections (friends, colleagues, university cohorts), spreading the website address to acquire the required sample size. We mainly spread the word about our website through social media platform, i.e. Whatsapp, Facebook. We tracked the daily users, and views in Google Analytics.  
 
+We had initially planned for 4 days per test, where we have the design OPTION A for the first 4 days, and changed the website to design OPTION B on the 5th day, which is 20th March 2021. With the target sample size of 41 samples, and estimation of getting approximately 10 visitors per day (or with each group member turning in 10 visitors among his/her network, leading to at least 40 sessions), we had planned for 4 days duration for each test, to meet the sample size of 41.  
 
+Unfortunately, we had managed to get 2 visitors on A-test in the first 2 days. It gained traction on day-3 (18th March 2021) after more promotion among circle of connections. At the initial planned finish date of day-4 (19th March 2021), we could only accumulate 25 users and registered 28 sessions, short of the required sample size target. Therefore, we had to extend our test duration, and managed to acquire 42 visitors and 45 sessions recorded as of 21st March 2021. We then switched the design to OPTION B to run B-test on 22nd March 2021.  
 
+The following Table 1 shows the plan and actual test implementation dates.
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t1.jpg" height="190" width="600" />  
+</p>  
 
+The following Graph 1 shows trending of users and sessions for A-test (16th ~ 21st March 2021) and B-test (22nd ~ 25th March 2021) 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/g1.jpg" height="220" width="600" />  
+</p> 
 
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section C - Analysis</span>  
 
+## <span style="color:DarkSeaGreen"> C.1 Exploratory Data Analytics </span>  
 
+### <span style="color:DarkSeaGreen"> C.1.1 Pageviews Analysis </span>  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t2.jpg" height="190" width="600" />  
+</p> 
+We can see that homepage represents more than 50% of the total pageviews and most visitors enter directly from the homepage. At the same time, visitors spend much longer time on homepage than the time on subpages. These findings can support our OPTION B where we think homepage will be the most viewed page.
 
+Moreover, there are some interesting findings on Bounce Rate and Percentage of Exit. The bounce rate and %Exit of homepage is the highest which means approximately half of our visitors leave our website after visiting the homepage only. So it is better for us to improve the guidance on homepage to our subpages to decrease the bounce rate and %Exit on homepage. In this way, we may improve the CTR.
 
+### <span style="color:DarkSeaGreen"> C.1.2 Geo Analysis </span> 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t3.jpg" height="230" width="600" />  
+</p>
+Most of our visitors come from Malaysia, Singapore, Ireland and United Kingdom. This is in line with the way we obtain our sample which is our own connections (friends, colleagues, university cohorts). The average bounce rate is 53.27% and the average pages/Session is 2.9. Visitors from Singapore spend much more time on our website with average session duration of 234.89, which means our products may be most attractive to Singapore visitors.
 
+### <span style="color:DarkSeaGreen"> C.1.2 Device Analysis </span> 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t4.jpg" height="110" width="600" />  
+</p>
+More users visit our website by mobile, while the average session duration is much longer for desktop visitors. One of the reasons is that our website is designed for desktop visitors and looks clear and nice in the desktop version. With such a high proportion of mobile users, a user-friendly website version for mobile users should be developed. Moreover, the difference performance in device category suggests that a deeper analysis in device data should be meaningful.
 
+## <span style="color:DarkSeaGreen"> C.2 A/B test on ‘JOIN US!’ Button with CTR Evaluation </span>
+Our A/B test hypothesis is a two-tail test with significance level $$\alpha = 10%$$ as followed:  
+$$H_0:CTR_{OPTION_A}=CTR_{OPTION_B}$$  
+$$H_1:CTR_{OPTION_A} \neq CTR_{OPTION_B}$$  
+
+We can construct a t statistic which is  
+$$t_{\hat{CTR_A}-\hat{CTR_B}}=\frac{\hat{CTR_A}-\hat{CTR_B}}{se(\hat{CTR_A}-\hat{CTR_B})}=\frac{\hat{CTR_A}-\hat{CTR_A}}{\sqrt{\frac{(n_1-1){s_1}^2+(n_2-1){s_2}^2}{n_1+n_2-2}(\frac{1}{n_1}+\frac{1}{n_2})}}$$  
+where $$\hat{CTR_A}$$ and $$\hat{CTR_B}$$ are the mean CTR of the two samples; $$s_1$$ and $$s_2$$ are the standard deviation of the two samples;$$n_1$$ and $$n_2$$ are the sample sizes.  
+
+If $$|t| > critical value 0.1$$ or $$P-value < \alpha$$, we reject $$H_0$$.  
+
+Based on the data we collected, we get:
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t5.jpg" height="190" width="600" />  
+</p>
+We can see that:
+- $$t stat = 1.0879 < t critical value = 1.6623$$;  
+- $$P-value = 0.2796 > 0.1$$.  
+
+Therefore we fail to reject $$H_0$$ at significance level of 10%, which means there is no significant difference between the CTR from OPTION A and OPTION B.  
+
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section D - Further insights & Improvements</span>  
 
 
 
