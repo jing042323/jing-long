@@ -41,25 +41,28 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 
 ### <span style="color:DarkSeaGreen"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
 
-[Full Report 完整报告](https://jing042323.github.io/jing-long/2021/04/21/google_ads/)  
+[Report I - A/B Test 报告1 - A/B测试](https://jing042323.github.io/jing-long/2021/03/30/google_ads_ABtest/)  
+[Report II - Keyword Advertising 报告2 - 关键词广告](https://jing042323.github.io/jing-long/2021/04/21/google_ads/) 
 
 - **Major tasks**:
-1. Design and launch a website for product and service marketing by Weebly ([check it](http://tourscurator4u.weebly.com/)), and use tag manager to monitor the site via Google Analytics.   
+1. Design and launch a website for product and service marketing by Weebly ([check it](http://tourscurator4u.weebly.com/)), and use tag manager to monitor the site via Google Analytics.
+2. Conduct an A/B test to adjust website design and eventually get higher CTR.   
 2. Make Google Paid/Keyword Advertising through the process of conducting competitor analysis, designing our advertisement, making bidding strategy and publishing our ads online.
 3. Track and adjust the advertising plan according to the effectiveness evaluatation based on the real data from Google Analytics.  
 
 - **Data Volume**:  
-5 days of impression data and user data
+Daily impression data and user data on our website in March and April 2021
 - **Tools**:  
 Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)  
 
 - **主要内容**：
-1. 通过Weebly自己设计和发布了一个网页用于产品和服务宣传([查看网页](http://tourscurator4u.weebly.com/))，使用Google Analytics中的标记管理器来监测网页实时数据。 
+1. 通过Weebly自己设计和发布了一个网页用于产品和服务宣传([查看网页](http://tourscurator4u.weebly.com/))，使用Google Analytics中的标记管理器来监测网页实时数据。
+2. 通过A/B测试确定和调整网页设置，从而实现更高的CTR。
 2. 完成谷歌广告投放，包括竞争对手分析、广告设计、制定广告投标价格策略和广告发布。
 3. 通过对Google Analytics中的实时数据进行追踪和分析，评估广告投放的效率，调整广告策略。  
 
 - **数据量**：  
-5天的广告曝光数据和用户数据。
+2021年3月和4月的网站每日广告曝光数据和用户数据。
 - **工具**：  
 Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)。
 
