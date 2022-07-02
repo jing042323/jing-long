@@ -217,6 +217,119 @@ Therefore we fail to reject $$H_0$$ at significance level of 10%, which means th
 
 # <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section D - Further insights & Improvements</span>  
 
+Our previous hypothesis result show that there is no significant change in CTR when we shifted our *‘JOIN US!’* button from the subpages to the main landing page of our website. In this section, we would like to delve a deeper into our results to determine if there could be other manipulating factors impacting our test.
+
+## <span style="color:DarkSeaGreen"> D.1 Improvement 1: Separate testing for mobile vs desktop users</span>  
+
+- **Rationale**  
+From our EDA presented earlier, we saw that mobile device users make up >65% of the users to our website. However, desktop users typically spend much more time on our website (session duration on desktop is nearly 3x higher compared mobile). Thus, there is a strong possibility that mobile vs desktop users indeed exhibit different behavior on our website.  
+
+In addition, according to our research, more than 20% of consumers will research product/service on their mobile devices before making any purchase. Typical searches include price comparison, product/service review etc. Also, mobile devices are more effective at generating leads which are later converted to purchases made on a desktop/ laptop. Thus, it is important that we understand any behavior differences between mobile and desktop users on our website so that we can then strategies and tailor-made our offering to these 2 groups of users e.g. adopt customized web layout for mobile vs desktop users to drive higher CTR.  
+
+- **Design**  
+With the above rationale and observation in mind, in this section, we will perform a second round of testing. In this round of testing, our hypothesis will remain unchanged, but we will segregate our data according to the user device type (Mobile vs Desktop) before performing our hypothesis test.  
+
+- **Result**  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t6.jpg" height="190" width="600" />  
+</p>
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t7.jpg" height="190" width="600" />  
+</p>
+
+- **Statistics Comparison**    
+Regardless of test A or B, we saw that our mobile users exhibit a much higher CTR (nearly 2X higher) compared to our desktop users. Additionally, from the lower standard deviation/mean, we can also conclude that the CTR across our mobile users is much more stable compared to the desktop users.  
+
+While this result is consistent regardless of the tests, it provided valuable insights on the importance of mobile devices as a primary and relatively stable revenue generator compared to desktop devices. Hence, the management might want to consider more effort and resources to channel mobile users to our websites. (e.g. spend more budget on targeted google ads for our mobile users)
+
+- **Hypothesis Testing Interpretation**  
+From our hypothesis test results, we saw that at 10% level of significance, t stat < tcritical for both our mobile vs desktop users. Thus, we fail to reject H0 and conclude that the CTR in test B is not significantly different than the CTR in test A.  
+
+*i.e. At 10% level of significance, for both mobile and desktop users, test B where the ‘Join us’ button is on the main landing page did not result in higher CTR compared to test A where the ‘Join us’ button is on the subpages.*  
+
+Whilst this result is consistent with the findings in our previous section, we note that t stat is much higher for our mobile users compared to our desktop users. As a blunt comparison, if we had performed our testing at a higher level of significance (e.g. 30%), we would have rejected $$H_0$$ in favor of $$H_1$$ for our mobile users.  
+
+*i.e. At higher level of significance, for mobile users only, test B where the ‘Join us’ button is on the main landing page resulted in higher CTR compared to test A where the ‘Join us’ button is on the subpage.*  
+
+But of course, we note that such result is hardly conclusive and must be interpreted with caution. This is because the number of data points we have now is significantly lower since we selected only a subset of the original data. Hence, for more accurate testing we should in fact tighten and not loosen our test criteria.  
+
+Nevertheless, the result of this hypothesis testing suggests that for mobile users in particular, it is possible that our layout in test B fetch a higher CTR compared to that in test A. This is likely because mobile users have shorter session duration and typically utilize their mobile for quick browsing only. Also, mobile users have a higher tendency to look at only the landing page instead of navigating into the subpages. Thus, they are more likely to click on a button on the landing page than a button which is only on the subpages.  
+
+Thus, to have a more conclusive result, we should let the experiment run for a longer period, wait for the results to stabilize, converge, and then collect more data before drawing a conclusion. Due to the limited time we have to conduct the experiment, we were not able to collect more data points to draw a more affirmative conclusion that users on mobile devices in fact has a higher CTR in test B. Nevertheless, moving forward, we should delve deeper into this insight to decide if we might need to adopt a potentially different web layout on our
+mobile device to increase our CTR.  
+
+## <span style="color:DarkSeaGreen"> D.2 Improvement 2: A/B testing using Google optimize</span>  
+
+- **Rationale**  
+In our previous experiment, we conducted our A/B testing by running test A’s web layout for a period before switching to test B’s web layout for another period. Although effective, we realise that such deployment might result in the same user being exposed to both layouts in different periods. Hence, it becomes difficult to attribute the effect of each layout on the eventual CTR of such a user.  
+
+To overcome this problem, we attempted the Google optimize software which will run both test A & test B over the test period. i.e. 50% of the audience will be exposed to test A and vice versa. Also, each user will be consistently exposed to the same test during the test period.  
+
+- **Result**  
+Because our Google optimize testing started only 2 days ago (26 Mar 2021), we have not yet gathered enough data to have a more conclusive result. Although it is tempting to end the test now and draw a conclusion that the original design in test A seems to fetch a higher CTR, this conclusion will be highly flawed due to the very little data points (5 clicks) which we have gathered so far.  
+
+As a more prudent approach, we will continue to let the experiment run till the result converge before making any conclusion.  
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t8.jpg" height="110" width="600" />  
+</p>
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/d5.jpg" height="240" width="600" />  
+</p>  
+
+Once we have collected sufficient data, we will then perform another round of hypothesis testing to determine if our design in test A or test B will be more effective in improving our CTR.  
+
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section E - Conclusion and Reflection</span>  
+
+## <span style="color:DarkSeaGreen"> E.1 Conclusion</span>  
+Based on our A/B testing result, we do not see any significant difference between design OPTION A and design OPTION B. Regardless of whether the *‘JOIN US!’* button is placed on the homepage vs subpages, our CTR does not change significantly and we fail to reject our null hypothesis. Extending from this A/B test result, from the business perspective, location of the *‘JOIN US!’* button is not the key to improve the CTR of our website. There could be other factors that may lead to CTR improvement, or limitations in our current test or website design that may impede the CTR evaluation.  
+
+Nevertheless, Google Analytics is an easy and low-cost option for us to conduct quick A/B test on our website design. It allows us to generate fast and accurate data for analyzing our digital platforms, so that business decisions could be made faster responding to the marketing effort.  
+
+## <span style="color:DarkSeaGreen"> E.2 Limitation and Reflection</span>  
+
+**(1)Short experiment duration resulting in low test sample size**  
+Due to the short experiment duration, we must be more skeptical of our test results since we are still in the early stages of our experiment. In design the test, we need to consider both test duration and test sample size together. Sufficient test samples have to be acquired or else risking the test biasness. We learned from this A/B test that it is not easy to attract enough volume (acquiring necessary data) to visit a new website despite efforts in promoting it. Moreover, we were not able to collect sufficient sample size per device type (mobile vs desktop) to draw an affirmative conclusion on whether the web layout in test A or B will result in a better CTR. Moving forward, if we could design the experiment for a longer period in acquiring bigger sample size, we would have attained a more stable p-value for a more definitive result. We are equally aware that the test duration should not be stopped with p-value as the only criteria, but a collective considerations on size, duration, stable p-value performance to avoid being misled by early adopters (Overgoor, 2014).  
+
+**(2)Different user experience in different time periods**  
+Our initial approach of running our test A and test B in different periods resulted in the same user being exposed to both layouts in different periods. Hence, it becomes difficult to attribute the effect of each layout on the eventual CTR of such a user. In retrospect, utilizing tools like the Google optimize will resolve such issues. Hence, moving forward, we should carefully consider such differences in customer experiences before embarking on our experiments.  
+
+**(3)Choosing the most appropriate performance metric is not very straightforward in practice**  
+There are a number of metrics commonly used in e-commerce, but we encountered a few different situations in practice. We firstly considered
+the daily CTR(daily unique clicks/daily unique impressions) but we failed to collect enough sample data due to limited test duration. Then we considered Conversion Rate but we fail to clearly define it with duplicate users in test A & B in our dataset. Finally, we selected
+CTR(clicks/sessions) as our metric. Session is the period of time a user is actively engaged with our website, so CTR(clicks/sessions) can help us effectively track and measure users’ behavior on our website.  
+
+**(4)CTR performance is not dependable on a single tag, but the website content design**  
+In our website, we have only tagged user’s click action to only one button, which is *‘JOIN US!’*. This has limited the ability to measure the website interaction with users. Linking the CTR measure to only this button could misled the evaluation of website content attractiveness. For example, a user may find the website interesting, but hesitant to leave his/her contact by clicking the *‘JOIN US!’* button while he/she is still in the consideration stage, and could come back at a later date after exploring. As observed in Section C1 above, the recorded average page view duration is about 63.44 seconds, with sub-pages view recorded below 26 seconds in average. This has pointed to another improvement area where we need to improve the web content, to show more attractive content, i.e. photos, traveling tips, our services to as to retain the session view, as well as designing more interactive tag that allow a user to click, and hence for Google Tag Manager and Google Analytics to capture the data in giving a more comprehensive CTR performance evaluation. This
+reflects that a good website content should be well-thought of in the early design stage with the analytics intent in mind so as to not wasting design effort as well as the wasting the data collection potential to improve marketing and business analytics effort.
+
+***
+## References  
+- Overgoor, J. (2014). Experiment at Airbnb. Medium. Available from https://medium.com/airbnb-engineering/experiments-at-airbnb- e2db3abf39e7 [Accessed 3 March 2021]  
+- Mckinsey (2020) Future of retail operations: Winning in a digital era. Available from: https://www.mckinsey.com/~/media/McKinsey/Industries/Retail/Our%20 Insights/Future%20of%20retail%20operations%20Winning%20in%20a %20digital%20era/McK_Retail-Ops-2020_FullIssue-RGB-hyperlinks- 011620.pdf [Accessed 26 Mar 2021]  
+- Mckinsey (2013) iConsumers: Life online. Available from: https://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Hi gh%20Tech/PDFs/TMT_iConsumers_Life_online_2013-01.ashx [Accessed 26 Mar 2021]  
+
+## Appendix – Hypothesis testing (MS Excel file)  
+
+- [Appendix 1](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/AB-Test/Appendix%20-%20Hypothesis%20testing.xlsx) – Hypothesis testing 
+- [Appendix 2](https://github.com/jing042323/Case-Study/blob/main/Google_Ads/AB-Test/Appendix%20-%20Raw%20data.xlsx) – Raw data from Google Analytics 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
