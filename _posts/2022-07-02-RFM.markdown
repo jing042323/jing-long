@@ -6,3 +6,54 @@ image: rfm.png
 tags: [Digital Marketing]
 ---
 
+In this project, we analyse the data set representing multi-channel sales campaigns and sales of a gifts company to gain insights into the effectiveness of the various direct-marketing channels -- specifically catalog mailing v.s. email. The data set is splitted into two parts to validate all our data-based targeting remmendations below. The point of this splitting is to mimic a sample mailing(which realistically we cannot do). Details of our analysis are shown below:  
+
+**Section A - Interesting analytical questions**  
+We raised two interesting analytical questions we can ask the data, and study the data to give answers.  
+- Compare the order methods for response order by different contact type.  
+- Compare the average & total response order spend by different contact type.  
+
+**Section B - RFM segmentation and Campaign ROI**  
+We segmented data using the RFM dimensions(5 quantiles for each dimension). Then estimated response rates for each RFM cell and made a decision on how many to mail. Lastly, we validated it on a sample mailing to calculate ROI of the campaign.  
+- Exploring Data  
+- Splitting Data  
+- RFM segmentation  
+- Sample Mailing  
+
+**Section C - Add Another Dimension to Target**  
+We chose another dimension to add to target and justified our choice based on business/common-sense and data.  
+- Additional Dimensions  
+- New Segmentation  
+- Sample Mailing   
+
+**Section D - Conclusion and Recommendation**  
+
+**Section E - Limitations and Ideas for Improvements**  
+
+***
+
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section A - Interesting analytical questions</span>  
+
+## <span style="color:DarkSeaGreen"> A.1 Compare the order methods for response order by different contact type </span> 
+
+*In the following analysis, an order within 7 days of a contact will be recognized as a response order.*  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
