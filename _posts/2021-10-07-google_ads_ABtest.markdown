@@ -203,15 +203,15 @@ We can construct a t statistic which is
 $$t_{\hat{CTR_A}-\hat{CTR_B}}=\frac{\hat{CTR_A}-\hat{CTR_B}}{se(\hat{CTR_A}-\hat{CTR_B})}=\frac{\hat{CTR_A}-\hat{CTR_A}}{\sqrt{\frac{(n_1-1){s_1}^2+(n_2-1){s_2}^2}{n_1+n_2-2}(\frac{1}{n_1}+\frac{1}{n_2})}}$$  
 where $$\hat{CTR_A}$$ and $$\hat{CTR_B}$$ are the mean CTR of the two samples; $$s_1$$ and $$s_2$$ are the standard deviation of the two samples;$$n_1$$ and $$n_2$$ are the sample sizes.  
 
-If $$|t| > critical value 0.1$$ or $$P-value < \alpha$$, we reject $$H_0$$.  
+If |t| > critical value 0.1 or $$P-value < \alpha$$, we reject $$H_0$$.  
 
 Based on the data we collected, we get:
 <p align="center">
 <img src="{{site.baseurl}}/assets/img/Google_Ads_ABtest/t5.jpg" height="190" width="600" />  
 </p>
 We can see that:
-- $$t stat = 1.0879 < t critical value = 1.6623$$;  
-- $$P-value = 0.2796 > 0.1$$.  
+- t stat = 1.0879 < t critical value = 1.6623;  
+- P-value = 0.2796 > 0.1.  
 
 Therefore we fail to reject $$H_0$$ at significance level of 10%, which means there is no significant difference between the CTR from OPTION A and OPTION B.  
 
