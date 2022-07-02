@@ -7,13 +7,13 @@ image:
 
 Here are brief introdutions for each project I did and links of the full reports are provided.
 ### Summary of projects｜项目目录 <a name="main"></a>
-1. [NetEase Cloud Music Case Study 网易云音乐案例分析](#netease)  
-2. [Google Ads Campaign 谷歌广告投放商业实践与分析](#google_ads)  
+1. [NetEase Cloud Music Case Study 网易云音乐用户行为分析和推荐系统算法研究](#netease)  
+2. [Google Ads Campaign 谷歌关键词广告投放商业实践与分析](#google_ads)  
 3. [Google Antitrust Case 谷歌反垄断案例分析](#google_antitrust)
 
 
 ***
-### <span style="color:DarkSeaGreen"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span> <a name="netease"></a>. 
+### <span style="color:DarkSeaGreen"> NetEase Cloud Music Case Study | 网易云音乐用户行为分析和推荐系统算法研究</span> <a name="netease"></a>. 
 
 [Report I - User Analysis  报告1 - 用户分析](https://jing042323.github.io/jing-long/2021/09/15/NCM_part1/)  
 [Report II - Prediction Model  报告2 - 预测模型](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/)  
@@ -41,7 +41,7 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 
 ***
 
-### <span style="color:DarkSeaGreen"> Google Ads Campaign | 谷歌广告投放商业实践与分析</span> <a name="google_ads"></a> 
+### <span style="color:DarkSeaGreen"> Google Ads Campaign | 谷歌关键词广告投放商业实践与分析</span> <a name="google_ads"></a> 
 
 [Report I - A/B Test  报告1 - A/B测试](https://jing042323.github.io/jing-long/2021/03/30/google_ads_ABtest/)  
 [Report II - Keyword Advertising  报告2 - 关键词广告](https://jing042323.github.io/jing-long/2021/04/21/google_ads/) 
