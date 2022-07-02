@@ -16,7 +16,7 @@ Here are brief introdutions for each project I did and links of the full reports
 ### <span style="color:DarkSeaGreen"> NetEase Cloud Music Case Study | 网易云音乐案例分析</span> <a name="netease"></a>. 
 
 [Report I - User Analysis  报告1 - 用户分析](https://jing042323.github.io/jing-long/2021/09/15/NCM_part1/)  
-[Report II - Prediction Model  报告2 - 预测模型](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/)
+[Report II - Prediction Model  报告2 - 预测模型](https://jing042323.github.io/jing-long/2021/09/15/NCM_part2/)  
 [Report III - Recommender System  报告3 - 推荐系统](https://jing042323.github.io/jing-long/2021/09/15/NCM_part3/)
 
 - **Major tasks**:
