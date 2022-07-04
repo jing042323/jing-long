@@ -30,22 +30,58 @@ We chose another dimension to add to target and justified our choice based on bu
 
 **Section E - Limitations and Ideas for Improvements**  
 
-***
+***  
+
+### <span style="color:DarkSeaGreen"> Brief Introduction of the Dataset </span> **(by Richard J. Courtheoux)** 
+A multichannel company with sales of several hundred million dollars per year has provided the Direct Marketing Educational Foundation with a dataset that can be used for classroom teaching. The company has a network of retail stores, a well-established traditional catalog channel and a website. Its brand is very well known nationally and it has a strong positive reputation along with very good long term customer loyalty. The core of the company’s business consists of food products which are often purchased as gifts during the Christmas season. Their marketing challenges include:  
+- Customer relationship management, including contact management, across multiple channels.  
+- A very competitive marketplace for Christmas season gifts.  
+- Generating business during the non-Christmas months of the year.  
+
+The DMEF dataset consists of 4 files that have been extracted from the company’s marketing database and that can be linked based on customer ID numbers. The files are:
+- 100,051 customer records that have a customer ID, buying activity summarized by channel for 8 seasons, channel summary Recency/Frequency/Monetary information prior to the 8 seasons, gift recipients counts by season, catalog and e-mail circulation counts by season for 6 seasons, first order characteristics, overlay demographic and psychographic data, estimated distance to a retail store and the sectional center code (i.e., the first 3 digits of the customer’s ZIPCode).  
+- 3,389,329 marketing contact records. These include both catalog and e-mail contacts with data fields containing the customer ID, the contact date and the type of contact. The records cover the years 2005 – 2007.  
+- 241,366 order or store trip records. Each of these records has a customer ID, an order number, date, channel and payment method. The records cover the years 2001 - 2007.  
+- 618,661 line item records. These records have a customer ID, an order number, date, price, a gift flag and (if applicable) the ID of the gift recipient. These records also cover the period from 2001 - 2007.
 
 # <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section A - Interesting analytical questions</span>  
 
-## <span style="color:DarkSeaGreen"> A.1 Compare the order methods for response order by different contact type </span> 
+## <span style="color:DarkSeaGreen"> A.1 Compare the response order methods of different contact type </span> 
 
 *In the following analysis, an order within 7 days of a contact will be recognized as a response order.*  
 
+**Explanation**  
+Join the ‘orders’ table with ‘contacts’ table by ‘cust_id’. Select the ‘orderdate’ and ‘contactdate’ from the joint table. Filter the response order by calculating the difference of ‘orderdate’ and ‘contactdate’. Count the ‘ordermethod’ and Group by ‘ordermethod’ and ‘contacttype’.
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/RFM/1.jpg" height="450" width="600" />  
+</p>
 
+**Observation**  
+From the results, we can find overall the email contact channel have more response orders than catalog mailing contact channel. The highest order method of email contact is Internet and the highest order method of catalog mailing contact is Phone. Overall, the Internet and Phone is the top two order method for both email contact and catalog mailing contact.  
 
+**Recommendation**  
+Taking the insight above, the gift company could design the marketing channels material, e.g. emails, catalogs according to the order method preference. For example, easier access (or link) to the internet order sites via emails, more visible internet order methods and phone contacts in marketing channels. With high orders made by phone, the gift company could also review the phone order services provided to ensure customers are satisfactorily-engaged and proceed with orders.  
 
+## <span style="color:DarkSeaGreen"> A.2 Compare the average & total response order spendings of different contact type.</span> 
 
+**Explanation**  
+Join the ‘orders’ table with ‘contacts’ table by ‘cust_id’. Select the ‘orderdate’ and ‘contactdate’ from joint table. Filter the response order by calculate the difference of ‘orderdate’ and ‘contactdate’. Join this temporary table with ‘lines’ table by ‘ordernum’. Calculate the average and total response spending by AVG() & SUM() function. Group by ‘cantacttype’.
 
+<p align="center">
+<img src="{{site.baseurl}}/assets/img/RFM/2.jpg" height="450" width="600" />  
+</p>
 
+**Observation**  
+From the results, we can find the average response spending for both contact types are very close, it’s $38.26 for catalog mailing and $39.26 for email. Email channel shows slightly higher average response spending than the catalog mailing.
+However, in the total response spending, the email channel is much higher than the catalog mailing, which is $4.16 million for email but only $1.92 million for catalog mailing. This is due to the number of response order by email is over twice than the number of response order by catalog mailing channel.  
 
+**Recommendation**  
+Base on this result, we suggest company to increase the contact time with customers by email since it shows higher revenue and lower contact cost comparing with catalog mailing.  
+
+# <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section B - RFM segmentation and Campaign ROI</span>  
+
+## <span style="color:DarkSeaGreen"> B.1 Exploring Data </span>  
 
 
 
