@@ -46,7 +46,7 @@ The DMEF dataset consists of 4 files that have been extracted from the company�
 
 # <span style="border-bottom:2px solid DarkSeaGreen;color:DarkSeaGreen">Section A - Interesting analytical questions</span>  
 
-## <span style="color:DarkSeaGreen"> A.1 Compare the response order methods of different contact type </span> 
+## <span style="color:DarkSeaGreen"> A.1 Compare the response order methods of different contact types </span> 
 
 *In the following analysis, an order within 7 days of a contact will be recognized as a response order.*  
 
@@ -63,7 +63,7 @@ From the results, we can find overall the email contact channel have more respon
 **Recommendation**  
 Taking the insight above, the gift company could design the marketing channels material, e.g. emails, catalogs according to the order method preference. For example, easier access (or link) to the internet order sites via emails, more visible internet order methods and phone contacts in marketing channels. With high orders made by phone, the gift company could also review the phone order services provided to ensure customers are satisfactorily-engaged and proceed with orders.  
 
-## <span style="color:DarkSeaGreen"> A.2 Compare the average & total response order spendings of different contact type.</span> 
+## <span style="color:DarkSeaGreen"> A.2 Compare the average & total response order spendings of different contact types </span> 
 
 **Explanation**  
 Join the ‘orders’ table with ‘contacts’ table by ‘cust_id’. Select the ‘orderdate’ and ‘contactdate’ from joint table. Filter the response order by calculate the difference of ‘orderdate’ and ‘contactdate’. Join this temporary table with ‘lines’ table by ‘ordernum’. Calculate the average and total response spending by AVG() & SUM() function. Group by ‘cantacttype’.
