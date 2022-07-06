@@ -10,6 +10,7 @@ Here are brief introdutions for each project I did and links of the full reports
 1. [NetEase Cloud Music Case Study 网易云音乐用户行为分析和推荐系统算法研究](#netease)  
 2. [Google Ads Campaign 谷歌关键词广告投放商业实践与分析](#google_ads)  
 3. [Google Antitrust Case 谷歌反垄断案例分析](#google_antitrust)
+4. [RFM Segmentation and Marketing Effectiveness Evaluation RFM 细分模型和多渠道营销效率分析](#rfm)
 
 
 ***
@@ -51,7 +52,6 @@ PostgreSQL, Python(Pandas, Numpy, Matplotlib, Scikit-learn)。
 2. Conduct an A/B test to adjust website design and eventually get higher CTR.   
 2. Make Google Paid/Keyword Advertising through the process of conducting competitor analysis, designing our advertisement, making bidding strategy and publishing our ads online.
 3. Track and adjust the advertising plan according to the effectiveness evaluatation based on the real data from Google Analytics.  
-
 - **Data Volume**:  
 Daily impression data and user data on our website in March and April 2021
 - **Tools**:  
@@ -62,7 +62,6 @@ Google Ads, Google Analytics, Excel, Python(Pandas, Numpy, Matplotlib)
 2. 通过A/B测试确定和调整网页设置，从而实现更高的CTR。
 2. 完成谷歌广告投放，包括竞争对手分析、广告设计、制定广告投标价格策略和广告发布。
 3. 通过对Google Analytics中的实时数据进行追踪和分析，评估广告投放的效率，调整广告策略。  
-
 - **数据量**：  
 2021年3月和4月的网站每日广告曝光数据和用户数据。
 - **工具**：  
@@ -95,3 +94,43 @@ This project helps to gain a thorough understanding of digital marketing, the pe
 [<font size="1">Back to catalog 返回目录</font>](#main)  
 
 ***
+
+### <span style="color:DarkSeaGreen"> RFM Segmentation and Marketing Effectiveness Evaluation | RFM 细分模型和多渠道营销效率分析</span> <a name="rfm"></a>
+
+[Full Report 完整报告](https://jing042323.github.io/jing-long/2021/03/01/RFM/)   
+
+In this project, we analyse the dataset representing multi-channel sales campaigns and sales of a gifts company to gain insights into the effectiveness of the various direct-marketing channels – specifically catalog mailing v.s. email.   
+
+- **Major tasks**:  
+1.   Proposing two interesting business analytical questions and study the data to give our answers and analysis.  
+2. Segmenting the dataset using RFM dimensions with 5 quantiles. Estimating response rates for each RFM cell and made a decision on how many to mail. Validating our choice on a sample mailing to get ROI of the campaign.  
+3. Improving the RFM model by choosing another dimension to add to target. Justifying our choice based on business/common-sense and data. Comparing the results.    
+- **Data Volume**:  
+over 100,000 customer records, 3.3 million marketing contact records, 240,000 order records and 610,000 line item records.
+- **Tools**:  
+PostgreSQL, Python(Pandas, Numpy, Matplotlib), Excel
+
+在这个项目中，我们分析了包含多渠道营销活动和某礼品公司销售情况的数据集，以深入了解不同营销渠道的有效性——特别是邮寄商品目录和电子邮件。  
+- **主要内容**：
+1. 提出两个有趣的商业分析问题，通过分析数据集回答问题并给出我们的分析。  
+2. 使用RFM细分模型对用户进行划分，模拟营销情景，预测每个类别用户的回复率，找出使利润和 ROI 最优的目标营销客户群体。  
+3. 优化 RFM 模型，从商业视角附加数据支撑增加新的细分维度，比较不同模型的营销效率。  
+- **数据量**：  
+超过 10 万条用户信息数据、330 万条营销数据、24 万条订单数据、61 万条商品数据
+- **工具**：  
+PostgreSQL, Python(Pandas, Numpy, Matplotlib), Excel
+
+[<font size="1">Back to catalog 返回目录</font>](#main)  
+
+***
+
+
+
+
+
+
+
+
+
+
+

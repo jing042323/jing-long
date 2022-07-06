@@ -279,7 +279,7 @@ This is not surprising since customers from high spending locations are likely t
 
 - Check on independence  
 <p align="center">
-<img src="{{site.baseurl}}/assets/img/RFM/21.jpg" height="500" width="300" />  
+<img src="{{site.baseurl}}/assets/img/RFM/21.jpg" height="500" width="500" />  
 </p>
 
 From the correlation heat map, it seems that the R,F,M,L params do not have a high correlation with each other. Also, none of the attributes display perfect collinearity with each other.  
